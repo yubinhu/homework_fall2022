@@ -1,3 +1,4 @@
+from cs285.infrastructure.utils import normalize
 import numpy as np
 
 from .base_agent import BaseAgent
@@ -139,7 +140,7 @@ class PGAgent(BaseAgent):
         # Normalize the resulting advantages to have a mean of zero
         # and a standard deviation of one
         if self.standardize_advantages:
-            advantages = TODO
+            advantages = normalize(advantages, advantages.mean(), advantages.std())
 
         return advantages
 

@@ -86,14 +86,7 @@ class MLPPolicy(BasePolicy, nn.Module, metaclass=abc.ABCMeta):
 
     # query the policy with observation(s) to get selected action(s)
     def get_action(self, obs: np.ndarray) -> np.ndarray:
-        if len(obs.shape) > 1:
-            observation = obs
-        else:
-            observation = obs[None]
-
-        # TODO return the action that the policy prescribes
-        action = self.forward(ptu.from_numpy(observation)).sample()
-        return ptu.to_numpy(action)
+        # TODO: get this from HW1
 
     # update/train this policy
     def update(self, observations, actions, **kwargs):
@@ -140,16 +133,8 @@ class MLPPolicyPG(MLPPolicy):
             # sum_{t=0}^{T-1} [grad [log pi(a_t|s_t) * (Q_t - b_t)]]
         # HINT2: you will want to use the `log_prob` method on the distribution returned
             # by the `forward` method
-        print("testtest1")
-        print(observations.shape)
-        print(advantages.shape)
 
-        log_probs = self.forward(observations).log_prob(actions)
-        # NOTE: using pseudo_loss from lecture 5, assuming N = 1, substituting q_values with advantages
-        pseudo_loss = - (log_probs * advantages).sum()
-        pseudo_loss.backward()
-        loss = pseudo_loss
-        self.optimizer.step()
+        TODO
 
         if self.nn_baseline:
             ## TODO: update the neural network baseline using the q_values as
