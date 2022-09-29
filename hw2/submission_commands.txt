@@ -407,3 +407,70 @@ if args['video_log_freq'] > 0:
       '''\nlarge for the autograder. Set video_log_freq = -1'''
       '''\nfor the runs you intend to submit.''')
 ------------------------------------------------------------------------------------------------
+#@title runtime arguments
+
+class Args:
+
+  def __getitem__(self, key):
+    return getattr(self, key)
+
+  def __setitem__(self, key, val):
+    setattr(self, key, val)
+
+  def __contains__(self, key):
+    return hasattr(self, key)
+
+  env_name = 'InvertedPendulum-v4' #@param
+  exp_name = 'q2_b500_r1e-2' #@param
+
+  #@markdown main parameters of interest
+  n_iter = 100 #@param {type: "integer"}
+
+  ## PDF will tell you how to set ep_len
+  ## and discount for each environment
+  ep_len = 1000 #@param {type: "integer"}
+  discount = 0.9 #@param {type: "number"}
+
+  reward_to_go = True #@param {type: "boolean"}
+  nn_baseline = False #@param {type: "boolean"}
+  gae_lambda = None #@param {type: "float"}
+  dont_standardize_advantages = False #@param {type: "boolean"}
+
+  #@markdown batches and steps
+  batch_size = 500 #@param {type: "integer"}
+  eval_batch_size = 400 #@param {type: "integer"}
+
+  num_agent_train_steps_per_iter = 1 #@param {type: "integer"}
+  learning_rate =  1e-2 #@param {type: "number"}
+
+  #@markdown MLP parameters
+  n_layers = 2 #@param {type: "integer"}
+  size = 64 #@param {type: "integer"}
+
+  #@markdown system
+  save_params = False #@param {type: "boolean"}
+  no_gpu = True #@param {type: "boolean"}
+  which_gpu = 0 #@param {type: "integer"}
+  seed = 0 #@param {type: "integer"}
+    
+  action_noise_std = 0 #@param {type: "float"}
+
+  #@markdown logging
+  ## default is to not log video so
+  ## that logs are small enough to be
+  ## uploaded to gradscope
+  video_log_freq =  -1#@param {type: "integer"}
+  scalar_log_freq =  1#@param {type: "integer"}
+
+
+args = Args()
+
+## ensure compatibility with hw1 code
+args['train_batch_size'] = args['batch_size']
+
+if args['video_log_freq'] > 0:
+  import warnings
+  warnings.warn(
+      '''\nLogging videos will make eventfiles too'''
+      '''\nlarge for the autograder. Set video_log_freq = -1'''
+      '''\nfor the runs you intend to submit.''')
