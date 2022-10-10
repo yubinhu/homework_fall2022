@@ -48,6 +48,7 @@ class DQNCritic(BaseCritic):
             let num_paths be the number of paths sampled from Agent.sample_trajectories
             arguments:
                 ob_no: shape: (sum_of_path_lengths, ob_dim)
+                ac_na: shape: (sum_of_path_lengths, ac_dim) TODO: this may be a misnomer? na->no
                 next_ob_no: shape: (sum_of_path_lengths, ob_dim). The observation after taking one step forward
                 reward_n: length: sum_of_path_lengths. Each element in reward_n is a scalar containing
                     the reward for each timestep
@@ -65,8 +66,8 @@ class DQNCritic(BaseCritic):
         qa_t_values = self.q_net(ob_no)
         q_t_values = torch.gather(qa_t_values, 1, ac_na.unsqueeze(1)).squeeze(1)
         
-        # TODO compute the Q-values from the target network 
-        qa_tp1_values = TODO
+        # compute the Q-values from the target network 
+        qa_tp1_values = self.q_net_target(ob_no)
 
         if self.double_q:
             # You must fill this part for Q2 of the Q-learning portion of the homework.
@@ -81,7 +82,7 @@ class DQNCritic(BaseCritic):
         # TODO compute targets for minimizing Bellman error
         # HINT: as you saw in lecture, this would be:
             #currentReward + self.gamma * qValuesOfNextTimestep * (not terminal)
-        target = TODO
+        target = reward_n + self.gamma * q_tp1 * (1 - terminal_n)
         target = target.detach()
 
         assert q_t_values.shape == target.shape
