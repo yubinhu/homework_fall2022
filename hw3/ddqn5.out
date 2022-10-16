@@ -1,0 +1,3231 @@
+
+
+
+LOGGING TO:  /home/harvey/Documents/cs285/homework_fall2022/hw3/cs285/scripts/../../data/q2_doubledqn_5_LunarLander-v3_11-10-2022_11-17-36 
+
+
+
+########################
+logging outputs to  /home/harvey/Documents/cs285/homework_fall2022/hw3/cs285/scripts/../../data/q2_doubledqn_5_LunarLander-v3_11-10-2022_11-17-36
+########################
+Using GPU id 0
+
+
+********** Iteration 0 ************
+
+Training agent...
+
+Beginning logging procedure...
+Timestep 1
+mean reward (100 episodes) nan
+best mean reward -inf
+running time 0.000477
+Train_EnvstepsSoFar : 1
+TimeSinceStart : 0.00047659873962402344
+Done logging...
+
+
+
+
+********** Iteration 1000 ************
+
+Training agent...
+
+
+********** Iteration 2000 ************
+
+Training agent...
+
+
+********** Iteration 3000 ************
+
+Training agent...
+
+
+********** Iteration 4000 ************
+
+Training agent...
+
+
+********** Iteration 5000 ************
+
+Training agent...
+
+
+********** Iteration 6000 ************
+
+Training agent...
+
+
+********** Iteration 7000 ************
+
+Training agent...
+
+
+********** Iteration 8000 ************
+
+Training agent...
+
+
+********** Iteration 9000 ************
+
+Training agent...
+
+
+********** Iteration 10000 ************
+
+Training agent...
+
+Beginning logging procedure...
+Timestep 10001
+mean reward (100 episodes) -242.818054
+best mean reward -inf
+running time 27.075601
+Train_EnvstepsSoFar : 10001
+Train_AverageReturn : -242.81805419921875
+TimeSinceStart : 27.07560110092163
+Training Loss : 3.7182857990264893
+Done logging...
+
+
+
+
+********** Iteration 11000 ************
+
+Training agent...
+
+
+********** Iteration 12000 ************
+
+Training agent...
+
+
+********** Iteration 13000 ************
+
+Training agent...
+
+
+********** Iteration 14000 ************
+
+Training agent...
+
+
+********** Iteration 15000 ************
+
+Training agent...
+
+
+********** Iteration 16000 ************
+
+Training agent...
+
+
+********** Iteration 17000 ************
+
+Training agent...
+
+
+********** Iteration 18000 ************
+
+Training agent...
+
+
+********** Iteration 19000 ************
+
+Training agent...
+
+
+********** Iteration 20000 ************
+
+Training agent...
+
+Beginning logging procedure...
+Timestep 20001
+mean reward (100 episodes) -202.574860
+best mean reward -202.574860
+running time 59.973106
+Train_EnvstepsSoFar : 20001
+Train_AverageReturn : -202.57485961914062
+Train_BestReturn : -202.57485961914062
+TimeSinceStart : 59.973106384277344
+Training Loss : 0.30268916487693787
+Done logging...
+
+
+
+
+********** Iteration 21000 ************
+
+Training agent...
+
+
+********** Iteration 22000 ************
+
+Training agent...
+
+
+********** Iteration 23000 ************
+
+Training agent...
+
+
+********** Iteration 24000 ************
+
+Training agent...
+
+
+********** Iteration 25000 ************
+
+Training agent...
+
+
+********** Iteration 26000 ************
+
+Training agent...
+
+
+********** Iteration 27000 ************
+
+Training agent...
+
+
+********** Iteration 28000 ************
+
+Training agent...
+
+
+********** Iteration 29000 ************
+
+Training agent...
+
+
+********** Iteration 30000 ************
+
+Training agent...
+
+Beginning logging procedure...
+Timestep 30001
+mean reward (100 episodes) -173.427338
+best mean reward -173.427338
+running time 98.533034
+Train_EnvstepsSoFar : 30001
+Train_AverageReturn : -173.42733764648438
+Train_BestReturn : -173.42733764648438
+TimeSinceStart : 98.533034324646
+Training Loss : 0.2800157368183136
+Done logging...
+
+
+
+
+********** Iteration 31000 ************
+
+Training agent...
+
+
+********** Iteration 32000 ************
+
+Training agent...
+
+
+********** Iteration 33000 ************
+
+Training agent...
+
+
+********** Iteration 34000 ************
+
+Training agent...
+
+
+********** Iteration 35000 ************
+
+Training agent...
+
+
+********** Iteration 36000 ************
+
+Training agent...
+
+
+********** Iteration 37000 ************
+
+Training agent...
+
+
+********** Iteration 38000 ************
+
+Training agent...
+
+
+********** Iteration 39000 ************
+
+Training agent...
+
+
+********** Iteration 40000 ************
+
+Training agent...
+
+Beginning logging procedure...
+Timestep 40001
+mean reward (100 episodes) -149.883209
+best mean reward -149.883209
+running time 142.316782
+Train_EnvstepsSoFar : 40001
+Train_AverageReturn : -149.88320922851562
+Train_BestReturn : -149.88320922851562
+TimeSinceStart : 142.3167815208435
+Training Loss : 5.0632710456848145
+Done logging...
+
+
+
+
+********** Iteration 41000 ************
+
+Training agent...
+
+
+********** Iteration 42000 ************
+
+Training agent...
+
+
+********** Iteration 43000 ************
+
+Training agent...
+
+
+********** Iteration 44000 ************
+
+Training agent...
+
+
+********** Iteration 45000 ************
+
+Training agent...
+
+
+********** Iteration 46000 ************
+
+Training agent...
+
+
+********** Iteration 47000 ************
+
+Training agent...
+
+
+********** Iteration 48000 ************
+
+Training agent...
+
+
+********** Iteration 49000 ************
+
+Training agent...
+
+
+********** Iteration 50000 ************
+
+Training agent...
+
+Beginning logging procedure...
+Timestep 50001
+mean reward (100 episodes) -131.230164
+best mean reward -131.230164
+running time 185.163702
+Train_EnvstepsSoFar : 50001
+Train_AverageReturn : -131.23016357421875
+Train_BestReturn : -131.23016357421875
+TimeSinceStart : 185.1637020111084
+Training Loss : 1.5123783349990845
+Done logging...
+
+
+
+
+********** Iteration 51000 ************
+
+Training agent...
+
+
+********** Iteration 52000 ************
+
+Training agent...
+
+
+********** Iteration 53000 ************
+
+Training agent...
+
+
+********** Iteration 54000 ************
+
+Training agent...
+
+
+********** Iteration 55000 ************
+
+Training agent...
+
+
+********** Iteration 56000 ************
+
+Training agent...
+
+
+********** Iteration 57000 ************
+
+Training agent...
+
+
+********** Iteration 58000 ************
+
+Training agent...
+
+
+********** Iteration 59000 ************
+
+Training agent...
+
+
+********** Iteration 60000 ************
+
+Training agent...
+
+Beginning logging procedure...
+Timestep 60001
+mean reward (100 episodes) -122.202904
+best mean reward -122.202904
+running time 228.463380
+Train_EnvstepsSoFar : 60001
+Train_AverageReturn : -122.2029037475586
+Train_BestReturn : -122.2029037475586
+TimeSinceStart : 228.46337985992432
+Training Loss : 0.34470242261886597
+Done logging...
+
+
+
+
+********** Iteration 61000 ************
+
+Training agent...
+
+
+********** Iteration 62000 ************
+
+Training agent...
+
+
+********** Iteration 63000 ************
+
+Training agent...
+
+
+********** Iteration 64000 ************
+
+Training agent...
+
+
+********** Iteration 65000 ************
+
+Training agent...
+
+
+********** Iteration 66000 ************
+
+Training agent...
+
+
+********** Iteration 67000 ************
+
+Training agent...
+
+
+********** Iteration 68000 ************
+
+Training agent...
+
+
+********** Iteration 69000 ************
+
+Training agent...
+
+
+********** Iteration 70000 ************
+
+Training agent...
+
+Beginning logging procedure...
+Timestep 70001
+mean reward (100 episodes) -106.292839
+best mean reward -106.292839
+running time 270.992142
+Train_EnvstepsSoFar : 70001
+Train_AverageReturn : -106.29283905029297
+Train_BestReturn : -106.29283905029297
+TimeSinceStart : 270.9921419620514
+Training Loss : 0.2485141009092331
+Done logging...
+
+
+
+
+********** Iteration 71000 ************
+
+Training agent...
+
+
+********** Iteration 72000 ************
+
+Training agent...
+
+
+********** Iteration 73000 ************
+
+Training agent...
+
+
+********** Iteration 74000 ************
+
+Training agent...
+
+
+********** Iteration 75000 ************
+
+Training agent...
+
+
+********** Iteration 76000 ************
+
+Training agent...
+
+
+********** Iteration 77000 ************
+
+Training agent...
+
+
+********** Iteration 78000 ************
+
+Training agent...
+
+
+********** Iteration 79000 ************
+
+Training agent...
+
+
+********** Iteration 80000 ************
+
+Training agent...
+
+Beginning logging procedure...
+Timestep 80001
+mean reward (100 episodes) -91.966232
+best mean reward -91.966232
+running time 314.048559
+Train_EnvstepsSoFar : 80001
+Train_AverageReturn : -91.96623229980469
+Train_BestReturn : -91.96623229980469
+TimeSinceStart : 314.0485587120056
+Training Loss : 0.22062578797340393
+Done logging...
+
+
+
+
+********** Iteration 81000 ************
+
+Training agent...
+
+
+********** Iteration 82000 ************
+
+Training agent...
+
+
+********** Iteration 83000 ************
+
+Training agent...
+
+
+********** Iteration 84000 ************
+
+Training agent...
+
+
+********** Iteration 85000 ************
+
+Training agent...
+
+
+********** Iteration 86000 ************
+
+Training agent...
+
+
+********** Iteration 87000 ************
+
+Training agent...
+
+
+********** Iteration 88000 ************
+
+Training agent...
+
+
+********** Iteration 89000 ************
+
+Training agent...
+
+
+********** Iteration 90000 ************
+
+Training agent...
+
+Beginning logging procedure...
+Timestep 90001
+mean reward (100 episodes) -85.405304
+best mean reward -85.405304
+running time 359.565873
+Train_EnvstepsSoFar : 90001
+Train_AverageReturn : -85.40530395507812
+Train_BestReturn : -85.40530395507812
+TimeSinceStart : 359.56587314605713
+Training Loss : 0.22893109917640686
+Done logging...
+
+
+
+
+********** Iteration 91000 ************
+
+Training agent...
+
+
+********** Iteration 92000 ************
+
+Training agent...
+
+
+********** Iteration 93000 ************
+
+Training agent...
+
+
+********** Iteration 94000 ************
+
+Training agent...
+
+
+********** Iteration 95000 ************
+
+Training agent...
+
+
+********** Iteration 96000 ************
+
+Training agent...
+
+
+********** Iteration 97000 ************
+
+Training agent...
+
+
+********** Iteration 98000 ************
+
+Training agent...
+
+
+********** Iteration 99000 ************
+
+Training agent...
+
+
+********** Iteration 100000 ************
+
+Training agent...
+
+Beginning logging procedure...
+Timestep 100001
+mean reward (100 episodes) -70.649719
+best mean reward -70.649719
+running time 403.411813
+Train_EnvstepsSoFar : 100001
+Train_AverageReturn : -70.64971923828125
+Train_BestReturn : -70.64971923828125
+TimeSinceStart : 403.41181325912476
+Training Loss : 0.23238764703273773
+Done logging...
+
+
+
+
+********** Iteration 101000 ************
+
+Training agent...
+
+
+********** Iteration 102000 ************
+
+Training agent...
+
+
+********** Iteration 103000 ************
+
+Training agent...
+
+
+********** Iteration 104000 ************
+
+Training agent...
+
+
+********** Iteration 105000 ************
+
+Training agent...
+
+
+********** Iteration 106000 ************
+
+Training agent...
+
+
+********** Iteration 107000 ************
+
+Training agent...
+
+
+********** Iteration 108000 ************
+
+Training agent...
+
+
+********** Iteration 109000 ************
+
+Training agent...
+
+
+********** Iteration 110000 ************
+
+Training agent...
+
+Beginning logging procedure...
+Timestep 110001
+mean reward (100 episodes) -41.618431
+best mean reward -41.618431
+running time 444.822116
+Train_EnvstepsSoFar : 110001
+Train_AverageReturn : -41.618431091308594
+Train_BestReturn : -41.618431091308594
+TimeSinceStart : 444.8221161365509
+Training Loss : 0.08465307950973511
+Done logging...
+
+
+
+
+********** Iteration 111000 ************
+
+Training agent...
+
+
+********** Iteration 112000 ************
+
+Training agent...
+
+
+********** Iteration 113000 ************
+
+Training agent...
+
+
+********** Iteration 114000 ************
+
+Training agent...
+
+
+********** Iteration 115000 ************
+
+Training agent...
+
+
+********** Iteration 116000 ************
+
+Training agent...
+
+
+********** Iteration 117000 ************
+
+Training agent...
+
+
+********** Iteration 118000 ************
+
+Training agent...
+
+
+********** Iteration 119000 ************
+
+Training agent...
+
+
+********** Iteration 120000 ************
+
+Training agent...
+
+Beginning logging procedure...
+Timestep 120001
+mean reward (100 episodes) -19.824183
+best mean reward -19.824183
+running time 487.854557
+Train_EnvstepsSoFar : 120001
+Train_AverageReturn : -19.824182510375977
+Train_BestReturn : -19.824182510375977
+TimeSinceStart : 487.85455656051636
+Training Loss : 0.059520553797483444
+Done logging...
+
+
+
+
+********** Iteration 121000 ************
+
+Training agent...
+
+
+********** Iteration 122000 ************
+
+Training agent...
+
+
+********** Iteration 123000 ************
+
+Training agent...
+
+
+********** Iteration 124000 ************
+
+Training agent...
+
+
+********** Iteration 125000 ************
+
+Training agent...
+
+
+********** Iteration 126000 ************
+
+Training agent...
+
+
+********** Iteration 127000 ************
+
+Training agent...
+
+
+********** Iteration 128000 ************
+
+Training agent...
+
+
+********** Iteration 129000 ************
+
+Training agent...
+
+
+********** Iteration 130000 ************
+
+Training agent...
+
+Beginning logging procedure...
+Timestep 130001
+mean reward (100 episodes) 2.075354
+best mean reward 2.075354
+running time 533.636789
+Train_EnvstepsSoFar : 130001
+Train_AverageReturn : 2.0753543376922607
+Train_BestReturn : 2.0753543376922607
+TimeSinceStart : 533.6367886066437
+Training Loss : 0.6121029257774353
+Done logging...
+
+
+
+
+********** Iteration 131000 ************
+
+Training agent...
+
+
+********** Iteration 132000 ************
+
+Training agent...
+
+
+********** Iteration 133000 ************
+
+Training agent...
+
+
+********** Iteration 134000 ************
+
+Training agent...
+
+
+********** Iteration 135000 ************
+
+Training agent...
+
+
+********** Iteration 136000 ************
+
+Training agent...
+
+
+********** Iteration 137000 ************
+
+Training agent...
+
+
+********** Iteration 138000 ************
+
+Training agent...
+
+
+********** Iteration 139000 ************
+
+Training agent...
+
+
+********** Iteration 140000 ************
+
+Training agent...
+
+Beginning logging procedure...
+Timestep 140001
+mean reward (100 episodes) 30.428850
+best mean reward 30.428850
+running time 577.244307
+Train_EnvstepsSoFar : 140001
+Train_AverageReturn : 30.428850173950195
+Train_BestReturn : 30.428850173950195
+TimeSinceStart : 577.2443072795868
+Training Loss : 0.3640022575855255
+Done logging...
+
+
+
+
+********** Iteration 141000 ************
+
+Training agent...
+
+
+********** Iteration 142000 ************
+
+Training agent...
+
+
+********** Iteration 143000 ************
+
+Training agent...
+
+
+********** Iteration 144000 ************
+
+Training agent...
+
+
+********** Iteration 145000 ************
+
+Training agent...
+
+
+********** Iteration 146000 ************
+
+Training agent...
+
+
+********** Iteration 147000 ************
+
+Training agent...
+
+
+********** Iteration 148000 ************
+
+Training agent...
+
+
+********** Iteration 149000 ************
+
+Training agent...
+
+
+********** Iteration 150000 ************
+
+Training agent...
+
+Beginning logging procedure...
+Timestep 150001
+mean reward (100 episodes) 55.318363
+best mean reward 55.318363
+running time 618.354009
+Train_EnvstepsSoFar : 150001
+Train_AverageReturn : 55.318363189697266
+Train_BestReturn : 55.318363189697266
+TimeSinceStart : 618.3540089130402
+Training Loss : 0.2981966733932495
+Done logging...
+
+
+
+
+********** Iteration 151000 ************
+
+Training agent...
+
+
+********** Iteration 152000 ************
+
+Training agent...
+
+
+********** Iteration 153000 ************
+
+Training agent...
+
+
+********** Iteration 154000 ************
+
+Training agent...
+
+
+********** Iteration 155000 ************
+
+Training agent...
+
+
+********** Iteration 156000 ************
+
+Training agent...
+
+
+********** Iteration 157000 ************
+
+Training agent...
+
+
+********** Iteration 158000 ************
+
+Training agent...
+
+
+********** Iteration 159000 ************
+
+Training agent...
+
+
+********** Iteration 160000 ************
+
+Training agent...
+
+Beginning logging procedure...
+Timestep 160001
+mean reward (100 episodes) 59.891354
+best mean reward 59.891354
+running time 662.798535
+Train_EnvstepsSoFar : 160001
+Train_AverageReturn : 59.891353607177734
+Train_BestReturn : 59.891353607177734
+TimeSinceStart : 662.7985351085663
+Training Loss : 0.04075213521718979
+Done logging...
+
+
+
+
+********** Iteration 161000 ************
+
+Training agent...
+
+
+********** Iteration 162000 ************
+
+Training agent...
+
+
+********** Iteration 163000 ************
+
+Training agent...
+
+
+********** Iteration 164000 ************
+
+Training agent...
+
+
+********** Iteration 165000 ************
+
+Training agent...
+
+
+********** Iteration 166000 ************
+
+Training agent...
+
+
+********** Iteration 167000 ************
+
+Training agent...
+
+
+********** Iteration 168000 ************
+
+Training agent...
+
+
+********** Iteration 169000 ************
+
+Training agent...
+
+
+********** Iteration 170000 ************
+
+Training agent...
+
+Beginning logging procedure...
+Timestep 170001
+mean reward (100 episodes) 51.773438
+best mean reward 59.891354
+running time 707.170473
+Train_EnvstepsSoFar : 170001
+Train_AverageReturn : 51.7734375
+Train_BestReturn : 59.891353607177734
+TimeSinceStart : 707.1704730987549
+Training Loss : 1.417731523513794
+Done logging...
+
+
+
+
+********** Iteration 171000 ************
+
+Training agent...
+
+
+********** Iteration 172000 ************
+
+Training agent...
+
+
+********** Iteration 173000 ************
+
+Training agent...
+
+
+********** Iteration 174000 ************
+
+Training agent...
+
+
+********** Iteration 175000 ************
+
+Training agent...
+
+
+********** Iteration 176000 ************
+
+Training agent...
+
+
+********** Iteration 177000 ************
+
+Training agent...
+
+
+********** Iteration 178000 ************
+
+Training agent...
+
+
+********** Iteration 179000 ************
+
+Training agent...
+
+
+********** Iteration 180000 ************
+
+Training agent...
+
+Beginning logging procedure...
+Timestep 180001
+mean reward (100 episodes) 46.119438
+best mean reward 59.891354
+running time 752.962622
+Train_EnvstepsSoFar : 180001
+Train_AverageReturn : 46.11943817138672
+Train_BestReturn : 59.891353607177734
+TimeSinceStart : 752.9626216888428
+Training Loss : 0.1336829513311386
+Done logging...
+
+
+
+
+********** Iteration 181000 ************
+
+Training agent...
+
+
+********** Iteration 182000 ************
+
+Training agent...
+
+
+********** Iteration 183000 ************
+
+Training agent...
+
+
+********** Iteration 184000 ************
+
+Training agent...
+
+
+********** Iteration 185000 ************
+
+Training agent...
+
+
+********** Iteration 186000 ************
+
+Training agent...
+
+
+********** Iteration 187000 ************
+
+Training agent...
+
+
+********** Iteration 188000 ************
+
+Training agent...
+
+
+********** Iteration 189000 ************
+
+Training agent...
+
+
+********** Iteration 190000 ************
+
+Training agent...
+
+Beginning logging procedure...
+Timestep 190001
+mean reward (100 episodes) 42.535053
+best mean reward 59.891354
+running time 799.048359
+Train_EnvstepsSoFar : 190001
+Train_AverageReturn : 42.53505325317383
+Train_BestReturn : 59.891353607177734
+TimeSinceStart : 799.0483591556549
+Training Loss : 0.22021937370300293
+Done logging...
+
+
+
+
+********** Iteration 191000 ************
+
+Training agent...
+
+
+********** Iteration 192000 ************
+
+Training agent...
+
+
+********** Iteration 193000 ************
+
+Training agent...
+
+
+********** Iteration 194000 ************
+
+Training agent...
+
+
+********** Iteration 195000 ************
+
+Training agent...
+
+
+********** Iteration 196000 ************
+
+Training agent...
+
+
+********** Iteration 197000 ************
+
+Training agent...
+
+
+********** Iteration 198000 ************
+
+Training agent...
+
+
+********** Iteration 199000 ************
+
+Training agent...
+
+
+********** Iteration 200000 ************
+
+Training agent...
+
+Beginning logging procedure...
+Timestep 200001
+mean reward (100 episodes) 36.936600
+best mean reward 59.891354
+running time 847.187311
+Train_EnvstepsSoFar : 200001
+Train_AverageReturn : 36.93659973144531
+Train_BestReturn : 59.891353607177734
+TimeSinceStart : 847.1873106956482
+Training Loss : 0.08109152317047119
+Done logging...
+
+
+
+
+********** Iteration 201000 ************
+
+Training agent...
+
+
+********** Iteration 202000 ************
+
+Training agent...
+
+
+********** Iteration 203000 ************
+
+Training agent...
+
+
+********** Iteration 204000 ************
+
+Training agent...
+
+
+********** Iteration 205000 ************
+
+Training agent...
+
+
+********** Iteration 206000 ************
+
+Training agent...
+
+
+********** Iteration 207000 ************
+
+Training agent...
+
+
+********** Iteration 208000 ************
+
+Training agent...
+
+
+********** Iteration 209000 ************
+
+Training agent...
+
+
+********** Iteration 210000 ************
+
+Training agent...
+
+Beginning logging procedure...
+Timestep 210001
+mean reward (100 episodes) 40.545383
+best mean reward 59.891354
+running time 893.102578
+Train_EnvstepsSoFar : 210001
+Train_AverageReturn : 40.54538345336914
+Train_BestReturn : 59.891353607177734
+TimeSinceStart : 893.102578163147
+Training Loss : 0.19791196286678314
+Done logging...
+
+
+
+
+********** Iteration 211000 ************
+
+Training agent...
+
+
+********** Iteration 212000 ************
+
+Training agent...
+
+
+********** Iteration 213000 ************
+
+Training agent...
+
+
+********** Iteration 214000 ************
+
+Training agent...
+
+
+********** Iteration 215000 ************
+
+Training agent...
+
+
+********** Iteration 216000 ************
+
+Training agent...
+
+
+********** Iteration 217000 ************
+
+Training agent...
+
+
+********** Iteration 218000 ************
+
+Training agent...
+
+
+********** Iteration 219000 ************
+
+Training agent...
+
+
+********** Iteration 220000 ************
+
+Training agent...
+
+Beginning logging procedure...
+Timestep 220001
+mean reward (100 episodes) 70.366028
+best mean reward 70.366028
+running time 933.678114
+Train_EnvstepsSoFar : 220001
+Train_AverageReturn : 70.36602783203125
+Train_BestReturn : 70.36602783203125
+TimeSinceStart : 933.6781144142151
+Training Loss : 0.16427691280841827
+Done logging...
+
+
+
+
+********** Iteration 221000 ************
+
+Training agent...
+
+
+********** Iteration 222000 ************
+
+Training agent...
+
+
+********** Iteration 223000 ************
+
+Training agent...
+
+
+********** Iteration 224000 ************
+
+Training agent...
+
+
+********** Iteration 225000 ************
+
+Training agent...
+
+
+********** Iteration 226000 ************
+
+Training agent...
+
+
+********** Iteration 227000 ************
+
+Training agent...
+
+
+********** Iteration 228000 ************
+
+Training agent...
+
+
+********** Iteration 229000 ************
+
+Training agent...
+
+
+********** Iteration 230000 ************
+
+Training agent...
+
+Beginning logging procedure...
+Timestep 230001
+mean reward (100 episodes) 108.288689
+best mean reward 108.288689
+running time 973.060371
+Train_EnvstepsSoFar : 230001
+Train_AverageReturn : 108.28868865966797
+Train_BestReturn : 108.28868865966797
+TimeSinceStart : 973.0603711605072
+Training Loss : 0.10190741717815399
+Done logging...
+
+
+
+
+********** Iteration 231000 ************
+
+Training agent...
+
+
+********** Iteration 232000 ************
+
+Training agent...
+
+
+********** Iteration 233000 ************
+
+Training agent...
+
+
+********** Iteration 234000 ************
+
+Training agent...
+
+
+********** Iteration 235000 ************
+
+Training agent...
+
+
+********** Iteration 236000 ************
+
+Training agent...
+
+
+********** Iteration 237000 ************
+
+Training agent...
+
+
+********** Iteration 238000 ************
+
+Training agent...
+
+
+********** Iteration 239000 ************
+
+Training agent...
+
+
+********** Iteration 240000 ************
+
+Training agent...
+
+Beginning logging procedure...
+Timestep 240001
+mean reward (100 episodes) 140.554291
+best mean reward 140.554291
+running time 1012.019358
+Train_EnvstepsSoFar : 240001
+Train_AverageReturn : 140.55429077148438
+Train_BestReturn : 140.55429077148438
+TimeSinceStart : 1012.0193581581116
+Training Loss : 3.1608469486236572
+Done logging...
+
+
+
+
+********** Iteration 241000 ************
+
+Training agent...
+
+
+********** Iteration 242000 ************
+
+Training agent...
+
+
+********** Iteration 243000 ************
+
+Training agent...
+
+
+********** Iteration 244000 ************
+
+Training agent...
+
+
+********** Iteration 245000 ************
+
+Training agent...
+
+
+********** Iteration 246000 ************
+
+Training agent...
+
+
+********** Iteration 247000 ************
+
+Training agent...
+
+
+********** Iteration 248000 ************
+
+Training agent...
+
+
+********** Iteration 249000 ************
+
+Training agent...
+
+
+********** Iteration 250000 ************
+
+Training agent...
+
+Beginning logging procedure...
+Timestep 250001
+mean reward (100 episodes) 139.332504
+best mean reward 140.554291
+running time 1053.252413
+Train_EnvstepsSoFar : 250001
+Train_AverageReturn : 139.33250427246094
+Train_BestReturn : 140.55429077148438
+TimeSinceStart : 1053.2524127960205
+Training Loss : 0.051940202713012695
+Done logging...
+
+
+
+
+********** Iteration 251000 ************
+
+Training agent...
+
+
+********** Iteration 252000 ************
+
+Training agent...
+
+
+********** Iteration 253000 ************
+
+Training agent...
+
+
+********** Iteration 254000 ************
+
+Training agent...
+
+
+********** Iteration 255000 ************
+
+Training agent...
+
+
+********** Iteration 256000 ************
+
+Training agent...
+
+
+********** Iteration 257000 ************
+
+Training agent...
+
+
+********** Iteration 258000 ************
+
+Training agent...
+
+
+********** Iteration 259000 ************
+
+Training agent...
+
+
+********** Iteration 260000 ************
+
+Training agent...
+
+Beginning logging procedure...
+Timestep 260001
+mean reward (100 episodes) 136.596725
+best mean reward 140.554291
+running time 1090.998687
+Train_EnvstepsSoFar : 260001
+Train_AverageReturn : 136.5967254638672
+Train_BestReturn : 140.55429077148438
+TimeSinceStart : 1090.9986865520477
+Training Loss : 3.4061529636383057
+Done logging...
+
+
+
+
+********** Iteration 261000 ************
+
+Training agent...
+
+
+********** Iteration 262000 ************
+
+Training agent...
+
+
+********** Iteration 263000 ************
+
+Training agent...
+
+
+********** Iteration 264000 ************
+
+Training agent...
+
+
+********** Iteration 265000 ************
+
+Training agent...
+
+
+********** Iteration 266000 ************
+
+Training agent...
+
+
+********** Iteration 267000 ************
+
+Training agent...
+
+
+********** Iteration 268000 ************
+
+Training agent...
+
+
+********** Iteration 269000 ************
+
+Training agent...
+
+
+********** Iteration 270000 ************
+
+Training agent...
+
+Beginning logging procedure...
+Timestep 270001
+mean reward (100 episodes) 138.468414
+best mean reward 140.554291
+running time 1129.749793
+Train_EnvstepsSoFar : 270001
+Train_AverageReturn : 138.46841430664062
+Train_BestReturn : 140.55429077148438
+TimeSinceStart : 1129.7497925758362
+Training Loss : 0.7033442258834839
+Done logging...
+
+
+
+
+********** Iteration 271000 ************
+
+Training agent...
+
+
+********** Iteration 272000 ************
+
+Training agent...
+
+
+********** Iteration 273000 ************
+
+Training agent...
+
+
+********** Iteration 274000 ************
+
+Training agent...
+
+
+********** Iteration 275000 ************
+
+Training agent...
+
+
+********** Iteration 276000 ************
+
+Training agent...
+
+
+********** Iteration 277000 ************
+
+Training agent...
+
+
+********** Iteration 278000 ************
+
+Training agent...
+
+
+********** Iteration 279000 ************
+
+Training agent...
+
+
+********** Iteration 280000 ************
+
+Training agent...
+
+Beginning logging procedure...
+Timestep 280001
+mean reward (100 episodes) 136.430756
+best mean reward 140.554291
+running time 1167.372371
+Train_EnvstepsSoFar : 280001
+Train_AverageReturn : 136.43075561523438
+Train_BestReturn : 140.55429077148438
+TimeSinceStart : 1167.3723714351654
+Training Loss : 0.11587175726890564
+Done logging...
+
+
+
+
+********** Iteration 281000 ************
+
+Training agent...
+
+
+********** Iteration 282000 ************
+
+Training agent...
+
+
+********** Iteration 283000 ************
+
+Training agent...
+
+
+********** Iteration 284000 ************
+
+Training agent...
+
+
+********** Iteration 285000 ************
+
+Training agent...
+
+
+********** Iteration 286000 ************
+
+Training agent...
+
+
+********** Iteration 287000 ************
+
+Training agent...
+
+
+********** Iteration 288000 ************
+
+Training agent...
+
+
+********** Iteration 289000 ************
+
+Training agent...
+
+
+********** Iteration 290000 ************
+
+Training agent...
+
+Beginning logging procedure...
+Timestep 290001
+mean reward (100 episodes) 142.086563
+best mean reward 142.086563
+running time 1208.329819
+Train_EnvstepsSoFar : 290001
+Train_AverageReturn : 142.08656311035156
+Train_BestReturn : 142.08656311035156
+TimeSinceStart : 1208.329818725586
+Training Loss : 0.14828580617904663
+Done logging...
+
+
+
+
+********** Iteration 291000 ************
+
+Training agent...
+
+
+********** Iteration 292000 ************
+
+Training agent...
+
+
+********** Iteration 293000 ************
+
+Training agent...
+
+
+********** Iteration 294000 ************
+
+Training agent...
+
+
+********** Iteration 295000 ************
+
+Training agent...
+
+
+********** Iteration 296000 ************
+
+Training agent...
+
+
+********** Iteration 297000 ************
+
+Training agent...
+
+
+********** Iteration 298000 ************
+
+Training agent...
+
+
+********** Iteration 299000 ************
+
+Training agent...
+
+
+********** Iteration 300000 ************
+
+Training agent...
+
+Beginning logging procedure...
+Timestep 300001
+mean reward (100 episodes) 141.157104
+best mean reward 142.086563
+running time 1246.293812
+Train_EnvstepsSoFar : 300001
+Train_AverageReturn : 141.1571044921875
+Train_BestReturn : 142.08656311035156
+TimeSinceStart : 1246.2938120365143
+Training Loss : 2.5097622871398926
+Done logging...
+
+
+
+
+********** Iteration 301000 ************
+
+Training agent...
+
+
+********** Iteration 302000 ************
+
+Training agent...
+
+
+********** Iteration 303000 ************
+
+Training agent...
+
+
+********** Iteration 304000 ************
+
+Training agent...
+
+
+********** Iteration 305000 ************
+
+Training agent...
+
+
+********** Iteration 306000 ************
+
+Training agent...
+
+
+********** Iteration 307000 ************
+
+Training agent...
+
+
+********** Iteration 308000 ************
+
+Training agent...
+
+
+********** Iteration 309000 ************
+
+Training agent...
+
+
+********** Iteration 310000 ************
+
+Training agent...
+
+Beginning logging procedure...
+Timestep 310001
+mean reward (100 episodes) 135.878448
+best mean reward 142.086563
+running time 1286.933612
+Train_EnvstepsSoFar : 310001
+Train_AverageReturn : 135.87844848632812
+Train_BestReturn : 142.08656311035156
+TimeSinceStart : 1286.9336123466492
+Training Loss : 0.12639395892620087
+Done logging...
+
+
+
+
+********** Iteration 311000 ************
+
+Training agent...
+
+
+********** Iteration 312000 ************
+
+Training agent...
+
+
+********** Iteration 313000 ************
+
+Training agent...
+
+
+********** Iteration 314000 ************
+
+Training agent...
+
+
+********** Iteration 315000 ************
+
+Training agent...
+
+
+********** Iteration 316000 ************
+
+Training agent...
+
+
+********** Iteration 317000 ************
+
+Training agent...
+
+
+********** Iteration 318000 ************
+
+Training agent...
+
+
+********** Iteration 319000 ************
+
+Training agent...
+
+
+********** Iteration 320000 ************
+
+Training agent...
+
+Beginning logging procedure...
+Timestep 320001
+mean reward (100 episodes) 143.001114
+best mean reward 143.001114
+running time 1326.436229
+Train_EnvstepsSoFar : 320001
+Train_AverageReturn : 143.00111389160156
+Train_BestReturn : 143.00111389160156
+TimeSinceStart : 1326.4362285137177
+Training Loss : 0.22690413892269135
+Done logging...
+
+
+
+
+********** Iteration 321000 ************
+
+Training agent...
+
+
+********** Iteration 322000 ************
+
+Training agent...
+
+
+********** Iteration 323000 ************
+
+Training agent...
+
+
+********** Iteration 324000 ************
+
+Training agent...
+
+
+********** Iteration 325000 ************
+
+Training agent...
+
+
+********** Iteration 326000 ************
+
+Training agent...
+
+
+********** Iteration 327000 ************
+
+Training agent...
+
+
+********** Iteration 328000 ************
+
+Training agent...
+
+
+********** Iteration 329000 ************
+
+Training agent...
+
+
+********** Iteration 330000 ************
+
+Training agent...
+
+Beginning logging procedure...
+Timestep 330001
+mean reward (100 episodes) 126.925980
+best mean reward 143.001114
+running time 1365.278241
+Train_EnvstepsSoFar : 330001
+Train_AverageReturn : 126.92597961425781
+Train_BestReturn : 143.00111389160156
+TimeSinceStart : 1365.2782413959503
+Training Loss : 1.1546261310577393
+Done logging...
+
+
+
+
+********** Iteration 331000 ************
+
+Training agent...
+
+
+********** Iteration 332000 ************
+
+Training agent...
+
+
+********** Iteration 333000 ************
+
+Training agent...
+
+
+********** Iteration 334000 ************
+
+Training agent...
+
+
+********** Iteration 335000 ************
+
+Training agent...
+
+
+********** Iteration 336000 ************
+
+Training agent...
+
+
+********** Iteration 337000 ************
+
+Training agent...
+
+
+********** Iteration 338000 ************
+
+Training agent...
+
+
+********** Iteration 339000 ************
+
+Training agent...
+
+
+********** Iteration 340000 ************
+
+Training agent...
+
+Beginning logging procedure...
+Timestep 340001
+mean reward (100 episodes) 96.094856
+best mean reward 143.001114
+running time 1402.730681
+Train_EnvstepsSoFar : 340001
+Train_AverageReturn : 96.09485626220703
+Train_BestReturn : 143.00111389160156
+TimeSinceStart : 1402.7306809425354
+Training Loss : 0.16551920771598816
+Done logging...
+
+
+
+
+********** Iteration 341000 ************
+
+Training agent...
+
+
+********** Iteration 342000 ************
+
+Training agent...
+
+
+********** Iteration 343000 ************
+
+Training agent...
+
+
+********** Iteration 344000 ************
+
+Training agent...
+
+
+********** Iteration 345000 ************
+
+Training agent...
+
+
+********** Iteration 346000 ************
+
+Training agent...
+
+
+********** Iteration 347000 ************
+
+Training agent...
+
+
+********** Iteration 348000 ************
+
+Training agent...
+
+
+********** Iteration 349000 ************
+
+Training agent...
+
+
+********** Iteration 350000 ************
+
+Training agent...
+
+Beginning logging procedure...
+Timestep 350001
+mean reward (100 episodes) 55.667416
+best mean reward 143.001114
+running time 1439.916926
+Train_EnvstepsSoFar : 350001
+Train_AverageReturn : 55.667415618896484
+Train_BestReturn : 143.00111389160156
+TimeSinceStart : 1439.9169263839722
+Training Loss : 1.0771892070770264
+Done logging...
+
+
+
+
+********** Iteration 351000 ************
+
+Training agent...
+
+
+********** Iteration 352000 ************
+
+Training agent...
+
+
+********** Iteration 353000 ************
+
+Training agent...
+
+
+********** Iteration 354000 ************
+
+Training agent...
+
+
+********** Iteration 355000 ************
+
+Training agent...
+
+
+********** Iteration 356000 ************
+
+Training agent...
+
+
+********** Iteration 357000 ************
+
+Training agent...
+
+
+********** Iteration 358000 ************
+
+Training agent...
+
+
+********** Iteration 359000 ************
+
+Training agent...
+
+
+********** Iteration 360000 ************
+
+Training agent...
+
+Beginning logging procedure...
+Timestep 360001
+mean reward (100 episodes) 76.250084
+best mean reward 143.001114
+running time 1477.305292
+Train_EnvstepsSoFar : 360001
+Train_AverageReturn : 76.25008392333984
+Train_BestReturn : 143.00111389160156
+TimeSinceStart : 1477.305291891098
+Training Loss : 0.11980258673429489
+Done logging...
+
+
+
+
+********** Iteration 361000 ************
+
+Training agent...
+
+
+********** Iteration 362000 ************
+
+Training agent...
+
+
+********** Iteration 363000 ************
+
+Training agent...
+
+
+********** Iteration 364000 ************
+
+Training agent...
+
+
+********** Iteration 365000 ************
+
+Training agent...
+
+
+********** Iteration 366000 ************
+
+Training agent...
+
+
+********** Iteration 367000 ************
+
+Training agent...
+
+
+********** Iteration 368000 ************
+
+Training agent...
+
+
+********** Iteration 369000 ************
+
+Training agent...
+
+
+********** Iteration 370000 ************
+
+Training agent...
+
+Beginning logging procedure...
+Timestep 370001
+mean reward (100 episodes) 87.459236
+best mean reward 143.001114
+running time 1514.146652
+Train_EnvstepsSoFar : 370001
+Train_AverageReturn : 87.45923614501953
+Train_BestReturn : 143.00111389160156
+TimeSinceStart : 1514.1466517448425
+Training Loss : 0.6753037571907043
+Done logging...
+
+
+
+
+********** Iteration 371000 ************
+
+Training agent...
+
+
+********** Iteration 372000 ************
+
+Training agent...
+
+
+********** Iteration 373000 ************
+
+Training agent...
+
+
+********** Iteration 374000 ************
+
+Training agent...
+
+
+********** Iteration 375000 ************
+
+Training agent...
+
+
+********** Iteration 376000 ************
+
+Training agent...
+
+
+********** Iteration 377000 ************
+
+Training agent...
+
+
+********** Iteration 378000 ************
+
+Training agent...
+
+
+********** Iteration 379000 ************
+
+Training agent...
+
+
+********** Iteration 380000 ************
+
+Training agent...
+
+Beginning logging procedure...
+Timestep 380001
+mean reward (100 episodes) 83.029236
+best mean reward 143.001114
+running time 1550.961534
+Train_EnvstepsSoFar : 380001
+Train_AverageReturn : 83.02923583984375
+Train_BestReturn : 143.00111389160156
+TimeSinceStart : 1550.9615335464478
+Training Loss : 0.46232035756111145
+Done logging...
+
+
+
+
+********** Iteration 381000 ************
+
+Training agent...
+
+
+********** Iteration 382000 ************
+
+Training agent...
+
+
+********** Iteration 383000 ************
+
+Training agent...
+
+
+********** Iteration 384000 ************
+
+Training agent...
+
+
+********** Iteration 385000 ************
+
+Training agent...
+
+
+********** Iteration 386000 ************
+
+Training agent...
+
+
+********** Iteration 387000 ************
+
+Training agent...
+
+
+********** Iteration 388000 ************
+
+Training agent...
+
+
+********** Iteration 389000 ************
+
+Training agent...
+
+
+********** Iteration 390000 ************
+
+Training agent...
+
+Beginning logging procedure...
+Timestep 390001
+mean reward (100 episodes) 59.905495
+best mean reward 143.001114
+running time 1587.679042
+Train_EnvstepsSoFar : 390001
+Train_AverageReturn : 59.905494689941406
+Train_BestReturn : 143.00111389160156
+TimeSinceStart : 1587.6790418624878
+Training Loss : 0.15925392508506775
+Done logging...
+
+
+
+
+********** Iteration 391000 ************
+
+Training agent...
+
+
+********** Iteration 392000 ************
+
+Training agent...
+
+
+********** Iteration 393000 ************
+
+Training agent...
+
+
+********** Iteration 394000 ************
+
+Training agent...
+
+
+********** Iteration 395000 ************
+
+Training agent...
+
+
+********** Iteration 396000 ************
+
+Training agent...
+
+
+********** Iteration 397000 ************
+
+Training agent...
+
+
+********** Iteration 398000 ************
+
+Training agent...
+
+
+********** Iteration 399000 ************
+
+Training agent...
+
+
+********** Iteration 400000 ************
+
+Training agent...
+
+Beginning logging procedure...
+Timestep 400001
+mean reward (100 episodes) 81.337723
+best mean reward 143.001114
+running time 1624.510804
+Train_EnvstepsSoFar : 400001
+Train_AverageReturn : 81.33772277832031
+Train_BestReturn : 143.00111389160156
+TimeSinceStart : 1624.5108044147491
+Training Loss : 0.5463651418685913
+Done logging...
+
+
+
+
+********** Iteration 401000 ************
+
+Training agent...
+
+
+********** Iteration 402000 ************
+
+Training agent...
+
+
+********** Iteration 403000 ************
+
+Training agent...
+
+
+********** Iteration 404000 ************
+
+Training agent...
+
+
+********** Iteration 405000 ************
+
+Training agent...
+
+
+********** Iteration 406000 ************
+
+Training agent...
+
+
+********** Iteration 407000 ************
+
+Training agent...
+
+
+********** Iteration 408000 ************
+
+Training agent...
+
+
+********** Iteration 409000 ************
+
+Training agent...
+
+
+********** Iteration 410000 ************
+
+Training agent...
+
+Beginning logging procedure...
+Timestep 410001
+mean reward (100 episodes) 57.870716
+best mean reward 143.001114
+running time 1660.682624
+Train_EnvstepsSoFar : 410001
+Train_AverageReturn : 57.8707160949707
+Train_BestReturn : 143.00111389160156
+TimeSinceStart : 1660.6826243400574
+Training Loss : 0.49062567949295044
+Done logging...
+
+
+
+
+********** Iteration 411000 ************
+
+Training agent...
+
+
+********** Iteration 412000 ************
+
+Training agent...
+
+
+********** Iteration 413000 ************
+
+Training agent...
+
+
+********** Iteration 414000 ************
+
+Training agent...
+
+
+********** Iteration 415000 ************
+
+Training agent...
+
+
+********** Iteration 416000 ************
+
+Training agent...
+
+
+********** Iteration 417000 ************
+
+Training agent...
+
+
+********** Iteration 418000 ************
+
+Training agent...
+
+
+********** Iteration 419000 ************
+
+Training agent...
+
+
+********** Iteration 420000 ************
+
+Training agent...
+
+Beginning logging procedure...
+Timestep 420001
+mean reward (100 episodes) 81.912910
+best mean reward 143.001114
+running time 1697.054030
+Train_EnvstepsSoFar : 420001
+Train_AverageReturn : 81.91291046142578
+Train_BestReturn : 143.00111389160156
+TimeSinceStart : 1697.0540297031403
+Training Loss : 7.883892059326172
+Done logging...
+
+
+
+
+********** Iteration 421000 ************
+
+Training agent...
+
+
+********** Iteration 422000 ************
+
+Training agent...
+
+
+********** Iteration 423000 ************
+
+Training agent...
+
+
+********** Iteration 424000 ************
+
+Training agent...
+
+
+********** Iteration 425000 ************
+
+Training agent...
+
+
+********** Iteration 426000 ************
+
+Training agent...
+
+
+********** Iteration 427000 ************
+
+Training agent...
+
+
+********** Iteration 428000 ************
+
+Training agent...
+
+
+********** Iteration 429000 ************
+
+Training agent...
+
+
+********** Iteration 430000 ************
+
+Training agent...
+
+Beginning logging procedure...
+Timestep 430001
+mean reward (100 episodes) 77.406097
+best mean reward 143.001114
+running time 1734.264194
+Train_EnvstepsSoFar : 430001
+Train_AverageReturn : 77.40609741210938
+Train_BestReturn : 143.00111389160156
+TimeSinceStart : 1734.264193534851
+Training Loss : 0.937894880771637
+Done logging...
+
+
+
+
+********** Iteration 431000 ************
+
+Training agent...
+
+
+********** Iteration 432000 ************
+
+Training agent...
+
+
+********** Iteration 433000 ************
+
+Training agent...
+
+
+********** Iteration 434000 ************
+
+Training agent...
+
+
+********** Iteration 435000 ************
+
+Training agent...
+
+
+********** Iteration 436000 ************
+
+Training agent...
+
+
+********** Iteration 437000 ************
+
+Training agent...
+
+
+********** Iteration 438000 ************
+
+Training agent...
+
+
+********** Iteration 439000 ************
+
+Training agent...
+
+
+********** Iteration 440000 ************
+
+Training agent...
+
+Beginning logging procedure...
+Timestep 440001
+mean reward (100 episodes) 50.614536
+best mean reward 143.001114
+running time 1770.737923
+Train_EnvstepsSoFar : 440001
+Train_AverageReturn : 50.61453628540039
+Train_BestReturn : 143.00111389160156
+TimeSinceStart : 1770.737922668457
+Training Loss : 1.1883118152618408
+Done logging...
+
+
+
+
+********** Iteration 441000 ************
+
+Training agent...
+
+
+********** Iteration 442000 ************
+
+Training agent...
+
+
+********** Iteration 443000 ************
+
+Training agent...
+
+
+********** Iteration 444000 ************
+
+Training agent...
+
+
+********** Iteration 445000 ************
+
+Training agent...
+
+
+********** Iteration 446000 ************
+
+Training agent...
+
+
+********** Iteration 447000 ************
+
+Training agent...
+
+
+********** Iteration 448000 ************
+
+Training agent...
+
+
+********** Iteration 449000 ************
+
+Training agent...
+
+
+********** Iteration 450000 ************
+
+Training agent...
+
+Beginning logging procedure...
+Timestep 450001
+mean reward (100 episodes) 18.765556
+best mean reward 143.001114
+running time 1806.975230
+Train_EnvstepsSoFar : 450001
+Train_AverageReturn : 18.76555633544922
+Train_BestReturn : 143.00111389160156
+TimeSinceStart : 1806.9752299785614
+Training Loss : 7.896980285644531
+Done logging...
+
+
+
+
+********** Iteration 451000 ************
+
+Training agent...
+
+
+********** Iteration 452000 ************
+
+Training agent...
+
+
+********** Iteration 453000 ************
+
+Training agent...
+
+
+********** Iteration 454000 ************
+
+Training agent...
+
+
+********** Iteration 455000 ************
+
+Training agent...
+
+
+********** Iteration 456000 ************
+
+Training agent...
+
+
+********** Iteration 457000 ************
+
+Training agent...
+
+
+********** Iteration 458000 ************
+
+Training agent...
+
+
+********** Iteration 459000 ************
+
+Training agent...
+
+
+********** Iteration 460000 ************
+
+Training agent...
+
+Beginning logging procedure...
+Timestep 460001
+mean reward (100 episodes) 22.172050
+best mean reward 143.001114
+running time 1843.876381
+Train_EnvstepsSoFar : 460001
+Train_AverageReturn : 22.17205047607422
+Train_BestReturn : 143.00111389160156
+TimeSinceStart : 1843.8763813972473
+Training Loss : 1.583617925643921
+Done logging...
+
+
+
+
+********** Iteration 461000 ************
+
+Training agent...
+
+
+********** Iteration 462000 ************
+
+Training agent...
+
+
+********** Iteration 463000 ************
+
+Training agent...
+
+
+********** Iteration 464000 ************
+
+Training agent...
+
+
+********** Iteration 465000 ************
+
+Training agent...
+
+
+********** Iteration 466000 ************
+
+Training agent...
+
+
+********** Iteration 467000 ************
+
+Training agent...
+
+
+********** Iteration 468000 ************
+
+Training agent...
+
+
+********** Iteration 469000 ************
+
+Training agent...
+
+
+********** Iteration 470000 ************
+
+Training agent...
+
+Beginning logging procedure...
+Timestep 470001
+mean reward (100 episodes) -6.464019
+best mean reward 143.001114
+running time 1880.918344
+Train_EnvstepsSoFar : 470001
+Train_AverageReturn : -6.464019298553467
+Train_BestReturn : 143.00111389160156
+TimeSinceStart : 1880.9183440208435
+Training Loss : 8.747167587280273
+Done logging...
+
+
+
+
+********** Iteration 471000 ************
+
+Training agent...
+
+
+********** Iteration 472000 ************
+
+Training agent...
+
+
+********** Iteration 473000 ************
+
+Training agent...
+
+
+********** Iteration 474000 ************
+
+Training agent...
+
+
+********** Iteration 475000 ************
+
+Training agent...
+
+
+********** Iteration 476000 ************
+
+Training agent...
+
+
+********** Iteration 477000 ************
+
+Training agent...
+
+
+********** Iteration 478000 ************
+
+Training agent...
+
+
+********** Iteration 479000 ************
+
+Training agent...
+
+
+********** Iteration 480000 ************
+
+Training agent...
+
+Beginning logging procedure...
+Timestep 480001
+mean reward (100 episodes) 10.629508
+best mean reward 143.001114
+running time 1917.830735
+Train_EnvstepsSoFar : 480001
+Train_AverageReturn : 10.629508018493652
+Train_BestReturn : 143.00111389160156
+TimeSinceStart : 1917.8307349681854
+Training Loss : 1.653847098350525
+Done logging...
+
+
+
+
+********** Iteration 481000 ************
+
+Training agent...
+
+
+********** Iteration 482000 ************
+
+Training agent...
+
+
+********** Iteration 483000 ************
+
+Training agent...
+
+
+********** Iteration 484000 ************
+
+Training agent...
+
+
+********** Iteration 485000 ************
+
+Training agent...
+
+
+********** Iteration 486000 ************
+
+Training agent...
+
+
+********** Iteration 487000 ************
+
+Training agent...
+
+
+********** Iteration 488000 ************
+
+Training agent...
+
+
+********** Iteration 489000 ************
+
+Training agent...
+
+
+********** Iteration 490000 ************
+
+Training agent...
+
+Beginning logging procedure...
+Timestep 490001
+mean reward (100 episodes) 27.484409
+best mean reward 143.001114
+running time 1954.375616
+/home/harvey/anaconda3/envs/cs285/lib/python3.7/site-packages/gym/envs/registration.py:441: UserWarning: [33mWARN: The `registry.env_specs` property along with `EnvSpecTree` is deprecated. Please use `registry` directly as a dictionary instead.[0m
+  "The `registry.env_specs` property along with `EnvSpecTree` is deprecated. Please use `registry` directly as a dictionary instead."
+/home/harvey/anaconda3/envs/cs285/lib/python3.7/site-packages/gym/core.py:318: DeprecationWarning: [33mWARN: Initializing wrapper in old step API which returns one bool instead of two. It is recommended to set `new_step_api=True` to use new step API. This will be the default behaviour in future.[0m
+  "Initializing wrapper in old step API which returns one bool instead of two. It is recommended to set `new_step_api=True` to use new step API. This will be the default behaviour in future."
+/home/harvey/anaconda3/envs/cs285/lib/python3.7/site-packages/gym/wrappers/step_api_compatibility.py:40: DeprecationWarning: [33mWARN: Initializing environment in old step API which returns one bool instead of two. It is recommended to set `new_step_api=True` to use new step API. This will be the default behaviour in future.[0m
+  "Initializing environment in old step API which returns one bool instead of two. It is recommended to set `new_step_api=True` to use new step API. This will be the default behaviour in future."
+/home/harvey/anaconda3/envs/cs285/lib/python3.7/site-packages/gym/core.py:257: DeprecationWarning: [33mWARN: Function `env.seed(seed)` is marked as deprecated and will be removed in the future. Please use `env.reset(seed=seed)` instead.[0m
+  "Function `env.seed(seed)` is marked as deprecated and will be removed in the future. "
+/home/harvey/anaconda3/envs/cs285/lib/python3.7/site-packages/gym/utils/passive_env_checker.py:175: UserWarning: [33mWARN: Future gym versions will require that `Env.reset` can be passed a `seed` instead of using `Env.seed` for resetting the environment random number generator.[0m
+  "Future gym versions will require that `Env.reset` can be passed a `seed` instead of using `Env.seed` for resetting the environment random number generator."
+/home/harvey/anaconda3/envs/cs285/lib/python3.7/site-packages/gym/utils/passive_env_checker.py:191: UserWarning: [33mWARN: Future gym versions will require that `Env.reset` can be passed `return_info` to return information from the environment resetting.[0m
+  "Future gym versions will require that `Env.reset` can be passed `return_info` to return information from the environment resetting."
+/home/harvey/anaconda3/envs/cs285/lib/python3.7/site-packages/gym/utils/passive_env_checker.py:196: UserWarning: [33mWARN: Future gym versions will require that `Env.reset` can be passed `options` to allow the environment initialisation to be passed additional information.[0m
+  "Future gym versions will require that `Env.reset` can be passed `options` to allow the environment initialisation to be passed additional information."
+/home/harvey/anaconda3/envs/cs285/lib/python3.7/site-packages/gym/utils/passive_env_checker.py:142: UserWarning: [33mWARN: The obs returned by the `reset()` method was expecting numpy array dtype to be float32, actual type: float64[0m
+  f"{pre} was expecting numpy array dtype to be {observation_space.dtype}, actual type: {obs.dtype}"
+/home/harvey/anaconda3/envs/cs285/lib/python3.7/site-packages/gym/utils/passive_env_checker.py:165: UserWarning: [33mWARN: The obs returned by the `reset()` method is not within the observation space.[0m
+  logger.warn(f"{pre} is not within the observation space.")
+/home/harvey/anaconda3/envs/cs285/lib/python3.7/site-packages/gym/utils/passive_env_checker.py:228: DeprecationWarning: [33mWARN: Core environment is written in old step API which returns one bool instead of two. It is recommended to rewrite the environment with new step API. [0m
+  "Core environment is written in old step API which returns one bool instead of two. "
+/home/harvey/anaconda3/envs/cs285/lib/python3.7/site-packages/gym/utils/passive_env_checker.py:142: UserWarning: [33mWARN: The obs returned by the `step()` method was expecting numpy array dtype to be float32, actual type: float64[0m
+  f"{pre} was expecting numpy array dtype to be {observation_space.dtype}, actual type: {obs.dtype}"
+/home/harvey/anaconda3/envs/cs285/lib/python3.7/site-packages/gym/utils/passive_env_checker.py:165: UserWarning: [33mWARN: The obs returned by the `step()` method is not within the observation space.[0m
+  logger.warn(f"{pre} is not within the observation space.")
+Train_EnvstepsSoFar : 490001
+Train_AverageReturn : 27.48440933227539
+Train_BestReturn : 143.00111389160156
+TimeSinceStart : 1954.3756155967712
+Training Loss : 0.26637744903564453
+Done logging...
+
+
+
+
+********** Iteration 491000 ************
+
+Training agent...
+
+
+********** Iteration 492000 ************
+
+Training agent...
+
+
+********** Iteration 493000 ************
+
+Training agent...
+
+
+********** Iteration 494000 ************
+
+Training agent...
+
+
+********** Iteration 495000 ************
+
+Training agent...
+
+
+********** Iteration 496000 ************
+
+Training agent...
+
+
+********** Iteration 497000 ************
+
+Training agent...
+
+
+********** Iteration 498000 ************
+
+Training agent...
+
+
+********** Iteration 499000 ************
+
+Training agent...
