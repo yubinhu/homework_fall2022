@@ -2,6 +2,7 @@ import os
 import time
 
 from cs285.infrastructure.rl_trainer import RL_Trainer
+from cs285.infrastructure.dqn_utils import lander_optimizer
 from cs285.agents.dqn_agent import DQNAgent
 from cs285.infrastructure.dqn_utils import get_env_kwargs
 
@@ -19,6 +20,10 @@ class Q_Trainer(object):
         }
 
         env_args = get_env_kwargs(params['env_name'])
+
+        # Hyper-parameter exploration temp code
+        if params['env_name'] == 'LunarLander-v3':
+            env_args['optimizer_spec'] = lander_optimizer(params['lander_lr'])
 
         self.agent_params = {**train_args, **env_args, **params}
 
@@ -48,6 +53,7 @@ def main():
 
     parser.add_argument('--ep_len', type=int, default=200)
     parser.add_argument('--exp_name', type=str, default='todo')
+    parser.add_argument('--lander_lr', type=float, default=1e-3)
 
     parser.add_argument('--eval_batch_size', type=int, default=1000)
 
