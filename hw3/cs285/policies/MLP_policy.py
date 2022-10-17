@@ -128,5 +128,19 @@ class MLPPolicy(BasePolicy, nn.Module, metaclass=abc.ABCMeta):
 
 class MLPPolicyAC(MLPPolicy):
     def update(self, observations, actions, adv_n=None):
-        # TODO: update the policy and return the loss
+        # update the policy and return the loss
+        # NOTE: adapted from hw2 MLPPolicyPG update() solution
+        observations = ptu.from_numpy(observations)
+        actions = ptu.from_numpy(actions)
+        advantages = ptu.from_numpy(adv_n)
+
+        action_distribution = self.forward(observations)
+        loss = - action_distribution.log_prob(actions) * advantages 
+        # NOTE: using pseudo_loss from lecture 5, assuming N = 1, substituting q_values with advantages
+        loss = loss.mean()
+
+        self.optimizer.zero_grad()
+        loss.backward()
+        self.optimizer.step()
+
         return loss.item()
