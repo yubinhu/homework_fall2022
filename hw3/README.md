@@ -12,3 +12,6 @@ if you are running the assignment locally.
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/berkeleydeeprlcourse/homework_fall2022/blob/main/hw3/cs285/scripts/run_hw3_actor_critic.ipynb)     **Part II (Actor-critic)**
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/berkeleydeeprlcourse/homework_fall2022/blob/main/hw3/cs285/scripts/run_hw3_soft_actor_critic.ipynb)     **Part III (Soft Actor-critic)** 
+
+## Results
+Experimental results can be found [here](cs285/scripts/plotter.ipynb)
