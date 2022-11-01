@@ -1,0 +1,99 @@
+/home/harvey/anaconda3/envs/cs285/lib/python3.7/site-packages/gym/core.py:318: DeprecationWarning: [33mWARN: Initializing wrapper in old step API which returns one bool instead of two. It is recommended to set `new_step_api=True` to use new step API. This will be the default behaviour in future.[0m
+  "Initializing wrapper in old step API which returns one bool instead of two. It is recommended to set `new_step_api=True` to use new step API. This will be the default behaviour in future."
+/home/harvey/anaconda3/envs/cs285/lib/python3.7/site-packages/gym/wrappers/step_api_compatibility.py:40: DeprecationWarning: [33mWARN: Initializing environment in old step API which returns one bool instead of two. It is recommended to set `new_step_api=True` to use new step API. This will be the default behaviour in future.[0m
+  "Initializing environment in old step API which returns one bool instead of two. It is recommended to set `new_step_api=True` to use new step API. This will be the default behaviour in future."
+/home/harvey/anaconda3/envs/cs285/lib/python3.7/site-packages/gym/core.py:257: DeprecationWarning: [33mWARN: Function `env.seed(seed)` is marked as deprecated and will be removed in the future. Please use `env.reset(seed=seed)` instead.[0m
+  "Function `env.seed(seed)` is marked as deprecated and will be removed in the future. "
+/home/harvey/anaconda3/envs/cs285/lib/python3.7/site-packages/gym/utils/seeding.py:54: DeprecationWarning: [33mWARN: Function `rng.randn(*size)` is marked as deprecated and will be removed in the future. Please use `rng.standard_normal(size)` instead.[0m
+  "Function `rng.randn(*size)` is marked as deprecated "
+/home/harvey/anaconda3/envs/cs285/lib/python3.7/site-packages/gym/utils/passive_env_checker.py:228: DeprecationWarning: [33mWARN: Core environment is written in old step API which returns one bool instead of two. It is recommended to rewrite the environment with new step API. [0m
+  "Core environment is written in old step API which returns one bool instead of two. "
+/home/harvey/anaconda3/envs/cs285/lib/python3.7/site-packages/gym/utils/passive_env_checker.py:235: UserWarning: [33mWARN: Expects `done` signal to be a boolean, actual type: <class 'numpy.float64'>[0m
+  f"Expects `done` signal to be a boolean, actual type: {type(done)}"
+/home/harvey/anaconda3/envs/cs285/lib/python3.7/site-packages/gym/utils/seeding.py:54: DeprecationWarning: [33mWARN: Function `rng.randn(*size)` is marked as deprecated and will be removed in the future. Please use `rng.standard_normal(size)` instead.[0m
+  "Function `rng.randn(*size)` is marked as deprecated "
+
+
+
+LOGGING TO:  /home/harvey/Documents/cs285/homework_fall2022/hw4/cs285/scripts/../../data/hw4_q1_cheetah_n500_arch1x32_cheetah-cs285-v0_01-11-2022_11-42-29 
+
+
+
+########################
+logging outputs to  /home/harvey/Documents/cs285/homework_fall2022/hw4/cs285/scripts/../../data/hw4_q1_cheetah_n500_arch1x32_cheetah-cs285-v0_01-11-2022_11-42-29
+########################
+Using GPU id 0
+Using action sampling strategy: random
+
+
+********** Iteration 0 ************
+
+Collecting data to be used for training...
+At timestep:     501 / 20000At timestep:     1002 / 20000At timestep:     1503 / 20000At timestep:     2004 / 20000At timestep:     2505 / 20000At timestep:     3006 / 20000At timestep:     3507 / 20000At timestep:     4008 / 20000At timestep:     4509 / 20000At timestep:     5010 / 20000At timestep:     5511 / 20000At timestep:     6012 / 20000At timestep:     6513 / 20000At timestep:     7014 / 20000At timestep:     7515 / 20000At timestep:     8016 / 20000At timestep:     8517 / 20000At timestep:     9018 / 20000At timestep:     9519 / 20000At timestep:     10020 / 20000At timestep:     10521 / 20000At timestep:     11022 / 20000At timestep:     11523 / 20000At timestep:     12024 / 20000At timestep:     12525 / 20000At timestep:     13026 / 20000At timestep:     13527 / 20000At timestep:     14028 / 20000At timestep:     14529 / 20000At timestep:     15030 / 20000At timestep:     15531 / 20000At timestep:     16032 / 20000At timestep:     16533 / 20000At timestep:     17034 / 20000At timestep:     17535 / 20000At timestep:     18036 / 20000At timestep:     18537 / 20000At timestep:     19038 / 20000At timestep:     19539 / 20000At timestep:     20040 / 20000
+Training agent...
+/home/harvey/anaconda3/envs/cs285/lib/python3.7/site-packages/gym/core.py:318: DeprecationWarning: [33mWARN: Initializing wrapper in old step API which returns one bool instead of two. It is recommended to set `new_step_api=True` to use new step API. This will be the default behaviour in future.[0m
+  "Initializing wrapper in old step API which returns one bool instead of two. It is recommended to set `new_step_api=True` to use new step API. This will be the default behaviour in future."
+/home/harvey/anaconda3/envs/cs285/lib/python3.7/site-packages/gym/wrappers/step_api_compatibility.py:40: DeprecationWarning: [33mWARN: Initializing environment in old step API which returns one bool instead of two. It is recommended to set `new_step_api=True` to use new step API. This will be the default behaviour in future.[0m
+  "Initializing environment in old step API which returns one bool instead of two. It is recommended to set `new_step_api=True` to use new step API. This will be the default behaviour in future."
+/home/harvey/anaconda3/envs/cs285/lib/python3.7/site-packages/gym/core.py:257: DeprecationWarning: [33mWARN: Function `env.seed(seed)` is marked as deprecated and will be removed in the future. Please use `env.reset(seed=seed)` instead.[0m
+  "Function `env.seed(seed)` is marked as deprecated and will be removed in the future. "
+/home/harvey/anaconda3/envs/cs285/lib/python3.7/site-packages/gym/utils/seeding.py:54: DeprecationWarning: [33mWARN: Function `rng.randn(*size)` is marked as deprecated and will be removed in the future. Please use `rng.standard_normal(size)` instead.[0m
+  "Function `rng.randn(*size)` is marked as deprecated "
+/home/harvey/anaconda3/envs/cs285/lib/python3.7/site-packages/gym/utils/passive_env_checker.py:228: DeprecationWarning: [33mWARN: Core environment is written in old step API which returns one bool instead of two. It is recommended to rewrite the environment with new step API. [0m
+  "Core environment is written in old step API which returns one bool instead of two. "
+/home/harvey/anaconda3/envs/cs285/lib/python3.7/site-packages/gym/utils/passive_env_checker.py:235: UserWarning: [33mWARN: Expects `done` signal to be a boolean, actual type: <class 'numpy.float64'>[0m
+  f"Expects `done` signal to be a boolean, actual type: {type(done)}"
+/home/harvey/anaconda3/envs/cs285/lib/python3.7/site-packages/gym/utils/seeding.py:54: DeprecationWarning: [33mWARN: Function `rng.randn(*size)` is marked as deprecated and will be removed in the future. Please use `rng.standard_normal(size)` instead.[0m
+  "Function `rng.randn(*size)` is marked as deprecated "
+
+
+
+LOGGING TO:  /home/harvey/Documents/cs285/homework_fall2022/hw4/cs285/scripts/../../data/hw4_q1_cheetah_n5_arch2x250_cheetah-cs285-v0_01-11-2022_11-42-37 
+
+
+
+########################
+logging outputs to  /home/harvey/Documents/cs285/homework_fall2022/hw4/cs285/scripts/../../data/hw4_q1_cheetah_n5_arch2x250_cheetah-cs285-v0_01-11-2022_11-42-37
+########################
+Using GPU id 0
+Using action sampling strategy: random
+
+
+********** Iteration 0 ************
+
+Collecting data to be used for training...
+At timestep:     501 / 20000At timestep:     1002 / 20000At timestep:     1503 / 20000At timestep:     2004 / 20000At timestep:     2505 / 20000At timestep:     3006 / 20000At timestep:     3507 / 20000At timestep:     4008 / 20000At timestep:     4509 / 20000At timestep:     5010 / 20000At timestep:     5511 / 20000At timestep:     6012 / 20000At timestep:     6513 / 20000At timestep:     7014 / 20000At timestep:     7515 / 20000At timestep:     8016 / 20000At timestep:     8517 / 20000At timestep:     9018 / 20000At timestep:     9519 / 20000At timestep:     10020 / 20000At timestep:     10521 / 20000At timestep:     11022 / 20000At timestep:     11523 / 20000At timestep:     12024 / 20000At timestep:     12525 / 20000At timestep:     13026 / 20000At timestep:     13527 / 20000At timestep:     14028 / 20000At timestep:     14529 / 20000At timestep:     15030 / 20000At timestep:     15531 / 20000At timestep:     16032 / 20000At timestep:     16533 / 20000At timestep:     17034 / 20000At timestep:     17535 / 20000At timestep:     18036 / 20000At timestep:     18537 / 20000At timestep:     19038 / 20000At timestep:     19539 / 20000At timestep:     20040 / 20000
+Training agent...
+/home/harvey/anaconda3/envs/cs285/lib/python3.7/site-packages/gym/core.py:318: DeprecationWarning: [33mWARN: Initializing wrapper in old step API which returns one bool instead of two. It is recommended to set `new_step_api=True` to use new step API. This will be the default behaviour in future.[0m
+  "Initializing wrapper in old step API which returns one bool instead of two. It is recommended to set `new_step_api=True` to use new step API. This will be the default behaviour in future."
+/home/harvey/anaconda3/envs/cs285/lib/python3.7/site-packages/gym/wrappers/step_api_compatibility.py:40: DeprecationWarning: [33mWARN: Initializing environment in old step API which returns one bool instead of two. It is recommended to set `new_step_api=True` to use new step API. This will be the default behaviour in future.[0m
+  "Initializing environment in old step API which returns one bool instead of two. It is recommended to set `new_step_api=True` to use new step API. This will be the default behaviour in future."
+/home/harvey/anaconda3/envs/cs285/lib/python3.7/site-packages/gym/core.py:257: DeprecationWarning: [33mWARN: Function `env.seed(seed)` is marked as deprecated and will be removed in the future. Please use `env.reset(seed=seed)` instead.[0m
+  "Function `env.seed(seed)` is marked as deprecated and will be removed in the future. "
+/home/harvey/anaconda3/envs/cs285/lib/python3.7/site-packages/gym/utils/seeding.py:54: DeprecationWarning: [33mWARN: Function `rng.randn(*size)` is marked as deprecated and will be removed in the future. Please use `rng.standard_normal(size)` instead.[0m
+  "Function `rng.randn(*size)` is marked as deprecated "
+/home/harvey/anaconda3/envs/cs285/lib/python3.7/site-packages/gym/utils/passive_env_checker.py:228: DeprecationWarning: [33mWARN: Core environment is written in old step API which returns one bool instead of two. It is recommended to rewrite the environment with new step API. [0m
+  "Core environment is written in old step API which returns one bool instead of two. "
+/home/harvey/anaconda3/envs/cs285/lib/python3.7/site-packages/gym/utils/passive_env_checker.py:235: UserWarning: [33mWARN: Expects `done` signal to be a boolean, actual type: <class 'numpy.float64'>[0m
+  f"Expects `done` signal to be a boolean, actual type: {type(done)}"
+/home/harvey/anaconda3/envs/cs285/lib/python3.7/site-packages/gym/utils/seeding.py:54: DeprecationWarning: [33mWARN: Function `rng.randn(*size)` is marked as deprecated and will be removed in the future. Please use `rng.standard_normal(size)` instead.[0m
+  "Function `rng.randn(*size)` is marked as deprecated "
+
+
+
+LOGGING TO:  /home/harvey/Documents/cs285/homework_fall2022/hw4/cs285/scripts/../../data/hw4_q1_cheetah_n500_arch2x250_cheetah-cs285-v0_01-11-2022_11-42-44 
+
+
+
+########################
+logging outputs to  /home/harvey/Documents/cs285/homework_fall2022/hw4/cs285/scripts/../../data/hw4_q1_cheetah_n500_arch2x250_cheetah-cs285-v0_01-11-2022_11-42-44
+########################
+Using GPU id 0
+Using action sampling strategy: random
+
+
+********** Iteration 0 ************
+
+Collecting data to be used for training...
+At timestep:     501 / 20000At timestep:     1002 / 20000At timestep:     1503 / 20000At timestep:     2004 / 20000At timestep:     2505 / 20000At timestep:     3006 / 20000At timestep:     3507 / 20000At timestep:     4008 / 20000At timestep:     4509 / 20000At timestep:     5010 / 20000At timestep:     5511 / 20000At timestep:     6012 / 20000At timestep:     6513 / 20000At timestep:     7014 / 20000At timestep:     7515 / 20000At timestep:     8016 / 20000At timestep:     8517 / 20000At timestep:     9018 / 20000At timestep:     9519 / 20000At timestep:     10020 / 20000At timestep:     10521 / 20000At timestep:     11022 / 20000At timestep:     11523 / 20000At timestep:     12024 / 20000At timestep:     12525 / 20000At timestep:     13026 / 20000At timestep:     13527 / 20000At timestep:     14028 / 20000At timestep:     14529 / 20000At timestep:     15030 / 20000At timestep:     15531 / 20000At timestep:     16032 / 20000At timestep:     16533 / 20000At timestep:     17034 / 20000At timestep:     17535 / 20000At timestep:     18036 / 20000At timestep:     18537 / 20000At timestep:     19038 / 20000At timestep:     19539 / 20000At timestep:     20040 / 20000
+Training agent...

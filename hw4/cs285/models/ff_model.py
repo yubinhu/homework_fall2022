@@ -78,8 +78,17 @@ class FFModel(nn.Module, BaseModel):
                 unnormalized) output of the delta network. This is needed
         """
         # normalize input data to mean 0, std 1
-        obs_normalized = normalize(obs_unnormalized, obs_mean, obs_std)
-        acs_normalized = normalize(acs_unnormalized, acs_mean, acs_std)
+        obs_unnormalized = ptu.from_numpy(obs_unnormalized)
+        obs_mean = ptu.from_numpy(obs_mean)
+        obs_std = ptu.from_numpy(obs_std)
+        acs_unnormalized = ptu.from_numpy(acs_unnormalized)
+        acs_mean = ptu.from_numpy(acs_mean)
+        acs_std = ptu.from_numpy(acs_std)
+        delta_mean = ptu.from_numpy(delta_mean)
+        delta_std = ptu.from_numpy(delta_std)
+        
+        obs_normalized = (normalize(obs_unnormalized, obs_mean, obs_std))
+        acs_normalized = (normalize(acs_unnormalized, acs_mean, acs_std))
 
         # predicted change in obs
         concatenated_input = torch.cat([obs_normalized, acs_normalized], dim=1)
@@ -129,8 +138,8 @@ class FFModel(nn.Module, BaseModel):
              - 'delta_std'
         :return:
         """
-        target = normalize(next_observations-observations,
-                           data_statistics['delta_mean', data_statistics['delta_std']])
+        target = ptu.from_numpy(normalize(next_observations-observations,
+                           data_statistics['delta_mean'], data_statistics['delta_std']))
         # Hint: you should use `data_statistics['delta_mean']` and
         # `data_statistics['delta_std']`, which keep track of the mean
         # and standard deviation of the model.
