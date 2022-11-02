@@ -1,0 +1,1398 @@
+
+
+
+LOGGING TO:  /home/harvey/Documents/cs285/homework_fall2022/hw4/cs285/scripts/../../data/hw4_q3_obstacles_obstacles-cs285-v0_02-11-2022_00-31-58 
+
+
+
+########################
+logging outputs to  /home/harvey/Documents/cs285/homework_fall2022/hw4/cs285/scripts/../../data/hw4_q3_obstacles_obstacles-cs285-v0_02-11-2022_00-31-58
+########################
+Using GPU id 0
+Using action sampling strategy: random
+
+
+********** Iteration 0 ************
+
+Collecting data to be used for training...
+At timestep:     101 / 5000At timestep:     202 / 5000At timestep:     303 / 5000At timestep:     404 / 5000At timestep:     505 / 5000At timestep:     606 / 5000At timestep:     707 / 5000At timestep:     808 / 5000At timestep:     909 / 5000At timestep:     1010 / 5000At timestep:     1111 / 5000At timestep:     1212 / 5000At timestep:     1313 / 5000At timestep:     1414 / 5000At timestep:     1515 / 5000At timestep:     1616 / 5000At timestep:     1717 / 5000At timestep:     1818 / 5000At timestep:     1919 / 5000At timestep:     2020 / 5000At timestep:     2121 / 5000At timestep:     2222 / 5000At timestep:     2323 / 5000At timestep:     2424 / 5000At timestep:     2525 / 5000At timestep:     2626 / 5000At timestep:     2727 / 5000At timestep:     2828 / 5000At timestep:     2929 / 5000At timestep:     3030 / 5000At timestep:     3131 / 5000At timestep:     3232 / 5000At timestep:     3333 / 5000At timestep:     3434 / 5000At timestep:     3535 / 5000At timestep:     3636 / 5000At timestep:     3737 / 5000At timestep:     3838 / 5000At timestep:     3939 / 5000At timestep:     4040 / 5000At timestep:     4141 / 5000At timestep:     4242 / 5000At timestep:     4343 / 5000At timestep:     4444 / 5000At timestep:     4545 / 5000At timestep:     4646 / 5000At timestep:     4747 / 5000At timestep:     4848 / 5000At timestep:     4949 / 5000At timestep:     5050 / 5000
+Training agent...
+
+Beginning logging procedure...
+
+Collecting data for eval...
+At timestep:     24 / 400At timestep:     47 / 400At timestep:     76 / 400At timestep:     94 / 400At timestep:     137 / 400At timestep:     166 / 400At timestep:     185 / 400At timestep:     274 / 400At timestep:     313 / 400At timestep:     332 / 400At timestep:     362 / 400At timestep:     386 / 400At timestep:     404 / 400Eval_AverageReturn : -30.263151168823242
+Eval_StdReturn : 24.481287002563477
+Eval_MaxReturn : -12.71245002746582
+Eval_MinReturn : -108.70587158203125
+Eval_AverageEpLen : 31.076923076923077
+Train_AverageReturn : -163.6405487060547
+Train_StdReturn : 34.4285888671875
+Train_MaxReturn : -90.67053985595703
+Train_MinReturn : -227.8916473388672
+Train_AverageEpLen : 101.0
+Train_EnvstepsSoFar : 5050
+TimeSinceStart : 8.641151428222656
+Training Loss : 0.3172035217285156
+Initial_DataCollection_AverageReturn : -163.6405487060547
+Done logging...
+
+
+
+
+********** Iteration 1 ************
+
+Collecting data to be used for training...
+At timestep:     27 / 1000At timestep:     48 / 1000At timestep:     63 / 1000At timestep:     93 / 1000At timestep:     111 / 1000At timestep:     138 / 1000At timestep:     155 / 1000At timestep:     256 / 1000At timestep:     285 / 1000At timestep:     301 / 1000At timestep:     322 / 1000At timestep:     423 / 1000At timestep:     438 / 1000At timestep:     497 / 1000At timestep:     517 / 1000At timestep:     537 / 1000At timestep:     552 / 1000At timestep:     574 / 1000At timestep:     629 / 1000At timestep:     681 / 1000At timestep:     713 / 1000At timestep:     814 / 1000At timestep:     915 / 1000At timestep:     1016 / 1000
+Training agent...
+
+Beginning logging procedure...
+
+Collecting data for eval...
+At timestep:     43 / 400At timestep:     60 / 400At timestep:     81 / 400At timestep:     101 / 400At timestep:     131 / 400At timestep:     149 / 400At timestep:     180 / 400At timestep:     206 / 400At timestep:     223 / 400At timestep:     241 / 400At timestep:     266 / 400At timestep:     298 / 400At timestep:     323 / 400At timestep:     399 / 400At timestep:     428 / 400Eval_AverageReturn : -26.98493766784668
+Eval_StdReturn : 19.012510299682617
+Eval_MaxReturn : -9.171807289123535
+Eval_MinReturn : -85.61963653564453
+Eval_AverageEpLen : 28.533333333333335
+Train_AverageReturn : -56.69278335571289
+Train_StdReturn : 64.79425811767578
+Train_MaxReturn : -8.476840019226074
+Train_MinReturn : -188.48545837402344
+Train_AverageEpLen : 42.333333333333336
+Train_EnvstepsSoFar : 6066
+TimeSinceStart : 35.919981718063354
+Training Loss : 0.3889557421207428
+Initial_DataCollection_AverageReturn : -163.6405487060547
+Done logging...
+
+
+
+
+********** Iteration 2 ************
+
+Collecting data to be used for training...
+At timestep:     51 / 1000At timestep:     77 / 1000At timestep:     150 / 1000At timestep:     172 / 1000At timestep:     195 / 1000At timestep:     210 / 1000At timestep:     302 / 1000At timestep:     403 / 1000At timestep:     428 / 1000At timestep:     442 / 1000At timestep:     470 / 1000At timestep:     495 / 1000At timestep:     557 / 1000At timestep:     582 / 1000At timestep:     623 / 1000At timestep:     644 / 1000At timestep:     667 / 1000At timestep:     687 / 1000At timestep:     710 / 1000At timestep:     734 / 1000At timestep:     757 / 1000At timestep:     780 / 1000At timestep:     801 / 1000At timestep:     831 / 1000At timestep:     848 / 1000At timestep:     885 / 1000At timestep:     913 / 1000At timestep:     1014 / 1000
+Training agent...
+
+Beginning logging procedure...
+
+Collecting data for eval...
+At timestep:     18 / 400At timestep:     34 / 400At timestep:     77 / 400At timestep:     103 / 400At timestep:     154 / 400At timestep:     178 / 400At timestep:     201 / 400At timestep:     231 / 400At timestep:     332 / 400At timestep:     355 / 400At timestep:     456 / 400Eval_AverageReturn : -42.927852630615234
+Eval_StdReturn : 39.1727180480957
+Eval_MaxReturn : -10.570991516113281
+Eval_MinReturn : -127.0127182006836
+Eval_AverageEpLen : 41.45454545454545
+Train_AverageReturn : -42.6104621887207
+Train_StdReturn : 47.78700637817383
+Train_MaxReturn : -8.20486068725586
+Train_MinReturn : -186.69723510742188
+Train_AverageEpLen : 36.214285714285715
+Train_EnvstepsSoFar : 7080
+TimeSinceStart : 64.48245096206665
+Training Loss : 0.39618968963623047
+Initial_DataCollection_AverageReturn : -163.6405487060547
+Done logging...
+
+
+
+
+********** Iteration 3 ************
+
+Collecting data to be used for training...
+At timestep:     72 / 1000At timestep:     105 / 1000At timestep:     130 / 1000At timestep:     190 / 1000At timestep:     210 / 1000At timestep:     232 / 1000At timestep:     278 / 1000At timestep:     306 / 1000At timestep:     324 / 1000At timestep:     340 / 1000At timestep:     383 / 1000At timestep:     407 / 1000At timestep:     434 / 1000At timestep:     459 / 1000At timestep:     478 / 1000At timestep:     499 / 1000At timestep:     521 / 1000At timestep:     541 / 1000At timestep:     636 / 1000At timestep:     657 / 1000At timestep:     675 / 1000At timestep:     691 / 1000At timestep:     713 / 1000At timestep:     732 / 1000At timestep:     756 / 1000At timestep:     822 / 1000At timestep:     895 / 1000At timestep:     909 / 1000At timestep:     967 / 1000At timestep:     985 / 1000At timestep:     1069 / 1000
+Training agent...
+
+Beginning logging procedure...
+
+Collecting data for eval...
+At timestep:     83 / 400At timestep:     119 / 400At timestep:     135 / 400At timestep:     150 / 400At timestep:     188 / 400At timestep:     212 / 400At timestep:     254 / 400At timestep:     333 / 400At timestep:     383 / 400At timestep:     410 / 400Eval_AverageReturn : -41.98633575439453
+Eval_StdReturn : 29.84848976135254
+Eval_MaxReturn : -9.57956314086914
+Eval_MinReturn : -96.36624908447266
+Eval_AverageEpLen : 41.0
+Train_AverageReturn : -32.567928314208984
+Train_StdReturn : 27.71111488342285
+Train_MaxReturn : -9.191932678222656
+Train_MinReturn : -99.71170043945312
+Train_AverageEpLen : 34.483870967741936
+Train_EnvstepsSoFar : 8149
+TimeSinceStart : 94.05689978599548
+Training Loss : 0.39688825607299805
+Initial_DataCollection_AverageReturn : -163.6405487060547
+Done logging...
+
+
+
+
+********** Iteration 4 ************
+
+Collecting data to be used for training...
+At timestep:     43 / 1000At timestep:     69 / 1000At timestep:     98 / 1000At timestep:     133 / 1000At timestep:     232 / 1000At timestep:     264 / 1000At timestep:     309 / 1000At timestep:     326 / 1000At timestep:     349 / 1000At timestep:     374 / 1000At timestep:     405 / 1000At timestep:     462 / 1000At timestep:     477 / 1000At timestep:     521 / 1000At timestep:     549 / 1000At timestep:     570 / 1000At timestep:     597 / 1000At timestep:     640 / 1000At timestep:     674 / 1000At timestep:     723 / 1000At timestep:     738 / 1000At timestep:     761 / 1000At timestep:     796 / 1000At timestep:     816 / 1000At timestep:     844 / 1000At timestep:     862 / 1000At timestep:     887 / 1000At timestep:     910 / 1000At timestep:     925 / 1000At timestep:     939 / 1000At timestep:     965 / 1000At timestep:     981 / 1000At timestep:     1005 / 1000
+Training agent...
+
+Beginning logging procedure...
+
+Collecting data for eval...
+At timestep:     22 / 400At timestep:     61 / 400At timestep:     81 / 400At timestep:     110 / 400At timestep:     134 / 400At timestep:     163 / 400At timestep:     176 / 400At timestep:     193 / 400At timestep:     223 / 400At timestep:     250 / 400At timestep:     266 / 400At timestep:     332 / 400At timestep:     359 / 400At timestep:     388 / 400At timestep:     410 / 400Eval_AverageReturn : -25.390939712524414
+Eval_StdReturn : 14.333970069885254
+Eval_MaxReturn : -7.947649955749512
+Eval_MinReturn : -69.27891540527344
+Eval_AverageEpLen : 27.333333333333332
+Train_AverageReturn : -29.357402801513672
+Train_StdReturn : 26.18572425842285
+Train_MaxReturn : -8.313626289367676
+Train_MinReturn : -155.8484344482422
+Train_AverageEpLen : 30.454545454545453
+Train_EnvstepsSoFar : 9154
+TimeSinceStart : 123.12251830101013
+Training Loss : 0.4039864242076874
+Initial_DataCollection_AverageReturn : -163.6405487060547
+Done logging...
+
+
+
+
+********** Iteration 5 ************
+
+Collecting data to be used for training...
+At timestep:     24 / 1000At timestep:     44 / 1000At timestep:     80 / 1000At timestep:     103 / 1000At timestep:     139 / 1000At timestep:     156 / 1000At timestep:     190 / 1000At timestep:     219 / 1000At timestep:     242 / 1000At timestep:     305 / 1000At timestep:     323 / 1000At timestep:     346 / 1000At timestep:     362 / 1000At timestep:     387 / 1000At timestep:     453 / 1000At timestep:     475 / 1000At timestep:     505 / 1000At timestep:     537 / 1000At timestep:     564 / 1000At timestep:     596 / 1000At timestep:     615 / 1000At timestep:     642 / 1000At timestep:     668 / 1000At timestep:     684 / 1000At timestep:     785 / 1000At timestep:     828 / 1000At timestep:     862 / 1000At timestep:     878 / 1000At timestep:     907 / 1000At timestep:     958 / 1000At timestep:     983 / 1000At timestep:     999 / 1000At timestep:     1033 / 1000
+Training agent...
+
+Beginning logging procedure...
+
+Collecting data for eval...
+At timestep:     17 / 400At timestep:     51 / 400At timestep:     75 / 400At timestep:     94 / 400At timestep:     159 / 400At timestep:     181 / 400At timestep:     206 / 400At timestep:     289 / 400At timestep:     323 / 400At timestep:     348 / 400At timestep:     377 / 400At timestep:     395 / 400At timestep:     416 / 400Eval_AverageReturn : -32.876522064208984
+Eval_StdReturn : 31.23786735534668
+Eval_MaxReturn : -11.452277183532715
+Eval_MinReturn : -131.42050170898438
+Eval_AverageEpLen : 32.0
+Train_AverageReturn : -32.87446212768555
+Train_StdReturn : 32.47636413574219
+Train_MaxReturn : -9.120068550109863
+Train_MinReturn : -183.07861328125
+Train_AverageEpLen : 31.303030303030305
+Train_EnvstepsSoFar : 10187
+TimeSinceStart : 155.29040384292603
+Training Loss : 0.4069417715072632
+Initial_DataCollection_AverageReturn : -163.6405487060547
+Done logging...
+
+
+
+
+********** Iteration 6 ************
+
+Collecting data to be used for training...
+At timestep:     30 / 1000At timestep:     55 / 1000At timestep:     76 / 1000At timestep:     111 / 1000At timestep:     133 / 1000At timestep:     153 / 1000At timestep:     179 / 1000At timestep:     194 / 1000At timestep:     213 / 1000At timestep:     235 / 1000At timestep:     276 / 1000At timestep:     303 / 1000At timestep:     320 / 1000At timestep:     343 / 1000At timestep:     364 / 1000At timestep:     391 / 1000At timestep:     413 / 1000At timestep:     436 / 1000At timestep:     462 / 1000At timestep:     484 / 1000At timestep:     509 / 1000At timestep:     544 / 1000At timestep:     566 / 1000At timestep:     586 / 1000At timestep:     625 / 1000At timestep:     649 / 1000At timestep:     702 / 1000At timestep:     784 / 1000At timestep:     807 / 1000At timestep:     824 / 1000At timestep:     868 / 1000At timestep:     884 / 1000At timestep:     908 / 1000At timestep:     924 / 1000At timestep:     950 / 1000At timestep:     999 / 1000At timestep:     1026 / 1000
+Training agent...
+
+Beginning logging procedure...
+
+Collecting data for eval...
+At timestep:     35 / 400At timestep:     58 / 400At timestep:     89 / 400At timestep:     104 / 400At timestep:     129 / 400At timestep:     150 / 400At timestep:     173 / 400At timestep:     196 / 400At timestep:     238 / 400At timestep:     261 / 400At timestep:     278 / 400At timestep:     300 / 400At timestep:     326 / 400At timestep:     347 / 400At timestep:     401 / 400Eval_AverageReturn : -24.974376678466797
+Eval_StdReturn : 14.648033142089844
+Eval_MaxReturn : -8.357959747314453
+Eval_MinReturn : -60.211185455322266
+Eval_AverageEpLen : 26.733333333333334
+Train_AverageReturn : -27.078834533691406
+Train_StdReturn : 21.350107192993164
+Train_MaxReturn : -8.619129180908203
+Train_MinReturn : -127.470703125
+Train_AverageEpLen : 27.72972972972973
+Train_EnvstepsSoFar : 11213
+TimeSinceStart : 185.34474658966064
+Training Loss : 0.4015129506587982
+Initial_DataCollection_AverageReturn : -163.6405487060547
+Done logging...
+
+
+
+
+********** Iteration 7 ************
+
+Collecting data to be used for training...
+At timestep:     27 / 1000At timestep:     46 / 1000At timestep:     80 / 1000At timestep:     127 / 1000At timestep:     144 / 1000At timestep:     163 / 1000At timestep:     189 / 1000At timestep:     205 / 1000At timestep:     227 / 1000At timestep:     314 / 1000At timestep:     335 / 1000At timestep:     425 / 1000At timestep:     490 / 1000At timestep:     542 / 1000At timestep:     557 / 1000At timestep:     597 / 1000At timestep:     630 / 1000At timestep:     656 / 1000At timestep:     682 / 1000At timestep:     762 / 1000At timestep:     813 / 1000At timestep:     840 / 1000At timestep:     867 / 1000At timestep:     925 / 1000At timestep:     969 / 1000At timestep:     986 / 1000At timestep:     1010 / 1000
+Training agent...
+
+Beginning logging procedure...
+
+Collecting data for eval...
+At timestep:     30 / 400At timestep:     46 / 400At timestep:     78 / 400At timestep:     107 / 400At timestep:     158 / 400At timestep:     173 / 400At timestep:     201 / 400At timestep:     227 / 400At timestep:     253 / 400At timestep:     277 / 400At timestep:     344 / 400At timestep:     362 / 400At timestep:     403 / 400Eval_AverageReturn : -28.73512077331543
+Eval_StdReturn : 18.74089241027832
+Eval_MaxReturn : -8.496576309204102
+Eval_MinReturn : -78.26710510253906
+Eval_AverageEpLen : 31.0
+Train_AverageReturn : -39.596160888671875
+Train_StdReturn : 32.045989990234375
+Train_MaxReturn : -8.489358901977539
+Train_MinReturn : -147.63780212402344
+Train_AverageEpLen : 37.407407407407405
+Train_EnvstepsSoFar : 12223
+TimeSinceStart : 214.05404448509216
+Training Loss : 0.4178837239742279
+Initial_DataCollection_AverageReturn : -163.6405487060547
+Done logging...
+
+
+
+
+********** Iteration 8 ************
+
+Collecting data to be used for training...
+At timestep:     44 / 1000At timestep:    /home/harvey/anaconda3/envs/cs285/lib/python3.7/site-packages/gym/spaces/box.py:128: UserWarning: [33mWARN: Box bound precision lowered by casting to float32[0m
+  logger.warn(f"Box bound precision lowered by casting to {self.dtype}")
+/home/harvey/anaconda3/envs/cs285/lib/python3.7/site-packages/gym/core.py:318: DeprecationWarning: [33mWARN: Initializing wrapper in old step API which returns one bool instead of two. It is recommended to set `new_step_api=True` to use new step API. This will be the default behaviour in future.[0m
+  "Initializing wrapper in old step API which returns one bool instead of two. It is recommended to set `new_step_api=True` to use new step API. This will be the default behaviour in future."
+/home/harvey/anaconda3/envs/cs285/lib/python3.7/site-packages/gym/wrappers/step_api_compatibility.py:40: DeprecationWarning: [33mWARN: Initializing environment in old step API which returns one bool instead of two. It is recommended to set `new_step_api=True` to use new step API. This will be the default behaviour in future.[0m
+  "Initializing environment in old step API which returns one bool instead of two. It is recommended to set `new_step_api=True` to use new step API. This will be the default behaviour in future."
+/home/harvey/anaconda3/envs/cs285/lib/python3.7/site-packages/gym/utils/passive_env_checker.py:191: UserWarning: [33mWARN: Future gym versions will require that `Env.reset` can be passed `return_info` to return information from the environment resetting.[0m
+  "Future gym versions will require that `Env.reset` can be passed `return_info` to return information from the environment resetting."
+/home/harvey/anaconda3/envs/cs285/lib/python3.7/site-packages/gym/utils/passive_env_checker.py:196: UserWarning: [33mWARN: Future gym versions will require that `Env.reset` can be passed `options` to allow the environment initialisation to be passed additional information.[0m
+  "Future gym versions will require that `Env.reset` can be passed `options` to allow the environment initialisation to be passed additional information."
+/home/harvey/anaconda3/envs/cs285/lib/python3.7/site-packages/gym/utils/passive_env_checker.py:142: UserWarning: [33mWARN: The obs returned by the `reset()` method was expecting numpy array dtype to be float32, actual type: float64[0m
+  f"{pre} was expecting numpy array dtype to be {observation_space.dtype}, actual type: {obs.dtype}"
+/home/harvey/anaconda3/envs/cs285/lib/python3.7/site-packages/gym/utils/passive_env_checker.py:165: UserWarning: [33mWARN: The obs returned by the `reset()` method is not within the observation space.[0m
+  logger.warn(f"{pre} is not within the observation space.")
+/home/harvey/anaconda3/envs/cs285/lib/python3.7/site-packages/gym/utils/passive_env_checker.py:228: DeprecationWarning: [33mWARN: Core environment is written in old step API which returns one bool instead of two. It is recommended to rewrite the environment with new step API. [0m
+  "Core environment is written in old step API which returns one bool instead of two. "
+/home/harvey/anaconda3/envs/cs285/lib/python3.7/site-packages/gym/utils/passive_env_checker.py:235: UserWarning: [33mWARN: Expects `done` signal to be a boolean, actual type: <class 'numpy.float64'>[0m
+  f"Expects `done` signal to be a boolean, actual type: {type(done)}"
+/home/harvey/anaconda3/envs/cs285/lib/python3.7/site-packages/gym/utils/passive_env_checker.py:142: UserWarning: [33mWARN: The obs returned by the `step()` method was expecting numpy array dtype to be float32, actual type: float64[0m
+  f"{pre} was expecting numpy array dtype to be {observation_space.dtype}, actual type: {obs.dtype}"
+/home/harvey/anaconda3/envs/cs285/lib/python3.7/site-packages/gym/utils/passive_env_checker.py:165: UserWarning: [33mWARN: The obs returned by the `step()` method is not within the observation space.[0m
+  logger.warn(f"{pre} is not within the observation space.")
+ 95 / 1000At timestep:     128 / 1000At timestep:     156 / 1000At timestep:     175 / 1000At timestep:     216 / 1000At timestep:     237 / 1000At timestep:     255 / 1000At timestep:     281 / 1000At timestep:     300 / 1000At timestep:     319 / 1000At timestep:     340 / 1000At timestep:     381 / 1000At timestep:     403 / 1000At timestep:     436 / 1000At timestep:     470 / 1000At timestep:     505 / 1000At timestep:     531 / 1000At timestep:     580 / 1000At timestep:     595 / 1000At timestep:     613 / 1000At timestep:     635 / 1000At timestep:     666 / 1000At timestep:     686 / 1000At timestep:     740 / 1000At timestep:     762 / 1000At timestep:     795 / 1000At timestep:     817 / 1000At timestep:     879 / 1000At timestep:     898 / 1000At timestep:     940 / 1000At timestep:     958 / 1000At timestep:     979 / 1000At timestep:     1001 / 1000
+Training agent...
+
+Beginning logging procedure...
+
+Collecting data for eval...
+At timestep:     16 / 400At timestep:     44 / 400At timestep:     72 / 400At timestep:     89 / 400At timestep:     113 / 400At timestep:     148 / 400At timestep:     175 / 400At timestep:     193 / 400At timestep:     213 / 400At timestep:     240 / 400At timestep:     266 / 400At timestep:     292 / 400At timestep:     344 / 400At timestep:     364 / 400At timestep:     390 / 400At timestep:     410 / 400Eval_AverageReturn : -22.16809844970703
+Eval_StdReturn : 14.804327964782715
+Eval_MaxReturn : -9.784408569335938
+Eval_MinReturn : -75.53021240234375
+Eval_AverageEpLen : 25.625
+Train_AverageReturn : -28.869924545288086
+Train_StdReturn : 18.033903121948242
+Train_MaxReturn : -9.085773468017578
+Train_MinReturn : -73.11389923095703
+Train_AverageEpLen : 29.441176470588236
+Train_EnvstepsSoFar : 13224
+TimeSinceStart : 242.7623052597046
+Training Loss : 0.41433966159820557
+Initial_DataCollection_AverageReturn : -163.6405487060547
+Done logging...
+
+
+
+
+********** Iteration 9 ************
+
+Collecting data to be used for training...
+At timestep:     19 / 1000At timestep:     46 / 1000At timestep:     76 / 1000At timestep:     108 / 1000At timestep:     133 / 1000At timestep:     151 / 1000At timestep:     167 / 1000At timestep:     183 / 1000At timestep:     203 / 1000At timestep:     227 / 1000At timestep:     252 / 1000At timestep:     271 / 1000At timestep:     288 / 1000At timestep:     309 / 1000At timestep:     335 / 1000At timestep:     350 / 1000At timestep:     381 / 1000At timestep:     403 / 1000At timestep:     427 / 1000At timestep:     445 / 1000At timestep:     467 / 1000At timestep:     499 / 1000At timestep:     518 / 1000At timestep:     547 / 1000At timestep:     573 / 1000At timestep:     598 / 1000At timestep:     615 / 1000At timestep:     668 / 1000At timestep:     708 / 1000At timestep:     741 / 1000At timestep:     783 / 1000At timestep:     882 / 1000At timestep:     924 / 1000At timestep:     945 / 1000At timestep:     970 / 1000At timestep:     994 / 1000At timestep:     1017 / 1000
+Training agent...
+
+Beginning logging procedure...
+
+Collecting data for eval...
+At timestep:     31 / 400At timestep:     58 / 400At timestep:     86 / 400At timestep:     116 / 400At timestep:     134 / 400At timestep:     158 / 400At timestep:     181 / 400At timestep:     219 / 400At timestep:     320 / 400At timestep:     351 / 400At timestep:     373 / 400At timestep:     389 / 400At timestep:     425 / 400Eval_AverageReturn : -36.426109313964844
+Eval_StdReturn : 39.40607452392578
+Eval_MaxReturn : -10.757561683654785
+Eval_MinReturn : -168.7849884033203
+Eval_AverageEpLen : 32.69230769230769
+Train_AverageReturn : -27.2613582611084
+Train_StdReturn : 25.32721519470215
+Train_MaxReturn : -8.65611743927002
+Train_MinReturn : -160.64520263671875
+Train_AverageEpLen : 27.486486486486488
+Train_EnvstepsSoFar : 14241
+TimeSinceStart : 272.2807466983795
+Training Loss : 0.4001959264278412
+Initial_DataCollection_AverageReturn : -163.6405487060547
+Done logging...
+
+
+
+
+********** Iteration 10 ************
+
+Collecting data to be used for training...
+At timestep:     17 / 1000At timestep:     32 / 1000At timestep:     63 / 1000At timestep:     84 / 1000At timestep:     102 / 1000At timestep:     128 / 1000At timestep:     198 / 1000At timestep:     218 / 1000At timestep:     252 / 1000At timestep:     281 / 1000At timestep:     302 / 1000At timestep:     332 / 1000At timestep:     352 / 1000At timestep:     376 / 1000At timestep:     445 / 1000At timestep:     467 / 1000At timestep:     492 / 1000At timestep:     516 / 1000At timestep:     545 / 1000At timestep:     572 / 1000At timestep:     593 / 1000At timestep:     611 / 1000At timestep:     631 / 1000At timestep:     664 / 1000At timestep:     691 / 1000At timestep:     711 / 1000At timestep:     754 / 1000At timestep:     783 / 1000At timestep:     840 / 1000At timestep:     857 / 1000At timestep:     885 / 1000At timestep:     931 / 1000At timestep:     955 / 1000At timestep:     1010 / 1000
+Training agent...
+
+Beginning logging procedure...
+
+Collecting data for eval...
+At timestep:     22 / 400At timestep:     47 / 400At timestep:     76 / 400At timestep:     103 / 400At timestep:     146 / 400At timestep:     166 / 400At timestep:     192 / 400At timestep:     224 / 400At timestep:     255 / 400At timestep:     278 / 400At timestep:     307 / 400At timestep:     350 / 400At timestep:     366 / 400At timestep:     395 / 400At timestep:     412 / 400Eval_AverageReturn : -26.7607364654541
+Eval_StdReturn : 12.489225387573242
+Eval_MaxReturn : -12.256064414978027
+Eval_MinReturn : -58.77938461303711
+Eval_AverageEpLen : 27.466666666666665
+Train_AverageReturn : -30.347021102905273
+Train_StdReturn : 20.668176651000977
+Train_MaxReturn : -9.470983505249023
+Train_MinReturn : -102.50846099853516
+Train_AverageEpLen : 29.705882352941178
+Train_EnvstepsSoFar : 15251
+TimeSinceStart : 301.4184241294861
+Training Loss : 0.4043246805667877
+Initial_DataCollection_AverageReturn : -163.6405487060547
+Done logging...
+
+
+
+
+********** Iteration 11 ************
+
+Collecting data to be used for training...
+At timestep:     48 / 1000At timestep:     67 / 1000At timestep:     85 / 1000At timestep:     141 / 1000At timestep:     159 / 1000At timestep:     188 / 1000At timestep:     218 / 1000At timestep:     246 / 1000At timestep:     273 / 1000At timestep:     295 / 1000At timestep:     321 / 1000At timestep:     349 / 1000At timestep:     376 / 1000At timestep:     398 / 1000At timestep:     446 / 1000At timestep:     482 / 1000At timestep:     501 / 1000At timestep:     527 / 1000At timestep:     543 / 1000At timestep:     557 / 1000At timestep:     604 / 1000At timestep:     622 / 1000At timestep:     651 / 1000At timestep:     686 / 1000At timestep:     704 / 1000At timestep:     734 / 1000At timestep:     757 / 1000At timestep:     774 / 1000At timestep:     810 / 1000At timestep:     825 / 1000At timestep:     848 / 1000At timestep:     939 / 1000At timestep:     958 / 1000At timestep:     1052 / 1000
+Training agent...
+
+Beginning logging procedure...
+
+Collecting data for eval...
+At timestep:     21 / 400At timestep:     45 / 400At timestep:     68 / 400At timestep:     87 / 400At timestep:     107 / 400At timestep:     151 / 400At timestep:     240 / 400At timestep:     276 / 400At timestep:     297 / 400At timestep:     322 / 400At timestep:     339 / 400At timestep:     362 / 400At timestep:     386 / 400At timestep:     411 / 400Eval_AverageReturn : -30.00228500366211
+Eval_StdReturn : 31.989564895629883
+Eval_MaxReturn : -12.322982788085938
+Eval_MinReturn : -138.97537231445312
+Eval_AverageEpLen : 29.357142857142858
+Train_AverageReturn : -31.14488983154297
+Train_StdReturn : 28.118694305419922
+Train_MaxReturn : -7.88134241104126
+Train_MinReturn : -145.6745147705078
+Train_AverageEpLen : 30.941176470588236
+Train_EnvstepsSoFar : 16303
+TimeSinceStart : 331.68700551986694
+Training Loss : 0.3992149829864502
+Initial_DataCollection_AverageReturn : -163.6405487060547
+Done logging...
+
+
+
+
+
+LOGGING TO:  /home/harvey/Documents/cs285/homework_fall2022/hw4/cs285/scripts/../../data/hw4_q3_reacher_reacher-cs285-v0_02-11-2022_00-37-33 
+
+
+
+########################
+logging outputs to  /home/harvey/Documents/cs285/homework_fall2022/hw4/cs285/scripts/../../data/hw4_q3_reacher_reacher-cs285-v0_02-11-2022_00-37-33
+########################
+Using GPU id 0
+Using action sampling strategy: random
+
+
+********** Iteration 0 ************
+
+Collecting data to be used for training...
+At timestep:     201 / 5000At timestep:     402 / 5000At timestep:     603 / 5000At timestep:     804 / 5000At timestep:     1005 / 5000At timestep:     1206 / 5000At timestep:     1407 / 5000At timestep:     1608 / 5000At timestep:     1809 / 5000At timestep:     2010 / 5000At timestep:     2211 / 5000At timestep:     2412 / 5000At timestep:     2613 / 5000At timestep:     2814 / 5000At timestep:     3015 / 5000At timestep:     3216 / 5000At timestep:     3417 / 5000At timestep:     3618 / 5000At timestep:     3819 / 5000At timestep:     4020 / 5000At timestep:     4221 / 5000At timestep:     4422 / 5000At timestep:     4623 / 5000At timestep:     4824 / 5000At timestep:     5025 / 5000
+Training agent...
+
+Beginning logging procedure...
+
+Collecting data for eval...
+At timestep:     201 / 400At timestep:     402 / 400Eval_AverageReturn : -613.611328125
+Eval_StdReturn : 75.8062744140625
+Eval_MaxReturn : -537.8050537109375
+Eval_MinReturn : -689.4176025390625
+Eval_AverageEpLen : 201.0
+Train_AverageReturn : -1860.1959228515625
+Train_StdReturn : 332.0581970214844
+Train_MaxReturn : -1283.0159912109375
+Train_MinReturn : -2515.0615234375
+Train_AverageEpLen : 201.0
+Train_EnvstepsSoFar : 5025
+TimeSinceStart : 16.90107297897339
+Training Loss : 0.15316544473171234
+Initial_DataCollection_AverageReturn : -1860.1959228515625
+Done logging...
+
+
+
+
+********** Iteration 1 ************
+
+Collecting data to be used for training...
+At timestep:     201 / 5000At timestep:     402 / 5000At timestep:     603 / 5000At timestep:     804 / 5000At timestep:     1005 / 5000At timestep:     1206 / 5000At timestep:     1407 / 5000At timestep:     1608 / 5000At timestep:     1809 / 5000At timestep:     2010 / 5000At timestep:     2211 / 5000At timestep:     2412 / 5000At timestep:     2613 / 5000At timestep:     2814 / 5000At timestep:     3015 / 5000At timestep:     3216 / 5000At timestep:     3417 / 5000At timestep:     3618 / 5000At timestep:     3819 / 5000At timestep:     4020 / 5000At timestep:     4221 / 5000At timestep:     4422 / 5000At timestep:     4623 / 5000At timestep:     4824 / 5000At timestep:     5025 / 5000
+Training agent...
+
+Beginning logging procedure...
+
+Collecting data for eval...
+At timestep:     201 / 400At timestep:     402 / 400Eval_AverageReturn : -340.05975341796875
+Eval_StdReturn : 45.38523864746094
+Eval_MaxReturn : -294.6745300292969
+Eval_MinReturn : -385.44500732421875
+Eval_AverageEpLen : 201.0
+Train_AverageReturn : -628.8524780273438
+Train_StdReturn : 141.54942321777344
+Train_MaxReturn : -318.8472595214844
+Train_MinReturn : -923.3856811523438
+Train_AverageEpLen : 201.0
+Train_EnvstepsSoFar : 10050
+TimeSinceStart : 139.67650294303894
+Training Loss : 0.1646980494260788
+Initial_DataCollection_AverageReturn : -1860.1959228515625
+Done logging...
+
+
+
+
+********** Iteration 2 ************
+
+Collecting data to be used for training...
+At timestep:     201 / 5000At timestep:     402 / 5000At timestep:     603 / 5000At timestep:     804 / 5000At timestep:     1005 / 5000At timestep:     1206 / 5000At timestep:     1407 / 5000At timestep:     1608 / 5000At timestep:     1809 / 5000At timestep:     2010 / 5000At timestep:     2211 / 5000At timestep:     2412 / 5000At timestep:     2613 / 5000At timestep:     2814 / 5000At timestep:     3015 / 5000At timestep:     3216 / 5000At timestep:     3417 / 5000At timestep:     3618 / 5000At timestep:     3819 / 5000At timestep:     4020 / 5000At timestep:     4221 / 5000At timestep:     4422 / 5000At timestep:     4623 / 5000At timestep:     4824 / 5000At timestep:     5025 / 5000
+Training agent...
+
+Beginning logging procedure...
+
+Collecting data for eval...
+At timestep:     201 / 400At timestep:     402 / 400Eval_AverageReturn : -282.3158874511719
+Eval_StdReturn : 28.792266845703125
+Eval_MaxReturn : -253.52362060546875
+Eval_MinReturn : -311.108154296875
+Eval_AverageEpLen : 201.0
+Train_AverageReturn : -413.6169128417969
+Train_StdReturn : 80.37649536132812
+Train_MaxReturn : -262.5813903808594
+Train_MinReturn : -643.66064453125
+Train_AverageEpLen : 201.0
+Train_EnvstepsSoFar : 15075
+TimeSinceStart : 263.3779716491699
+Training Loss : 0.16290943324565887
+Initial_DataCollection_AverageReturn : -1860.1959228515625
+Done logging...
+
+
+
+
+********** Iteration 3 ************
+
+Collecting data to be used for training...
+At timestep:     201 / 5000At timestep:     402 / 5000At timestep:     603 / 5000At timestep:     804 / 5000At timestep:     1005 / 5000At timestep:     1206 / 5000At timestep:     1407 / 5000At timestep:     1608 / 5000At timestep:     1809 / 5000At timestep:     2010 / 5000At timestep:     2211 / 5000At timestep:     2412 / 5000At timestep:     2613 / 5000At timestep:     2814 / 5000At timestep:     3015 / 5000At timestep:     3216 / 5000At timestep:     3417 / 5000At timestep:     3618 / 5000At timestep:     3819 / 5000At timestep:     4020 / 5000At timestep:     4221 / 5000At timestep:     4422 / 5000At timestep:     4623 / 5000At timestep:     4824 / 5000At timestep:     5025 / 5000
+Training agent...
+
+Beginning logging procedure...
+
+Collecting data for eval...
+At timestep:     201 / 400At timestep:     402 / 400Eval_AverageReturn : -293.21209716796875
+Eval_StdReturn : 22.850753784179688
+Eval_MaxReturn : -270.361328125
+Eval_MinReturn : -316.0628356933594
+Eval_AverageEpLen : 201.0
+Train_AverageReturn : -289.2962646484375
+Train_StdReturn : 28.474014282226562
+Train_MaxReturn : -255.68455505371094
+Train_MinReturn : -353.6850891113281
+Train_AverageEpLen : 201.0
+Train_EnvstepsSoFar : 20100
+TimeSinceStart : 387.6696391105652
+Training Loss : 0.15377207100391388
+Initial_DataCollection_AverageReturn : -1860.1959228515625
+Done logging...
+
+
+
+
+********** Iteration 4 ************
+
+Collecting data to be used for training...
+At timestep:     201 / 5000At timestep:     402 / 5000At timestep:     603 / 5000At timestep:     804 / 5000At timestep:     1005 / 5000At timestep:     1206 / 5000At timestep:     1407 / 5000At timestep:     1608 / 5000At timestep:     1809 / 5000At timestep:     2010 / 5000At timestep:     2211 / 5000At timestep:     2412 / 5000At timestep:     2613 / 5000At timestep:     2814 / 5000At timestep:     3015 / 5000At timestep:     3216 / 5000At timestep:     3417 / 5000At timestep:     3618 / 5000At timestep:     3819 / 5000At timestep:     4020 / 5000At timestep:     4221 / 5000At timestep:     4422 / 5000At timestep:     4623 / 5000At timestep:     4824 / 5000At timestep:     5025 / 5000
+Training agent...
+
+Beginning logging procedure...
+
+Collecting data for eval...
+At timestep:     201 / 400At timestep:     402 / 400Eval_AverageReturn : -253.99696350097656
+Eval_StdReturn : 12.350875854492188
+Eval_MaxReturn : -241.64608764648438
+Eval_MinReturn : -266.34783935546875
+Eval_AverageEpLen : 201.0
+Train_AverageReturn : -280.0067443847656
+Train_StdReturn : 26.101871490478516
+Train_MaxReturn : -241.72874450683594
+Train_MinReturn : -329.1400146484375
+Train_AverageEpLen : 201.0
+Train_EnvstepsSoFar : 25125
+TimeSinceStart : 512.888341665268
+Training Loss : 0.15225128829479218
+Initial_DataCollection_AverageReturn : -1860.1959228515625
+Done logging...
+
+
+
+
+********** Iteration 5 ************
+
+Collecting data to be used for training...
+At timestep:     201 / 5000At timestep:     402 / 5000At timestep:     603 / 5000At timestep:     804 / 5000At timestep:     1005 / 5000At timestep:     1206 / 5000At timestep:     1407 / 5000At timestep:     1608 / 5000At timestep:     1809 / 5000At timestep:     2010 / 5000At timestep:     2211 / 5000At timestep:     2412 / 5000At timestep:     2613 / 5000At timestep:     2814 / 5000At timestep:     3015 / 5000At timestep:     3216 / 5000At timestep:     3417 / 5000At timestep:     3618 / 5000At timestep:     3819 / 5000At timestep:     4020 / 5000At timestep:     4221 / 5000At timestep:     4422 / 5000At timestep:     4623 / 5000At timestep:     4824 / 5000At timestep:     5025 / 5000
+Training agent...
+
+Beginning logging procedure...
+
+Collecting data for eval...
+At timestep:     201 / 400At timestep:     402 / 400Eval_AverageReturn : -274.1679382324219
+Eval_StdReturn : 19.310943603515625
+Eval_MaxReturn : -254.85699462890625
+Eval_MinReturn : -293.4788818359375
+Eval_AverageEpLen : 201.0
+Train_AverageReturn : -266.9260559082031
+Train_StdReturn : 19.632898330688477
+Train_MaxReturn : -229.45431518554688
+Train_MinReturn : -324.0931701660156
+Train_AverageEpLen : 201.0
+Train_EnvstepsSoFar : 30150
+TimeSinceStart : 638.3273067474365
+Training Loss : 0.14500278234481812
+Initial_DataCollection_AverageReturn : -1860.1959228515625
+Done logging...
+
+
+
+
+********** Iteration 6 ************
+
+Collecting data to be used for training...
+At timestep:     201 / 5000At timestep:     402 / 5000At timestep:     603 / 5000At timestep:     804 / 5000At timestep:     1005 / 5000At timestep:     1206 / 5000At timestep:     1407 / 5000At timestep:     1608 / 5000At timestep:     1809 / 5000At timestep:     2010 / 5000At timestep:     2211 / 5000At timestep:     2412 / 5000At timestep:     2613 / 5000At timestep:     2814 / 5000At timestep:     3015 / 5000At timestep:     3216 / 5000At timestep:     3417 / 5000At timestep:     3618 / 5000At timestep:     3819 / 5000At timestep:     4020 / 5000At timestep:     4221 / 5000At timestep:     4422 / 5000At timestep:     4623 / 5000At timestep:     4824 / 5000At timestep:     5025 / 5000
+Training agent...
+
+Beginning logging procedure...
+
+Collecting data for eval...
+At timestep:     201 / 400At timestep:     402 / 400Eval_AverageReturn : -285.8308410644531
+Eval_StdReturn : 3.425048828125
+Eval_MaxReturn : -282.4057922363281
+Eval_MinReturn : -289.2558898925781
+Eval_AverageEpLen : 201.0
+Train_AverageReturn : -265.4612121582031
+Train_StdReturn : 15.853348731994629
+Train_MaxReturn : -242.3197021484375
+Train_MinReturn : -309.950439453125
+Train_AverageEpLen : 201.0
+Train_EnvstepsSoFar : 35175
+TimeSinceStart : 763.7528493404388
+Training Loss : 0.14620576798915863
+Initial_DataCollection_AverageReturn : -1860.1959228515625
+Done logging...
+
+
+
+
+********** Iteration 7 ************
+
+Collecting data to be used for training...
+At timestep:     201 / 5000At timestep:     402 / 5000At timestep:     603 / 5000At timestep:     804 / 5000At timestep:     1005 / 5000At timestep:     1206 / 5000At timestep:     1407 / 5000At timestep:     1608 / 5000At timestep:     1809 / 5000At timestep:     2010 / 5000At timestep:     2211 / 5000At timestep:     2412 / 5000At timestep:     2613 / 5000At timestep:     2814 / 5000At timestep:     3015 / 5000At timestep:     3216 / 5000At timestep:     3417 / 5000At timestep:     3618 / 5000At timestep:     3819 / 5000At timestep:     4020 / 5000At timestep:     4221 / 5000At timestep:     4422 / 5000At timestep:     4623 / 5000At timestep:     4824 / 5000At timestep:     5025 / 5000
+Training agent...
+
+Beginning logging procedure...
+
+Collecting data for eval...
+At timestep:     201 / 400At timestep:     402 / 400Eval_AverageReturn : -278.5768127441406
+Eval_StdReturn : 31.19896697998047
+Eval_MaxReturn : -247.3778533935547
+Eval_MinReturn : -309.7757873535156
+Eval_AverageEpLen : 201.0
+Train_AverageReturn : -268.2618713378906
+Train_StdReturn : 18.323017120361328
+Train_MaxReturn : -229.2379608154297
+Train_MinReturn : -315.7669677734375
+Train_AverageEpLen : 201.0
+Train_EnvstepsSoFar : 40200
+TimeSinceStart : 889.0587408542633
+Training Loss : 0.14493882656097412
+Initial_DataCollection_AverageReturn : -1860.1959228515625
+Done logging...
+
+
+
+
+********** Iteration 8 ************
+
+Collecting data to be used for training...
+At timestep:     201 / 5000At timestep:     402 / 5000At timestep:     603 / 5000At timestep:     804 / 5000At timestep:     1005 / 5000At timestep:     1206 / 5000At timestep:     1407 / 5000At timestep:     1608 / 5000At timestep:     1809 / 5000At timestep:     2010 / 5000At timestep:     2211 / 5000At timestep:     2412 / 5000At timestep:     2613 / 5000At timestep:     2814 / 5000At timestep:     3015 / 5000At timestep:     3216 / 5000At timestep:     3417 / 5000At timestep:     3618 / 5000At timestep:     3819 / 5000At timestep:     4020 / 5000At timestep:     4221 / 5000At timestep:     4422 / 5000At timestep:     4623 / 5000At timestep:     4824 / 5000At timestep:     5025 / 5000
+Training agent...
+
+Beginning logging procedure...
+
+Collecting data for eval...
+At timestep:     201 / 400At timestep:     402 / 400Eval_AverageReturn : -258.36492919921875
+Eval_StdReturn : 16.65540313720703
+Eval_MaxReturn : -241.7095184326172
+Eval_MinReturn : -275.02032470703125
+Eval_AverageEpLen : 201.0
+Train_AverageReturn : -267.5899353027344
+Train_StdReturn : 13.01325511932373
+Train_MaxReturn : -237.25381469726562
+Train_MinReturn : -291.397216796875
+Train_AverageEpLen : 201.0
+Train_EnvstepsSoFar : 45225
+TimeSinceStart : 1014.8368320465088
+Training Loss : 0.14227251708507538
+Initial_DataCollection_AverageReturn : -1860.1959228515625
+Done logging...
+
+
+
+
+********** Iteration 9 ************
+
+Collecting data to be used for training...
+At timestep:     201 / 5000At timestep:     402 / 5000At timestep:     603 / 5000At timestep:     804 / 5000At timestep:     1005 / 5000At timestep:     1206 / 5000At timestep:     1407 / 5000At timestep:     1608 / 5000At timestep:     1809 / 5000At timestep:     2010 / 5000At timestep:     2211 / 5000At timestep:     2412 / 5000At timestep:     2613 / 5000At timestep:     2814 / 5000At timestep:     3015 / 5000At timestep:     3216 / 5000At timestep:     3417 / 5000At timestep:     3618 / 5000At timestep:     3819 / 5000At timestep:     4020 / 5000At timestep:     4221 / 5000At timestep:     4422 / 5000At timestep:     4623 / 5000At timestep:     4824 / 5000At timestep:     5025 / 5000
+Training agent...
+
+Beginning logging procedure...
+
+Collecting data for eval...
+At timestep:     201 / 400At timestep:     402 / 400Eval_AverageReturn : -278.4981689453125
+Eval_StdReturn : 11.23541259765625
+Eval_MaxReturn : -267.26275634765625
+Eval_MinReturn : -289.73358154296875
+Eval_AverageEpLen : 201.0
+Train_AverageReturn : -267.5994567871094
+Train_StdReturn : 18.79411506652832
+Train_MaxReturn : -237.81858825683594
+Train_MinReturn : -307.2959289550781
+Train_AverageEpLen : 201.0
+Train_EnvstepsSoFar : 50250
+TimeSinceStart : 1142.5049057006836
+Training Loss : 0.13967913389205933
+Initial_DataCollection_AverageReturn : -1860.1959228515625
+Done logging...
+
+
+
+
+********** Iteration 10 ************
+
+Collecting data to be used for training...
+At timestep:     201 / 5000At timestep:     402 / 5000At timestep:     603 / 5000At timestep:     804 / 5000At timestep:     1005 / 5000At timestep:     1206 / 5000At timestep:     1407 / 5000At timestep:     1608 / 5000At timestep:     1809 / 5000At timestep:     2010 / 5000At timestep:     2211 / 5000At timestep:     2412 / 5000At timestep:     2613 / 5000At timestep:     2814 / 5000At timestep:     3015 / 5000At timestep:     3216 / 5000At timestep:     3417 / 5000At timestep:     3618 / 5000At timestep:     3819 / 5000At timestep:     4020 / 5000At timestep:     4221 / 5000At timestep:     4422 / 5000At timestep:     4623 / 5000At timestep:     4824 / 5000At timestep:     5025 / 5000
+Training agent...
+
+Beginning logging procedure...
+
+Collecting data for eval...
+At timestep:     201 / 400At timestep:     402 / 400Eval_AverageReturn : -264.20367431640625
+Eval_StdReturn : 2.4587554931640625
+Eval_MaxReturn : -261.7449035644531
+Eval_MinReturn : -266.66241455078125
+Eval_AverageEpLen : 201.0
+Train_AverageReturn : -273.86004638671875
+Train_StdReturn : 15.400333404541016
+Train_MaxReturn : -245.9031524658203
+Train_MinReturn : -309.3468322753906
+Train_AverageEpLen : 201.0
+Train_EnvstepsSoFar : 55275
+TimeSinceStart : 1267.4038701057434/home/harvey/anaconda3/envs/cs285/lib/python3.7/site-packages/gym/core.py:318: DeprecationWarning: [33mWARN: Initializing wrapper in old step API which returns one bool instead of two. It is recommended to set `new_step_api=True` to use new step API. This will be the default behaviour in future.[0m
+  "Initializing wrapper in old step API which returns one bool instead of two. It is recommended to set `new_step_api=True` to use new step API. This will be the default behaviour in future."
+/home/harvey/anaconda3/envs/cs285/lib/python3.7/site-packages/gym/wrappers/step_api_compatibility.py:40: DeprecationWarning: [33mWARN: Initializing environment in old step API which returns one bool instead of two. It is recommended to set `new_step_api=True` to use new step API. This will be the default behaviour in future.[0m
+  "Initializing environment in old step API which returns one bool instead of two. It is recommended to set `new_step_api=True` to use new step API. This will be the default behaviour in future."
+/home/harvey/anaconda3/envs/cs285/lib/python3.7/site-packages/gym/core.py:257: DeprecationWarning: [33mWARN: Function `env.seed(seed)` is marked as deprecated and will be removed in the future. Please use `env.reset(seed=seed)` instead.[0m
+  "Function `env.seed(seed)` is marked as deprecated and will be removed in the future. "
+/home/harvey/anaconda3/envs/cs285/lib/python3.7/site-packages/gym/utils/passive_env_checker.py:228: DeprecationWarning: [33mWARN: Core environment is written in old step API which returns one bool instead of two. It is recommended to rewrite the environment with new step API. [0m
+  "Core environment is written in old step API which returns one bool instead of two. "
+/home/harvey/anaconda3/envs/cs285/lib/python3.7/site-packages/gym/utils/passive_env_checker.py:235: UserWarning: [33mWARN: Expects `done` signal to be a boolean, actual type: <class 'numpy.float64'>[0m
+  f"Expects `done` signal to be a boolean, actual type: {type(done)}"
+
+Training Loss : 0.13631494343280792
+Initial_DataCollection_AverageReturn : -1860.1959228515625
+Done logging...
+
+
+
+
+********** Iteration 11 ************
+
+Collecting data to be used for training...
+At timestep:     201 / 5000At timestep:     402 / 5000At timestep:     603 / 5000At timestep:     804 / 5000At timestep:     1005 / 5000At timestep:     1206 / 5000At timestep:     1407 / 5000At timestep:     1608 / 5000At timestep:     1809 / 5000At timestep:     2010 / 5000At timestep:     2211 / 5000At timestep:     2412 / 5000At timestep:     2613 / 5000At timestep:     2814 / 5000At timestep:     3015 / 5000At timestep:     3216 / 5000At timestep:     3417 / 5000At timestep:     3618 / 5000At timestep:     3819 / 5000At timestep:     4020 / 5000At timestep:     4221 / 5000At timestep:     4422 / 5000At timestep:     4623 / 5000At timestep:     4824 / 5000At timestep:     5025 / 5000
+Training agent...
+
+Beginning logging procedure...
+
+Collecting data for eval...
+At timestep:     201 / 400At timestep:     402 / 400Eval_AverageReturn : -253.69515991210938
+Eval_StdReturn : 11.714912414550781
+Eval_MaxReturn : -241.98023986816406
+Eval_MinReturn : -265.4100646972656
+Eval_AverageEpLen : 201.0
+Train_AverageReturn : -258.1202087402344
+Train_StdReturn : 13.897029876708984
+Train_MaxReturn : -238.9853973388672
+Train_MinReturn : -298.1895446777344
+Train_AverageEpLen : 201.0
+Train_EnvstepsSoFar : 60300
+TimeSinceStart : 1392.3770034313202
+Training Loss : 0.13677959144115448
+Initial_DataCollection_AverageReturn : -1860.1959228515625
+Done logging...
+
+
+
+
+********** Iteration 12 ************
+
+Collecting data to be used for training...
+At timestep:     201 / 5000At timestep:     402 / 5000At timestep:     603 / 5000At timestep:     804 / 5000At timestep:     1005 / 5000At timestep:     1206 / 5000At timestep:     1407 / 5000At timestep:     1608 / 5000At timestep:     1809 / 5000At timestep:     2010 / 5000At timestep:     2211 / 5000At timestep:     2412 / 5000At timestep:     2613 / 5000At timestep:     2814 / 5000At timestep:     3015 / 5000At timestep:     3216 / 5000At timestep:     3417 / 5000At timestep:     3618 / 5000At timestep:     3819 / 5000At timestep:     4020 / 5000At timestep:     4221 / 5000At timestep:     4422 / 5000At timestep:     4623 / 5000At timestep:     4824 / 5000At timestep:     5025 / 5000
+Training agent...
+
+Beginning logging procedure...
+
+Collecting data for eval...
+At timestep:     201 / 400At timestep:     402 / 400Eval_AverageReturn : -258.42279052734375
+Eval_StdReturn : 3.3522567749023438
+Eval_MaxReturn : -255.07054138183594
+Eval_MinReturn : -261.7750549316406
+Eval_AverageEpLen : 201.0
+Train_AverageReturn : -266.0733642578125
+Train_StdReturn : 15.471962928771973
+Train_MaxReturn : -238.20904541015625
+Train_MinReturn : -305.018310546875
+Train_AverageEpLen : 201.0
+Train_EnvstepsSoFar : 65325
+TimeSinceStart : 1517.0996088981628
+Training Loss : 0.13037216663360596
+Initial_DataCollection_AverageReturn : -1860.1959228515625
+Done logging...
+
+
+
+
+********** Iteration 13 ************
+
+Collecting data to be used for training...
+At timestep:     201 / 5000At timestep:     402 / 5000At timestep:     603 / 5000At timestep:     804 / 5000At timestep:     1005 / 5000At timestep:     1206 / 5000At timestep:     1407 / 5000At timestep:     1608 / 5000At timestep:     1809 / 5000At timestep:     2010 / 5000At timestep:     2211 / 5000At timestep:     2412 / 5000At timestep:     2613 / 5000At timestep:     2814 / 5000At timestep:     3015 / 5000At timestep:     3216 / 5000At timestep:     3417 / 5000At timestep:     3618 / 5000At timestep:     3819 / 5000At timestep:     4020 / 5000At timestep:     4221 / 5000At timestep:     4422 / 5000At timestep:     4623 / 5000At timestep:     4824 / 5000At timestep:     5025 / 5000
+Training agent...
+
+Beginning logging procedure...
+
+Collecting data for eval...
+At timestep:     201 / 400At timestep:     402 / 400Eval_AverageReturn : -257.3997802734375
+Eval_StdReturn : 1.2160797119140625
+Eval_MaxReturn : -256.1836853027344
+Eval_MinReturn : -258.6158447265625
+Eval_AverageEpLen : 201.0
+Train_AverageReturn : -267.6744689941406
+Train_StdReturn : 15.438093185424805
+Train_MaxReturn : -236.30796813964844
+Train_MinReturn : -301.8098449707031
+Train_AverageEpLen : 201.0
+Train_EnvstepsSoFar : 70350
+TimeSinceStart : 1641.7693700790405
+Training Loss : 0.1276894360780716
+Initial_DataCollection_AverageReturn : -1860.1959228515625
+Done logging...
+
+
+
+
+********** Iteration 14 ************
+
+Collecting data to be used for training...
+At timestep:     201 / 5000At timestep:     402 / 5000At timestep:     603 / 5000At timestep:     804 / 5000At timestep:     1005 / 5000At timestep:     1206 / 5000At timestep:     1407 / 5000At timestep:     1608 / 5000At timestep:     1809 / 5000At timestep:     2010 / 5000At timestep:     2211 / 5000At timestep:     2412 / 5000At timestep:     2613 / 5000At timestep:     2814 / 5000At timestep:     3015 / 5000At timestep:     3216 / 5000At timestep:     3417 / 5000At timestep:     3618 / 5000At timestep:     3819 / 5000At timestep:     4020 / 5000At timestep:     4221 / 5000At timestep:     4422 / 5000At timestep:     4623 / 5000At timestep:     4824 / 5000At timestep:     5025 / 5000
+Training agent...
+
+Beginning logging procedure...
+
+Collecting data for eval...
+At timestep:     201 / 400At timestep:     402 / 400Eval_AverageReturn : -275.755126953125
+Eval_StdReturn : 5.7411651611328125
+Eval_MaxReturn : -270.01397705078125
+Eval_MinReturn : -281.4963073730469
+Eval_AverageEpLen : 201.0
+Train_AverageReturn : -262.195068359375
+Train_StdReturn : 14.962949752807617
+Train_MaxReturn : -239.66856384277344
+Train_MinReturn : -287.4671325683594
+Train_AverageEpLen : 201.0
+Train_EnvstepsSoFar : 75375
+TimeSinceStart : 1766.817437171936
+Training Loss : 0.1279062181711197
+Initial_DataCollection_AverageReturn : -1860.1959228515625
+Done logging...
+
+
+
+
+
+LOGGING TO:  /home/harvey/Documents/cs285/homework_fall2022/hw4/cs285/scripts/../../data/hw4_q3_cheetah_cheetah-cs285-v0_02-11-2022_01-07-04 
+
+
+
+########################
+logging outputs to  /home/harvey/Documents/cs285/homework_fall2022/hw4/cs285/scripts/../../data/hw4_q3_cheetah_cheetah-cs285-v0_02-11-2022_01-07-04
+########################
+Using GPU id 0
+Using action sampling strategy: random
+
+
+********** Iteration 0 ************
+
+Collecting data to be used for training...
+At timestep:     501 / 5000At timestep:     1002 / 5000At timestep:     1503 / 5000At timestep:     2004 / 5000At timestep:     2505 / 5000At timestep:     3006 / 5000At timestep:     3507 / 5000At timestep:     4008 / 5000At timestep:     4509 / 5000At timestep:     5010 / 5000
+Training agent...
+
+Beginning logging procedure...
+
+Collecting data for eval...
+At timestep:     501 / 400Eval_AverageReturn : 89.53544616699219
+Eval_StdReturn : 0.0
+Eval_MaxReturn : 89.53544616699219
+Eval_MinReturn : 89.53544616699219
+Eval_AverageEpLen : 501.0
+Train_AverageReturn : -2501.908447265625
+Train_StdReturn : 326.896728515625
+Train_MaxReturn : -2060.5048828125
+Train_MinReturn : -3182.69873046875
+Train_AverageEpLen : 501.0
+Train_EnvstepsSoFar : 5010
+TimeSinceStart : 26.68984317779541
+Training Loss : 0.07185449451208115
+Initial_DataCollection_AverageReturn : -2501.908447265625
+Done logging...
+
+
+
+
+********** Iteration 1 ************
+
+Collecting data to be used for training...
+At timestep:     501 / 5000At timestep:     1002 / 5000At timestep:     1503 / 5000At timestep:     2004 / 5000At timestep:     2505 / 5000At timestep:     3006 / 5000At timestep:     3507 / 5000At timestep:     4008 / 5000At timestep:     4509 / 5000At timestep:     5010 / 5000
+Training agent...
+
+Beginning logging procedure...
+
+Collecting data for eval...
+At timestep:     501 / 400Eval_AverageReturn : 178.63790893554688
+Eval_StdReturn : 0.0
+Eval_MaxReturn : 178.63790893554688
+Eval_MinReturn : 178.63790893554688
+Eval_AverageEpLen : 501.0
+Train_AverageReturn : 96.09175872802734
+Train_StdReturn : 24.808679580688477
+Train_MaxReturn : 147.76097106933594
+Train_MinReturn : 60.023040771484375
+Train_AverageEpLen : 501.0
+Train_EnvstepsSoFar : 10020
+TimeSinceStart : 212.09101057052612
+Training Loss : 0.09188862890005112
+Initial_DataCollection_AverageReturn : -2501.908447265625
+Done logging...
+
+
+
+
+********** Iteration 2 ************
+
+Collecting data to be used for training...
+At timestep:     501 / 5000At timestep:     1002 / 5000At timestep:     1503 / 5000At timestep:     2004 / 5000At timestep:     2505 / 5000At timestep:     3006 / 5000At timestep:     3507 / 5000At timestep:     4008 / 5000At timestep:     4509 / 5000At timestep:     5010 / 5000
+Training agent...
+
+Beginning logging procedure...
+
+Collecting data for eval...
+At timestep:     501 / 400Eval_AverageReturn : 216.36093139648438
+Eval_StdReturn : 0.0
+Eval_MaxReturn : 216.36093139648438
+Eval_MinReturn : 216.36093139648438
+Eval_AverageEpLen : 501.0
+Train_AverageReturn : 213.2714080810547
+Train_StdReturn : 33.82615661621094
+Train_MaxReturn : 275.7296142578125
+Train_MinReturn : 141.15255737304688
+Train_AverageEpLen : 501.0
+Train_EnvstepsSoFar : 15030
+TimeSinceStart : 398.05926156044006
+Training Loss : 0.09902621060609818
+Initial_DataCollection_AverageReturn : -2501.908447265625
+Done logging...
+
+
+
+
+********** Iteration 3 ************
+
+Collecting data to be used for training...
+At timestep:     501 / 5000At timestep:     1002 / 5000At timestep:     1503 / 5000At timestep:     2004 / 5000At timestep:     2505 / 5000At timestep:     3006 / 5000At timestep:     3507 / 5000At timestep:     4008 / 5000At timestep:     4509 / 5000At timestep:     5010 / 5000
+Training agent...
+
+Beginning logging procedure...
+
+Collecting data for eval...
+At timestep:     501 / 400Eval_AverageReturn : 232.41098022460938
+Eval_StdReturn : 0.0
+Eval_MaxReturn : 232.41098022460938
+Eval_MinReturn : 232.41098022460938
+Eval_AverageEpLen : 501.0
+Train_AverageReturn : 267.5205383300781
+Train_StdReturn : 18.24093246459961
+Train_MaxReturn : 294.0146484375
+Train_MinReturn : 234.6994171142578
+Train_AverageEpLen : 501.0
+Train_EnvstepsSoFar : 20040
+TimeSinceStart : 584.6309242248535
+Training Loss : 0.10201562196016312
+Initial_DataCollection_AverageReturn : -2501.908447265625
+Done logging...
+
+
+
+
+********** Iteration 4 ************
+
+Collecting data to be used for training...
+At timestep:     501 / 5000At timestep:     1002 / 5000At timestep:     1503 / 5000At timestep:     2004 / 5000At timestep:     2505 / 5000At timestep:     3006 / 5000At timestep:     3507 / 5000At timestep:     4008 / 5000At timestep:     4509 / 5000At timestep:     5010 / 5000
+Training agent...
+
+Beginning logging procedure...
+
+Collecting data for eval...
+At timestep:     501 / 400Eval_AverageReturn : 346.83935546875
+Eval_StdReturn : 0.0
+Eval_MaxReturn : 346.83935546875
+Eval_MinReturn : 346.83935546875
+Eval_AverageEpLen : 501.0
+Train_AverageReturn : 252.77066040039062
+Train_StdReturn : 32.60719299316406
+Train_MaxReturn : 315.83917236328125
+Train_MinReturn : 207.86936950683594
+Train_AverageEpLen : 501.0
+Train_EnvstepsSoFar : 25050
+TimeSinceStart : 771.1944262981415
+Training Loss : 0.09776756167411804
+Initial_DataCollection_AverageReturn : -2501.908447265625
+Done logging...
+
+
+
+
+********** Iteration 5 ************
+
+Collecting data to be used for training...
+At timestep:     501 / 5000At timestep:     1002 / 5000At timestep:     1503 / 5000At timestep:     2004 / 5000At timestep:     2505 / 5000At timestep:     3006 / 5000At timestep:     3507 / 5000At timestep:     4008 / 5000At timestep:     4509 / 5000At timestep:     5010 / 5000
+Training agent...
+
+Beginning logging procedure...
+
+Collecting data for eval...
+At timestep:     501 / 400Eval_AverageReturn : 322.1243591308594
+Eval_StdReturn : 0.0
+Eval_MaxReturn : 322.1243591308594
+Eval_MinReturn : 322.1243591308594
+Eval_AverageEpLen : 501.0
+Train_AverageReturn : 258.4477844238281
+Train_StdReturn : 33.407859802246094
+Train_MaxReturn : 312.18402099609375
+Train_MinReturn : 219.04342651367188
+Train_AverageEpLen : 501.0
+Train_EnvstepsSoFar : 30060
+TimeSinceStart : 957.5270433425903
+Training Loss : 0.10094697028398514
+Initial_DataCollection_AverageReturn : -2501.908447265625
+Done logging...
+
+
+
+
+********** Iteration 6 ************
+
+Collecting data to be used for training...
+At timestep:     501 / 5000At timestep:     1002 / 5000At timestep:     1503 / 5000At timestep:     2004 / 5000At timestep:     2505 / 5000At timestep:     3006 / 5000At timestep:     3507 / 5000At timestep:     4008 / 5000At timestep:     4509 / 5000At timestep:     5010 / 5000
+Training agent...
+
+Beginning logging procedure...
+
+Collecting data for eval...
+At timestep:     501 / 400Eval_AverageReturn : 200.40097045898438
+Eval_StdReturn : 0.0
+Eval_MaxReturn : 200.40097045898438
+Eval_MinReturn : 200.40097045898438
+Eval_AverageEpLen : 501.0
+Train_AverageReturn : 262.020263671875
+Train_StdReturn : 40.58882522583008
+Train_MaxReturn : 343.4887390136719
+Train_MinReturn : 220.31283569335938
+Train_AverageEpLen : 501.0
+Train_EnvstepsSoFar : 35070
+TimeSinceStart : 1144.295803308487
+Training Loss : 0.10591208934783936
+Initial_DataCollection_AverageReturn : -2501.908447265625
+Done logging...
+
+
+
+
+********** Iteration 7 ************
+
+Collecting data to be used for training...
+At timestep:     501 / 5000At timestep:     1002 / 5000At timestep:     1503 / 5000At timestep:     2004 / 5000At timestep:     2505 / 5000At timestep:     3006 / 5000At timestep:     3507 / 5000At timestep:     4008 / 5000At timestep:     4509 / 5000At timestep:     5010 / 5000
+Training agent...
+
+Beginning logging procedure...
+
+Collecting data for eval...
+At timestep:     501 / 400Eval_AverageReturn : 259.984619140625
+Eval_StdReturn : 0.0
+Eval_MaxReturn : 259.984619140625
+Eval_MinReturn : 259.984619140625
+Eval_AverageEpLen : 501.0
+Train_AverageReturn : 283.2737731933594
+Train_StdReturn : 38.29103469848633
+Train_MaxReturn : 344.1591491699219
+Train_MinReturn : 227.04725646972656
+Train_AverageEpLen : 501.0
+Train_EnvstepsSoFar : 40080
+TimeSinceStart : 1330.3955810070038
+Training Loss : 0.10483687371015549
+Initial_DataCollection_AverageReturn : -2501.908447265625
+Done logging...
+
+
+
+
+********** Iteration 8 ************
+
+Collecting data to be used for training...
+At timestep:     501 / 5000At timestep:     1002 / 5000At timestep:     1503 / 5000At timestep:     2004 / 5000At timestep:     2505 / 5000At timestep:     3006 / 5000At timestep:     3507 / 5000At timestep:     4008 / 5000At timestep:     4509 / 5000At timestep:     5010 / 5000
+Training agent...
+
+Beginning logging procedure...
+
+Collecting data for eval...
+At timestep:     501 / 400Eval_AverageReturn : 308.8607482910156
+Eval_StdReturn : 0.0
+Eval_MaxReturn : 308.8607482910156
+Eval_MinReturn : 308.8607482910156
+Eval_AverageEpLen : 501.0
+Train_AverageReturn : 289.35528564453125
+Train_StdReturn : 44.04341506958008
+Train_MaxReturn : 351.14593505859375
+Train_MinReturn : 179.9693603515625
+Train_AverageEpLen : 501.0
+Train_EnvstepsSoFar : 45090
+TimeSinceStart : 1516.1830716133118
+Training Loss : 0.10535339266061783
+Initial_DataCollection_AverageReturn : -2501.908447265625
+Done logging...
+
+
+
+
+********** Iteration 9 ************
+
+Collecting data to be used for training...
+At timestep:     501 / 5000At timestep:     1002 / 5000At timestep:     1503 / 5000At timestep:     2004 / 5000At timestep:     2505 / 5000At timestep:     3006 / 5000At timestep:     3507 / 5000At timestep:     4008 / 5000At timestep:     4509 / 5000At timestep:     5010 / 5000
+Training agent...
+
+Beginning logging procedure...
+
+Collecting data for eval...
+At timestep:     501 / 400Eval_AverageReturn : 285.71990966796875
+Eval_StdReturn : 0.0
+Eval_MaxReturn : 285.71990966796875
+Eval_MinReturn : 285.71990966796875
+Eval_AverageEpLen : 501.0
+Train_AverageReturn : 305.96771240234375
+Train_StdReturn : 37.45865249633789
+Train_MaxReturn : 368.7496337890625
+Train_MinReturn : 216.87936401367188
+Train_AverageEpLen : 501.0
+Train_EnvstepsSoFar : 50100
+TimeSinceStart : 1700.704064130783
+Training Loss : 0.10768672078847885
+Initial_DataCollection_AverageReturn : -2501.908447265625
+Done logging...
+
+
+
+
+********** Iteration 10 ************
+
+Collecting data to be used for training...
+At timestep:     501 / 5000At timestep:     1002 / 5000At timestep:     1503 / 5000At timestep:     2004 / 5000At timestep:     2505 / 5000At timestep:     3006 / 5000At timestep:     3507 / 5000At timestep:     4008 / 5000At timestep:     4509 / 5000At timestep:     5010 / 5000
+Training agent...
+
+Beginning logging procedure...
+
+Collecting data for eval...
+At timestep:     501 / 400Eval_AverageReturn : 278.6365966796875
+Eval_StdReturn : 0.0
+Eval_MaxReturn : 278.6365966796875
+Eval_MinReturn : 278.6365966796875
+Eval_AverageEpLen : 501.0
+Train_AverageReturn : 311.8534240722656
+Train_StdReturn : 32.59304428100586
+Train_MaxReturn : 379.94793701171875
+Train_MinReturn : 268.46624755859375
+Train_AverageEpLen : 501.0
+Train_EnvstepsSoFar : 55110
+TimeSinceStart : 1885.6097271442413
+Training Loss : 0.1043381467461586
+Initial_DataCollection_AverageReturn : -2501.908447265625
+Done logging...
+
+
+
+
+********** Iteration 11 ************
+
+Collecting data to be used for training...
+At timestep:     501 / 5000At timestep:     1002 / 5000At timestep:     1503 / 5000At timestep:     2004 / 5000At timestep:     2505 / 5000At timestep:     3006 / 5000At timestep:     3507 / 5000At timestep:     4008 / 5000At timestep:     4509 / 5000At timestep:     5010 / 5000
+Training agent...
+
+Beginning logging procedure...
+
+Collecting data for eval...
+At timestep:     501 / 400Eval_AverageReturn : 305.6990661621094
+Eval_StdReturn : 0.0
+Eval_MaxReturn : 305.6990661621094
+Eval_MinReturn : 305.6990661621094
+Eval_AverageEpLen : 501.0
+Train_AverageReturn : 306.87115478515625
+Train_StdReturn : 33.9593505859375
+Train_MaxReturn : 374.1429443359375
+Train_MinReturn : 260.8482666015625
+Train_AverageEpLen : 501.0
+Train_EnvstepsSoFar : 60120
+TimeSinceStart : 2072.23584651947
+Training Loss : 0.10404375940561295
+Initial_DataCollection_AverageReturn : -2501.908447265625
+Done logging...
+
+
+
+
+********** Iteration 12 ************
+
+Collecting data to be used for training...
+At timestep:     501 / 5000At timestep:     1002 / 5000At timestep:     1503 / 5000At timestep:     2004 / 5000At timestep:     2505 / 5000At timestep:     3006 / 5000At timestep:     3507 / 5000At timestep:     4008 / 5000At timestep:     4509 / 5000At timestep:     5010 / 5000
+Training agent...
+
+Beginning logging procedure...
+
+Collecting data for eval...
+At timestep:     501 / 400Eval_AverageReturn : 284.4078369140625
+Eval_StdReturn : 0.0
+Eval_MaxReturn : 284.4078369140625
+Eval_MinReturn : 284.4078369140625
+Eval_AverageEpLen : 501.0
+Train_AverageReturn : 283.1651916503906
+Train_StdReturn : 39.36116409301758
+Train_MaxReturn : 345.58331298828125
+Train_MinReturn : 225.3140869140625
+Train_AverageEpLen : 501.0
+Train_EnvstepsSoFar : 65130
+TimeSinceStart : 2256.674397468567
+Training Loss : 0.10565600544214249
+Initial_DataCollection_AverageReturn : -2501.908447265625
+Done logging...
+
+
+
+
+********** Iteration 13 ************
+
+Collecting data to be used for training...
+At timestep:     501 / 5000At timestep:     1002 / 5000At timestep:     1503 / 5000At timestep:     2004 / 5000At timestep:     2505 / 5000At timestep:     3006 / 5000At timestep:     3507 / 5000At timestep:     4008 / 5000At timestep:     4509 / 5000At timestep:     5010 / 5000
+Training agent...
+
+Beginning logging procedure...
+
+Collecting data for eval...
+At timestep:     501 / 400Eval_AverageReturn : 241.16641235351562
+Eval_StdReturn : 0.0
+Eval_MaxReturn : 241.16641235351562
+Eval_MinReturn : 241.16641235351562
+Eval_AverageEpLen : 501.0
+Train_AverageReturn : 289.6659240722656
+Train_StdReturn : 28.22742462158203
+Train_MaxReturn : 344.1971435546875
+Train_MinReturn : 239.92063903808594
+Train_AverageEpLen : 501.0
+Train_EnvstepsSoFar : 70140
+TimeSinceStart : 2440.7989909648895
+Training Loss : 0.10579221695661545
+Initial_DataCollection_AverageReturn : -2501.908447265625
+Done logging...
+
+
+
+
+********** Iteration 14 ************
+
+Collecting data to be used for training...
+At timestep:     501 / 5000At timestep:     1002 / 5000At timestep:     1503 / 5000At timestep:     2004 / 5000At timestep:     2505 / 5000At timestep:     3006 / 5000At timestep:     3507 / 5000At timestep:     4008 / 5000At timestep:     4509 / 5000At timestep:     5010 / 5000
+Training agent...
+
+Beginning logging procedure...
+
+Collecting data for eval...
+At timestep:     501 / 400Eval_AverageReturn : 297.77862548828125
+Eval_StdReturn : 0.0
+Eval_MaxReturn : 297.77862548828125
+Eval_MinReturn : 297.77862548828125
+Eval_AverageEpLen : 501.0
+Train_AverageReturn : 288.28363037109375
+Train_StdReturn : 62.172332763671875
+Train_MaxReturn : 358.9265441894531
+Train_MinReturn : 164.2388916015625
+Train_AverageEpLen : 501.0
+Train_EnvstepsSoFar : 75150
+TimeSinceStart : 2625.097084760666
+Training Loss : 0.1035582646727562
+Initial_DataCollection_AverageReturn : -2501.908447265625
+Done logging...
+
+
+
+
+********** Iteration 15 ************
+
+Collecting data to be used for training...
+At timestep:     501 / 5000At timestep:     1002 / 5000At timestep:     1503 / 5000At timestep:     2004 / 5000At timestep:     2505 / 5000At timestep:     3006 / 5000At timestep:     3507 / 5000At timestep:     4008 / 5000At timestep:     4509 / 5000At timestep:     5010 / 5000
+Training agent...
+
+Beginning logging procedure...
+
+Collecting data for eval...
+At timestep:     501 / 400Eval_AverageReturn : 291.0489501953125
+Eval_StdReturn : 0.0
+Eval_MaxReturn : 291.0489501953125
+Eval_MinReturn : 291.0489501953125
+Eval_AverageEpLen : 501.0
+Train_AverageReturn : 323.21710205078125
+Train_StdReturn : 21.899436950683594
+Train_MaxReturn : 362.273681640625
+Train_MinReturn : 282.78179931640625
+Train_AverageEpLen : 501.0
+Train_EnvstepsSoFar : 80160
+TimeSinceStart : 2809.6905517578125
+Training Loss : 0.10537565499544144
+Initial_DataCollection_AverageReturn : -2501.908447265625
+Done logging...
+
+
+
+
+********** Iteration 16 ************
+
+Collecting data to be used for training...
+At timestep:     501 / 5000At timestep:     1002 / 5000At timestep:     1503 / 5000At timestep:     2004 / 5000At timestep:     2505/home/harvey/anaconda3/envs/cs285/lib/python3.7/site-packages/gym/core.py:318: DeprecationWarning: [33mWARN: Initializing wrapper in old step API which returns one bool instead of two. It is recommended to set `new_step_api=True` to use new step API. This will be the default behaviour in future.[0m
+  "Initializing wrapper in old step API which returns one bool instead of two. It is recommended to set `new_step_api=True` to use new step API. This will be the default behaviour in future."
+/home/harvey/anaconda3/envs/cs285/lib/python3.7/site-packages/gym/wrappers/step_api_compatibility.py:40: DeprecationWarning: [33mWARN: Initializing environment in old step API which returns one bool instead of two. It is recommended to set `new_step_api=True` to use new step API. This will be the default behaviour in future.[0m
+  "Initializing environment in old step API which returns one bool instead of two. It is recommended to set `new_step_api=True` to use new step API. This will be the default behaviour in future."
+/home/harvey/anaconda3/envs/cs285/lib/python3.7/site-packages/gym/core.py:257: DeprecationWarning: [33mWARN: Function `env.seed(seed)` is marked as deprecated and will be removed in the future. Please use `env.reset(seed=seed)` instead.[0m
+  "Function `env.seed(seed)` is marked as deprecated and will be removed in the future. "
+/home/harvey/anaconda3/envs/cs285/lib/python3.7/site-packages/gym/utils/seeding.py:54: DeprecationWarning: [33mWARN: Function `rng.randn(*size)` is marked as deprecated and will be removed in the future. Please use `rng.standard_normal(size)` instead.[0m
+  "Function `rng.randn(*size)` is marked as deprecated "
+/home/harvey/anaconda3/envs/cs285/lib/python3.7/site-packages/gym/utils/passive_env_checker.py:228: DeprecationWarning: [33mWARN: Core environment is written in old step API which returns one bool instead of two. It is recommended to rewrite the environment with new step API. [0m
+  "Core environment is written in old step API which returns one bool instead of two. "
+/home/harvey/anaconda3/envs/cs285/lib/python3.7/site-packages/gym/utils/passive_env_checker.py:235: UserWarning: [33mWARN: Expects `done` signal to be a boolean, actual type: <class 'numpy.float64'>[0m
+  f"Expects `done` signal to be a boolean, actual type: {type(done)}"
+/home/harvey/anaconda3/envs/cs285/lib/python3.7/site-packages/gym/utils/seeding.py:54: DeprecationWarning: [33mWARN: Function `rng.randn(*size)` is marked as deprecated and will be removed in the future. Please use `rng.standard_normal(size)` instead.[0m
+  "Function `rng.randn(*size)` is marked as deprecated "
+ / 5000At timestep:     3006 / 5000At timestep:     3507 / 5000At timestep:     4008 / 5000At timestep:     4509 / 5000At timestep:     5010 / 5000
+Training agent...
+
+Beginning logging procedure...
+
+Collecting data for eval...
+At timestep:     501 / 400Eval_AverageReturn : 269.962646484375
+Eval_StdReturn : 0.0
+Eval_MaxReturn : 269.962646484375
+Eval_MinReturn : 269.962646484375
+Eval_AverageEpLen : 501.0
+Train_AverageReturn : 300.6490478515625
+Train_StdReturn : 50.595550537109375
+Train_MaxReturn : 393.4892272949219
+Train_MinReturn : 225.09117126464844
+Train_AverageEpLen : 501.0
+Train_EnvstepsSoFar : 85170
+TimeSinceStart : 2993.7224910259247
+Training Loss : 0.10423725843429565
+Initial_DataCollection_AverageReturn : -2501.908447265625
+Done logging...
+
+
+
+
+********** Iteration 17 ************
+
+Collecting data to be used for training...
+At timestep:     501 / 5000At timestep:     1002 / 5000At timestep:     1503 / 5000At timestep:     2004 / 5000At timestep:     2505 / 5000At timestep:     3006 / 5000At timestep:     3507 / 5000At timestep:     4008 / 5000At timestep:     4509 / 5000At timestep:     5010 / 5000
+Training agent...
+
+Beginning logging procedure...
+
+Collecting data for eval...
+At timestep:     501 / 400Eval_AverageReturn : 383.809326171875
+Eval_StdReturn : 0.0
+Eval_MaxReturn : 383.809326171875
+Eval_MinReturn : 383.809326171875
+Eval_AverageEpLen : 501.0
+Train_AverageReturn : 290.5040588378906
+Train_StdReturn : 35.67810821533203
+Train_MaxReturn : 370.8824462890625
+Train_MinReturn : 250.3617706298828
+Train_AverageEpLen : 501.0
+Train_EnvstepsSoFar : 90180
+TimeSinceStart : 3178.0081765651703
+Training Loss : 0.10514876246452332
+Initial_DataCollection_AverageReturn : -2501.908447265625
+Done logging...
+
+
+
+
+********** Iteration 18 ************
+
+Collecting data to be used for training...
+At timestep:     501 / 5000At timestep:     1002 / 5000At timestep:     1503 / 5000At timestep:     2004 / 5000At timestep:     2505 / 5000At timestep:     3006 / 5000At timestep:     3507 / 5000At timestep:     4008 / 5000At timestep:     4509 / 5000At timestep:     5010 / 5000
+Training agent...
+
+Beginning logging procedure...
+
+Collecting data for eval...
+At timestep:     501 / 400Eval_AverageReturn : 371.86859130859375
+Eval_StdReturn : 0.0
+Eval_MaxReturn : 371.86859130859375
+Eval_MinReturn : 371.86859130859375
+Eval_AverageEpLen : 501.0
+Train_AverageReturn : 313.6935119628906
+Train_StdReturn : 48.928314208984375
+Train_MaxReturn : 427.2140808105469
+Train_MinReturn : 256.580322265625
+Train_AverageEpLen : 501.0
+Train_EnvstepsSoFar : 95190
+TimeSinceStart : 3362.7062277793884
+Training Loss : 0.10361964255571365
+Initial_DataCollection_AverageReturn : -2501.908447265625
+Done logging...
+
+
+
+
+********** Iteration 19 ************
+
+Collecting data to be used for training...
+At timestep:     501 / 5000At timestep:     1002 / 5000At timestep:     1503 / 5000At timestep:     2004 / 5000At timestep:     2505 / 5000At timestep:     3006 / 5000At timestep:     3507 / 5000At timestep:     4008 / 5000At timestep:     4509 / 5000At timestep:     5010 / 5000
+Training agent...
+
+Beginning logging procedure...
+
+Collecting data for eval...
+At timestep:     501 / 400Eval_AverageReturn : 345.8859558105469
+Eval_StdReturn : 0.0
+Eval_MaxReturn : 345.8859558105469
+Eval_MinReturn : 345.8859558105469
+Eval_AverageEpLen : 501.0
+Train_AverageReturn : 345.33477783203125
+Train_StdReturn : 44.093692779541016
+Train_MaxReturn : 421.3613586425781
+Train_MinReturn : 265.06732177734375
+Train_AverageEpLen : 501.0
+Train_EnvstepsSoFar : 100200
+TimeSinceStart : 3548.1037986278534
+Training Loss : 0.10200505703687668
+Initial_DataCollection_AverageReturn : -2501.908447265625
+Done logging...
+
+
