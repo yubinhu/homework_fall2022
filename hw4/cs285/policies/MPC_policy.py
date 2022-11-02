@@ -84,10 +84,12 @@ class MPCPolicy(BasePolicy):
         #
         # Then, return the mean predictions across all ensembles.
         # Hint: the return value should be an array of shape (N,)
-        for model in self.dyn_models: 
-            pass
-
-        return TODO
+        r_cum = np.zeros(candidate_action_sequences.shape[0])
+        for model in self.dyn_models:
+            r = self.calculate_sum_of_rewards(obs, candidate_action_sequences, model)
+            assert(r.shape == r_cum.shape)
+            r_cum += r
+        return r_cum / len(self.dyn_models)
 
     def get_action(self, obs):
         if self.data_statistics is None:
@@ -104,8 +106,9 @@ class MPCPolicy(BasePolicy):
             predicted_rewards = self.evaluate_candidate_sequences(candidate_action_sequences, obs)
 
             # pick the action sequence and return the 1st element of that sequence
-            best_action_sequence = None  # TODO (Q2)
-            action_to_take = None  # TODO (Q2)
+            best_action_sequence = candidate_action_sequences[np.argmax(predicted_rewards)]  # (Q2)
+            action_to_take = best_action_sequence[0]  # (Q2)
+            # TODO: check dimensions here
             return action_to_take[None]  # Unsqueeze the first index
 
     def calculate_sum_of_rewards(self, obs, candidate_action_sequences, model):
@@ -121,7 +124,8 @@ class MPCPolicy(BasePolicy):
         :return: numpy array with the sum of rewards for each action sequence.
         The array should have shape [N].
         """
-        sum_of_rewards = None  # TODO (Q2)
+        N, H, _ = candidate_action_sequences.shape
+        sum_of_rewards = np.zeros((N, ))  # (Q2)
         # For each candidate action sequence, predict a sequence of
         # states for each dynamics model in your ensemble.
         # Once you have a sequence of predicted states from each model in
@@ -133,4 +137,15 @@ class MPCPolicy(BasePolicy):
         # Hint: Remember that the model can process observations and actions
         #       in batch, which can be much faster than looping through each
         #       action sequence.
+        
+        curr_obs = np.tile(obs, (N, 1))
+        for t in range(H):
+            acs = candidate_action_sequences[:, t, :]
+            r, _ = self.env.get_reward(curr_obs, acs)
+            assert r.shape == sum_of_rewards.shape, str(r.shape)+"!="+str(sum_of_rewards.shape) # prevent broadcasting
+            sum_of_rewards += r
+            
+            # update curr_obs
+            curr_obs = model.get_prediction(curr_obs, acs, self.data_statistics) 
+            # TODO: check where data_statistics is updated
         return sum_of_rewards
