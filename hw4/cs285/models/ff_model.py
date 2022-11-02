@@ -71,7 +71,7 @@ class FFModel(nn.Module, BaseModel):
         :param acs_std: Standard deviation of actions
         :param delta_mean: Mean of state difference `s_t+1 - s_t`.
         :param delta_std: Standard deviation of state difference `s_t+1 - s_t`.
-        :return: tuple `(next_obs_pred, delta_pred_normalized)`
+        :return: tuple `(next_obs_pred, delta_pred_normalized)`. Both are tensors. 
         This forward function should return a tuple of two items
             1. `next_obs_pred` which is the predicted `s_t+1`
             2. `delta_pred_normalized` which is the normalized (i.e. not
@@ -97,8 +97,7 @@ class FFModel(nn.Module, BaseModel):
         # Hint: as described in the PDF, the output of the network is the
         # *normalized change* in state, i.e. normalized(s_t+1 - s_t).
         delta_pred_normalized = self.delta_network(concatenated_input)
-        next_obs_pred = unnormalize(
-            obs_normalized + delta_pred_normalized, delta_mean, delta_std)
+        next_obs_pred = unnormalize(obs_normalized, obs_mean, obs_std) + unnormalize(delta_pred_normalized, delta_mean, delta_std)
         return next_obs_pred, delta_pred_normalized
 
     def get_prediction(self, obs, acs, data_statistics):
