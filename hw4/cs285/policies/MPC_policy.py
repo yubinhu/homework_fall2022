@@ -60,19 +60,32 @@ class MPCPolicy(BasePolicy):
             # Begin with randomly selected actions, then refine the sampling distribution
             # iteratively as described in Section 3.3, "Iterative Random-Shooting with Refinement" of
             # https://arxiv.org/pdf/1909.11652.pdf 
+            elite_mean = np.zeros((horizon, self.ac_dim))
+            elite_std = np.zeros((horizon, self.ac_dim))
+            
             for i in range(self.cem_iterations):
                 # - Sample candidate sequences from a Gaussian with the current 
                 #   elite mean and variance
                 #     (Hint: remember that for the first iteration, we instead sample
                 #      uniformly at random just like we do for random-shooting)
+                if i == 0:
+                    random_action_sequences = np.random.uniform(self.low, self.high, size=(num_sequences, horizon, self.ac_dim))
+                else:
+                    random_action_sequences = np.random.normal(elite_mean, elite_std, size=(num_sequences, horizon, self.ac_dim))
                 # - Get the top `self.cem_num_elites` elites
                 #     (Hint: what existing function can we use to compute rewards for
                 #      our candidate sequences in order to rank them?)
+                rewards = self.evaluate_candidate_sequences(random_action_sequences, obs)
+                elite_idx = np.argpartition(rewards, len(rewards) - self.cem_num_elites)[-self.cem_num_elites:]
+                # TODO: double check argpartition is doing the right thing
+                elites = random_action_sequences[elite_idx]
+                
                 # - Update the elite mean and variance
-                pass
+                elite_mean = self.cem_alpha * elites.mean(axis=0) + (1-self.cem_alpha)*elite_mean
+                elite_std = self.cem_alpha *  elites.std(axis=0) + (1-self.cem_alpha)*elite_std
 
             # TODO(Q5): Set `cem_action` to the appropriate action chosen by CEM
-            cem_action = None
+            cem_action = elite_mean
 
             return cem_action[None]
         else:
