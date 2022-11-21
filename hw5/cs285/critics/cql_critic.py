@@ -44,7 +44,39 @@ class CQLCritic(BaseCritic):
 
     def dqn_loss(self, ob_no, ac_na, next_ob_no, reward_n, terminal_n):
         """ Implement DQN Loss """
+        # NOTE: copied from hw3 solutions
+        ob_no = ptu.from_numpy(ob_no)
+        ac_na = ptu.from_numpy(ac_na).to(torch.long)
+        next_ob_no = ptu.from_numpy(next_ob_no)
+        reward_n = ptu.from_numpy(reward_n)
+        terminal_n = ptu.from_numpy(terminal_n)
 
+        qa_t_values = self.q_net(ob_no)
+        q_t_values = torch.gather(qa_t_values, 1, ac_na.unsqueeze(1)).squeeze(1)
+        
+        # compute the Q-values from the target network 
+        qa_tp1_values = self.q_net_target(next_ob_no)
+
+
+        if self.double_q:
+            # You must fill this part for Q2 of the Q-learning portion of the homework.
+            # In double Q-learning, the best action is selected using the Q-network that
+            # is being updated, but the Q-value for this action is obtained from the
+            # target Q-network. Please review Lecture 8 for more details,
+            # and page 4 of https://arxiv.org/pdf/1509.06461.pdf is also a good reference.
+            next_actions = self.q_net(next_ob_no).argmax(dim=1)
+            q_tp1 = torch.gather(qa_tp1_values, 1, next_actions.unsqueeze(1)).squeeze(1)
+
+        else:
+            q_tp1, _ = qa_tp1_values.max(dim=1)
+
+        # compute targets for minimizing Bellman error
+        # HINT: as you saw in lecture, this would be:
+            #currentReward + self.gamma * qValuesOfNextTimestep * (not terminal)
+        target = reward_n + self.gamma * q_tp1 * (1 - terminal_n)
+        target = target.detach()
+        loss = self.loss(q_t_values, target)
+        
         return loss, qa_t_values, q_t_values
 
 
