@@ -108,10 +108,6 @@ class CQLCritic(BaseCritic):
         q_t_logsumexp = torch.logsumexp(qa_t_values, dim=1)
         regularizer = (q_t_logsumexp - q_t_values).mean()
         cql_loss = loss + self.cql_alpha * regularizer
-        
-        self.optimizer.zero_grad()
-        cql_loss.backward()
-        self.optimizer.step()
 
         info = {'Training Loss': ptu.to_numpy(loss)}
 
@@ -119,6 +115,10 @@ class CQLCritic(BaseCritic):
         info['CQL Loss'] = ptu.to_numpy(cql_loss)
         info['Data q-values'] = ptu.to_numpy(q_t_values).mean()
         info['OOD q-values'] = ptu.to_numpy(q_t_logsumexp).mean()
+        
+        self.optimizer.zero_grad()
+        cql_loss.backward()
+        self.optimizer.step()
         
         self.learning_rate_scheduler.step()
 
