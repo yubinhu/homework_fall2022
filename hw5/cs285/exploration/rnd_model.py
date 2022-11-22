@@ -25,11 +25,24 @@ class RNDModel(nn.Module, BaseExplorationModel):
         # <DONE>: Create two neural networks:
         # 1) f, the random function we are trying to learn
         # 2) f_hat, the function we are using to learn f
+        self.f = ptu.build_mlp(self.ob_dim, self.output_size, self.n_layers, self.size, 
+                               init_method=init_method_1).to(ptu.device)
+        self.f_hat = ptu.build_mlp(self.ob_dim, self.output_size, self.n_layers, self.size, 
+                                   init_method=init_method_2).to(ptu.device)
+        self.optimizer = self.optimizer_spec.constructor(
+            self.f_hat.parameters(),
+            **self.optimizer_spec.optim_kwargs
+        )
 
-    def forward(self, ob_no):
-        # <DONE>: Get the prediction error for ob_no
+    def forward(self, ob_no:torch.Tensor):
+        # Get the prediction error for ob_no
         # HINT: Remember to detach the output of self.f!
-        pass
+        goal = self.f.forward(ob_no).detach()
+        pred = self.f_hat.forward(ob_no)
+        err = torch.norm(goal-pred, dim=1) # TODO: check this norm and err shape
+        assert err.shape[0] == ob_no.shape[0]
+        return err
+        
 
     def forward_np(self, ob_no):
         ob_no = ptu.from_numpy(ob_no)
@@ -39,4 +52,9 @@ class RNDModel(nn.Module, BaseExplorationModel):
     def update(self, ob_no):
         # <DONE>: Update f_hat using ob_no
         # Hint: Take the mean prediction error across the batch
-        pass
+        err = self.forward(ptu.from_numpy(ob_no))
+        loss = err.mean()
+        self.optimizer.zero_grad()
+        loss.backward()
+        self.optimizer.step()
+        return ptu.to_numpy(loss)
