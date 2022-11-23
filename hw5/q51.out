@@ -65,4 +65,228 @@ Timestep 2001
 mean reward (100 episodes) -49.875000
 best mean reward -inf
 running time 46.423224
-At timestep:     50 / 1000At timestep:     100 / 1000At timestep:     150 / 1000At timestep:     200 / 1000At timestep:     250 / 1000At timestep:     300 / 1000At timestep:     350 / 1000At timestep:     400 / 1000At timestep:     450 / 1000At timestep:     500 / 1000At timestep:     550 / 1000At timestep:     600 / 1000At timestep:     650 / 1000At timestep:     700 / 1000At timestep:     750 / 1000At timestep:     800 / 1000At timestep:     850 / 1000At timestep:     900 / 1000At timestep:     950 / 1000At timestep:     1000 / 1000
+At timestep:     50 / 1000At timestep:     100 / 1000At timestep:     150 / 1000At timestep:     200 / 1000At timestep:     250 / 1000At timestep:     300 / 1000At timestep:     350 / 1000At timestep:     400 / 1000At timestep:     450 / 1000At timestep:     500 / 1000At timestep:     550 / 1000At timestep:     600 / 1000At timestep:     650 / 1000At timestep:     700 / 1000At timestep:     750 / 1000At timestep:     800 / 1000At timestep:     850 / 1000At timestep:     900 / 1000At timestep:     950 / 1000At timestep:     1000 / 1000Train_EnvstepsSoFar : 2001
+Train_AverageReturn : -49.875
+TimeSinceStart : 46.42322373390198
+Eval_AverageReturn : -50.0
+Eval_StdReturn : 0.0
+Eval_MaxReturn : -50.0
+Eval_MinReturn : -50.0
+Eval_AverageEpLen : 50.0
+Buffer size : 2001
+Done logging...
+
+
+
+
+********** Iteration 3000 ************
+
+Training agent...
+
+Beginning logging procedure...
+Timestep 3001
+mean reward (100 episodes) -48.868851
+best mean reward -inf
+running time 104.854376
+At timestep:     50 / 1000At timestep:     100 / 1000At timestep:     150 / 1000At timestep:     200 / 1000At timestep:     250 / 1000At timestep:     300 / 1000At timestep:     350 / 1000At timestep:     400 / 1000At timestep:     450 / 1000At timestep:     500 / 1000At timestep:     550 / 1000At timestep:     600 / 1000At timestep:     650 / 1000At timestep:     700 / 1000At timestep:     750 / 1000At timestep:     800 / 1000At timestep:     837 / 1000At timestep:     887 / 1000At timestep:     937 / 1000At timestep:     987 / 1000At timestep:     1021 / 1000Train_EnvstepsSoFar : 3001
+Train_AverageReturn : -48.86885070800781
+TimeSinceStart : 104.85437560081482
+Exploration Critic Loss : 559091.875
+Exploitation Critic V Loss : 0.010862715542316437
+Exploitation Critic Q Loss : 0.001632221508771181
+Exploration Model Loss : 37.81219482421875
+Actor Loss : 1.0789985656738281
+Eval_AverageReturn : -48.52381134033203
+Eval_StdReturn : 4.5734124183654785
+Eval_MaxReturn : -33.0
+Eval_MinReturn : -50.0
+Eval_AverageEpLen : 48.61904761904762
+Buffer size : 3001
+Done logging...
+
+
+
+
+********** Iteration 4000 ************
+
+Training agent...
+
+Beginning logging procedure...
+Timestep 4001
+mean reward (100 episodes) -46.717648
+best mean reward -inf
+running time 164.244636
+At timestep:     50 / 1000At timestep:     100 / 1000At timestep:     150 / 1000At timestep:     200 / 1000At timestep:     250 / 1000At timestep:     300 / 1000At timestep:     350 / 1000At timestep:     400 / 1000At timestep:     450 / 1000At timestep:     500 / 1000At timestep:     550 / 1000At timestep:     579 / 1000At timestep:     629 / 1000At timestep:     676 / 1000At timestep:     726 / 1000At timestep:     776 / 1000At timestep:     826 / 1000At timestep:     876 / 1000At timestep:     926 / 1000At timestep:     976 / 1000At timestep:     1026 / 1000Train_EnvstepsSoFar : 4001
+Train_AverageReturn : -46.717647552490234
+TimeSinceStart : 164.24463605880737
+Exploration Critic Loss : 8945110.0
+Exploitation Critic V Loss : 0.012305336073040962
+Exploitation Critic Q Loss : 0.004606213886290789
+Exploration Model Loss : 79.88877868652344
+Actor Loss : 0.8307324647903442
+Eval_AverageReturn : -48.761905670166016
+Eval_StdReturn : 4.719813823699951
+Eval_MaxReturn : -28.0
+Eval_MinReturn : -50.0
+Eval_AverageEpLen : 48.857142857142854
+Buffer size : 4001
+Done logging...
+
+
+
+
+********** Iteration 5000 ************
+
+Training agent...
+
+Beginning logging procedure...
+Timestep 5001
+mean reward (100 episodes) -45.619999
+best mean reward -45.619999
+running time 223.103080
+At timestep:     50 / 1000At timestep:     96 / 1000At timestep:     146 / 1000At timestep:     196 / 1000At timestep:     221 / 1000At timestep:     271 / 1000At timestep:     293 / 1000At timestep:     343 / 1000At timestep:     393 / 1000At timestep:     443 / 1000At timestep:     493 / 1000At timestep:     543 / 1000At timestep:     593 / 1000At timestep:     643 / 1000At timestep:     686 / 1000At timestep:     736 / 1000At timestep:     784 / 1000At timestep:     834 / 1000At timestep:     884 / 1000At timestep:     923 / 1000At timestep:     973 / 1000At timestep:     1023 / 1000Train_EnvstepsSoFar : 5001
+Train_AverageReturn : -45.619998931884766
+Train_BestReturn : -45.619998931884766
+TimeSinceStart : 223.10308027267456
+Exploration Critic Loss : 4677567.0
+Exploitation Critic V Loss : 0.040950123220682144
+Exploitation Critic Q Loss : 0.012979121878743172
+Exploration Model Loss : 26.976760864257812
+Actor Loss : 1.386671781539917
+Eval_AverageReturn : -46.227272033691406
+Eval_StdReturn : 8.106854438781738
+Eval_MaxReturn : -21.0
+Eval_MinReturn : -50.0
+Eval_AverageEpLen : 46.5
+Buffer size : 5001
+Done logging...
+
+
+
+
+********** Iteration 6000 ************
+
+Training agent...
+
+Beginning logging procedure...
+Timestep 6001
+mean reward (100 episodes) -43.619999
+best mean reward -43.619999
+running time 282.543831
+At timestep:     47 / 1000At timestep:     97 / 1000At timestep:     139 / 1000At timestep:     175 / 1000At timestep:     225 / 1000At timestep:     275 / 1000At timestep:     325 / 1000At timestep:     375 / 1000At timestep:     425 / 1000At timestep:     475 / 1000At timestep:     525 / 1000At timestep:     575 / 1000At timestep:     625 / 1000At timestep:     668 / 1000At timestep:     718 / 1000At timestep:     768 / 1000At timestep:     818 / 1000At timestep:     868 / 1000At timestep:     918 / 1000At timestep:     968 / 1000At timestep:     1018 / 1000Train_EnvstepsSoFar : 6001
+Train_AverageReturn : -43.619998931884766
+Train_BestReturn : -43.619998931884766
+TimeSinceStart : 282.54383087158203
+Exploration Critic Loss : 7142192.0
+Exploitation Critic V Loss : 0.05931030213832855
+Exploitation Critic Q Loss : 0.01668502390384674
+Exploration Model Loss : 18.632492065429688
+Actor Loss : 1.0828642845153809
+Eval_AverageReturn : -48.28571319580078
+Eval_StdReturn : 3.9296536445617676
+Eval_MaxReturn : -35.0
+Eval_MinReturn : -50.0
+Eval_AverageEpLen : 48.476190476190474
+Buffer size : 6001
+Done logging...
+
+
+
+
+********** Iteration 7000 ************
+
+Training agent...
+
+Beginning logging procedure...
+Timestep 7001
+mean reward (100 episodes) -42.430000
+best mean reward -42.430000
+running time 341.674750
+At timestep:     50 / 1000At timestep:     100 / 1000At timestep:     150 / 1000At timestep:     200 / 1000At timestep:     250 / 1000At timestep:     300 / 1000At timestep:     325 / 1000At timestep:     375 / 1000At timestep:     424 / 1000At timestep:     471 / 1000At timestep:     521 / 1000At timestep:     571 / 1000At timestep:     620 / 1000At timestep:     670 / 1000At timestep:     720 / 1000At timestep:     742 / 1000At timestep:     792 / 1000At timestep:     815 / 1000At timestep:     840 / 1000At timestep:     890 / 1000At timestep:     940 / 1000At timestep:     990 / 1000At timestep:     1040 / 1000Train_EnvstepsSoFar : 7001
+Train_AverageReturn : -42.43000030517578
+Train_BestReturn : -42.43000030517578
+TimeSinceStart : 341.6747500896454
+Exploration Critic Loss : 12530907.0
+Exploitation Critic V Loss : 0.05912082642316818
+Exploitation Critic Q Loss : 0.023323234170675278
+Exploration Model Loss : 16.986053466796875
+Actor Loss : 1.6360244750976562
+Eval_AverageReturn : -44.91304397583008
+Eval_StdReturn : 10.227470397949219
+Eval_MaxReturn : -21.0
+Eval_MinReturn : -50.0
+Eval_AverageEpLen : 45.21739130434783
+Buffer size : 7001
+Done logging...
+
+
+
+
+********** Iteration 8000 ************
+
+Training agent...
+
+Beginning logging procedure...
+Timestep 8001
+mean reward (100 episodes) -41.500000
+best mean reward -41.500000
+running time 403.060367
+At timestep:     50 / 1000At timestep:     100 / 1000At timestep:     150 / 1000At timestep:     200 / 1000At timestep:     244 / 1000At timestep:     289 / 1000At timestep:     339 / 1000At timestep:     386 / 1000At timestep:     436 / 1000At timestep:     486 / 1000At timestep:     525 / 1000At timestep:     575 / 1000At timestep:     602 / 1000At timestep:     652 / 1000At timestep:     697 / 1000At timestep:     747 / 1000At timestep:     797 / 1000At timestep:     847 / 1000At timestep:     897 / 1000At timestep:     947 / 1000At timestep:     983 / 1000At timestep:     1033 / 1000Train_EnvstepsSoFar : 8001
+Train_AverageReturn : -41.5
+Train_BestReturn : -41.5
+TimeSinceStart : 403.06036710739136
+Exploration Critic Loss : 10630525.0
+Exploitation Critic V Loss : 0.02348480001091957
+Exploitation Critic Q Loss : 0.005850135814398527
+Exploration Model Loss : 16.473464965820312
+Actor Loss : 2.5621962547302246
+Eval_AverageReturn : -46.6363639831543
+Eval_StdReturn : 6.153678894042969
+Eval_MaxReturn : -26.0
+Eval_MinReturn : -50.0
+Eval_AverageEpLen : 46.95454545454545
+Buffer size : 8001
+Done logging...
+
+
+
+
+********** Iteration 9000 ************
+
+Training agent...
+
+Beginning logging procedure...
+Timestep 9001
+mean reward (100 episodes) -39.939999
+best mean reward -39.939999
+running time 462.429010
+At timestep:     50 / 1000At timestep:     84 / 1000At timestep:     121 / 1000At timestep:     171 / 1000At timestep:     205 / 1000At timestep:     255 / 1000At timestep:     305 / 1000At timestep:     355 / 1000At timestep:     405 / 1000At timestep:     455 / 1000At timestep:     505 / 1000At timestep:     555 / 1000At timestep:     605 / 1000At timestep:     633 / 1000At timestep:     683 / 1000At timestep:     733 / 1000At timestep:     755 / 1000At timestep:     805 / 1000At timestep:     855 / 1000At timestep:     905 / 1000At timestep:     931 / 1000At timestep:     967 / 1000At timestep:     1000 / 1000Train_EnvstepsSoFar : 9001
+Train_AverageReturn : -39.939998626708984
+Train_BestReturn : -39.939998626708984
+TimeSinceStart : 462.4290101528168
+Exploration Critic Loss : 9522484.0
+Exploitation Critic V Loss : 0.007758880499750376
+Exploitation Critic Q Loss : 0.0008505561272613704
+Exploration Model Loss : 16.294921875
+Actor Loss : 1.8904039859771729
+Eval_AverageReturn : -43.130435943603516
+Eval_StdReturn : 9.852408409118652
+Eval_MaxReturn : -21.0
+Eval_MinReturn : -50.0
+Eval_AverageEpLen : 43.47826086956522
+Buffer size : 9001
+Done logging...
+
+
+
+
+********** Iteration 10000 ************
+
+Training agent...
+
+Beginning logging procedure...
+Timestep 10001
+mean reward (100 episodes) -39.630001
+best mean reward -39.630001
+running time 522.810433
+At timestep:     45 / 1000At timestep:     73 / 1000At timestep:     123 / 1000At timestep:     173 / 1000At timestep:     223 / 1000At timestep:     262 / 1000At timestep:     312 / 1000At timestep:     330 / 1000At timestep:     380 / 1000At timestep:     430 / 1000At timestep:     480 / 1000At timestep:     530 / 1000At timestep:     580 / 1000At timestep:     630 / 1000At timestep:     680 / 1000At timestep:     730 / 1000At timestep:     777 / 1000At timestep:     827 / 1000At timestep:     846 / 1000At timestep:     896 / 1000At timestep:     935 / 1000At timestep:     985 / 1000At timestep:     1035 / 1000

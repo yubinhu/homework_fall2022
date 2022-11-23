@@ -5581,4 +5581,355 @@ Timestep 48001
 mean reward (100 episodes) -27.490000
 best mean reward -26.350000
 running time 2213.575355
-At timestep:     34 / 1000At timestep:     70 / 1000At timestep:     93 / 1000At timestep:     114 / 1000At timestep:     159 / 1000At timestep:     219 / 1000At timestep:     261 / 1000At timestep:     309 / 1000At timestep:     336 / 1000At timestep:     403 / 1000At timestep:     451 / 1000At timestep:     502 / 1000At timestep:     543 / 1000At timestep:     587 / 1000At timestep:     618 / 1000At timestep:     647 / 1000At timestep:     676 / 1000At timestep:     731 / 1000At timestep:     780 / 1000At timestep:     822 / 1000At timestep:     888 / 1000At timestep:     926 / 1000At timestep:     974 / 1000At timestep:     1012 / 1000
+At timestep:     34 / 1000At timestep:     70 / 1000At timestep:     93 / 1000At timestep:     114 / 1000At timestep:     159 / 1000At timestep:     219 / 1000At timestep:     261 / 1000At timestep:     309 / 1000At timestep:     336 / 1000At timestep:     403 / 1000At timestep:     451 / 1000At timestep:     502 / 1000At timestep:     543 / 1000At timestep:     587 / 1000At timestep:     618 / 1000At timestep:     647 / 1000At timestep:     676 / 1000At timestep:     731 / 1000At timestep:     780 / 1000At timestep:     822 / 1000At timestep:     888 / 1000At timestep:     926 / 1000At timestep:     974 / 1000At timestep:     1012 / 1000Train_EnvstepsSoFar : 48001
+Train_AverageReturn : -27.489999771118164
+Train_BestReturn : -26.350000381469727
+TimeSinceStart : 2213.575355052948
+Exploration Critic Loss : 48348.5625
+Exploitation Critic Loss : 0.190843403339386
+Exploration Model Loss : 26.488861083984375
+Actor Loss : 0.5037195086479187
+Eval_AverageReturn : -41.16666793823242
+Eval_StdReturn : 12.184918403625488
+Eval_MaxReturn : -20.0
+Eval_MinReturn : -66.0
+Eval_AverageEpLen : 42.166666666666664
+Buffer size : 48001
+Done logging...
+
+
+
+
+********** Iteration 49000 ************
+
+Training agent...
+
+Beginning logging procedure...
+Timestep 49001
+mean reward (100 episodes) -27.820000
+best mean reward -26.350000
+running time 2275.510259
+At timestep:     29 / 1000At timestep:     56 / 1000At timestep:     88 / 1000At timestep:     113 / 1000At timestep:     152 / 1000At timestep:     176 / 1000At timestep:     203 / 1000At timestep:     276 / 1000At timestep:     321 / 1000At timestep:     372 / 1000At timestep:     401 / 1000At timestep:     436 / 1000At timestep:     484 / 1000At timestep:     524 / 1000At timestep:     564 / 1000At timestep:     617 / 1000At timestep:     651 / 1000At timestep:     720 / 1000At timestep:     767 / 1000At timestep:     813 / 1000At timestep:     843 / 1000At timestep:     863 / 1000At timestep:     903 / 1000At timestep:     937 / 1000At timestep:     983 / 1000At timestep:     1035 / 1000/home/harvey/anaconda3/envs/cs285/lib/python3.7/site-packages/gym/envs/registration.py:441: UserWarning: [33mWARN: The `registry.env_specs` property along with `EnvSpecTree` is deprecated. Please use `registry` directly as a dictionary instead.[0m
+  "The `registry.env_specs` property along with `EnvSpecTree` is deprecated. Please use `registry` directly as a dictionary instead."
+/home/harvey/Documents/cs285/homework_fall2022/hw5/cs285/envs/pointmass/pointmass.py:472: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  dist = np.full((height, width, height, width), np.float('inf'))
+/home/harvey/anaconda3/envs/cs285/lib/python3.7/site-packages/gym/spaces/box.py:128: UserWarning: [33mWARN: Box bound precision lowered by casting to float64[0m
+  logger.warn(f"Box bound precision lowered by casting to {self.dtype}")
+/home/harvey/anaconda3/envs/cs285/lib/python3.7/site-packages/gym/core.py:318: DeprecationWarning: [33mWARN: Initializing wrapper in old step API which returns one bool instead of two. It is recommended to set `new_step_api=True` to use new step API. This will be the default behaviour in future.[0m
+  "Initializing wrapper in old step API which returns one bool instead of two. It is recommended to set `new_step_api=True` to use new step API. This will be the default behaviour in future."
+/home/harvey/anaconda3/envs/cs285/lib/python3.7/site-packages/gym/wrappers/step_api_compatibility.py:40: DeprecationWarning: [33mWARN: Initializing environment in old step API which returns one bool instead of two. It is recommended to set `new_step_api=True` to use new step API. This will be the default behaviour in future.[0m
+  "Initializing environment in old step API which returns one bool instead of two. It is recommended to set `new_step_api=True` to use new step API. This will be the default behaviour in future."
+/home/harvey/anaconda3/envs/cs285/lib/python3.7/site-packages/gym/wrappers/record_video.py:79: UserWarning: [33mWARN: Overwriting existing videos at /home/harvey/Documents/cs285/homework_fall2022/hw5/data/hw5_expl_q4_awac_medium_supervised_lam10_PointmassMedium-v0_22-11-2022_23-08-43/gym folder (try specifying a different `video_folder` for the `RecordVideo` wrapper if this is not desired)[0m
+  f"Overwriting existing videos at {self.video_folder} folder "
+/home/harvey/anaconda3/envs/cs285/lib/python3.7/site-packages/gym/utils/passive_env_checker.py:191: UserWarning: [33mWARN: Future gym versions will require that `Env.reset` can be passed `return_info` to return information from the environment resetting.[0m
+  "Future gym versions will require that `Env.reset` can be passed `return_info` to return information from the environment resetting."
+/home/harvey/anaconda3/envs/cs285/lib/python3.7/site-packages/gym/utils/passive_env_checker.py:196: UserWarning: [33mWARN: Future gym versions will require that `Env.reset` can be passed `options` to allow the environment initialisation to be passed additional information.[0m
+  "Future gym versions will require that `Env.reset` can be passed `options` to allow the environment initialisation to be passed additional information."
+/home/harvey/Documents/cs285/homework_fall2022/hw5/cs285/infrastructure/dqn_utils.py:542: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  self.done     = np.empty([self.size],                     dtype=np.bool)
+/home/harvey/Documents/cs285/homework_fall2022/hw5/cs285/envs/pointmass/pointmass.py:394: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  (i, j) = np.floor(resolution * state).astype(np.int)
+/home/harvey/anaconda3/envs/cs285/lib/python3.7/site-packages/gym/utils/passive_env_checker.py:228: DeprecationWarning: [33mWARN: Core environment is written in old step API which returns one bool instead of two. It is recommended to rewrite the environment with new step API. [0m
+  "Core environment is written in old step API which returns one bool instead of two. "
+/home/harvey/Documents/cs285/homework_fall2022/hw5/cs285/infrastructure/rl_trainer_awac.py:392: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  self.fig = plt.figure()
+Train_EnvstepsSoFar : 49001
+Train_AverageReturn : -27.81999969482422
+Train_BestReturn : -26.350000381469727
+TimeSinceStart : 2275.5102593898773
+Exploration Critic Loss : 31016.4140625
+Exploitation Critic Loss : 0.07274001836776733
+Exploration Model Loss : 35.30226135253906
+Actor Loss : 0.48402541875839233
+Eval_AverageReturn : -38.80769348144531
+Eval_StdReturn : 12.854269981384277
+Eval_MaxReturn : -19.0
+Eval_MinReturn : -72.0
+Eval_AverageEpLen : 39.80769230769231
+Buffer size : 49001
+Done logging...
+
+
+
+
+
+LOGGING TO:  /home/harvey/Documents/cs285/homework_fall2022/hw5/cs285/scripts/../../data/hw5_expl_q4_awac_medium_supervised_lam20_PointmassMedium-v0_22-11-2022_23-47-45 
+
+
+
+########################
+logging outputs to  /home/harvey/Documents/cs285/homework_fall2022/hw5/cs285/scripts/../../data/hw5_expl_q4_awac_medium_supervised_lam20_PointmassMedium-v0_22-11-2022_23-47-45
+########################
+Using GPU id 0
+
+
+********** Iteration 0 ************
+
+Training agent...
+
+Beginning logging procedure...
+Timestep 1
+mean reward (100 episodes) nan
+best mean reward -inf
+running time 0.004316
+At timestep:     150 / 1000At timestep:     300 / 1000At timestep:     450 / 1000At timestep:     600 / 1000At timestep:     750 / 1000At timestep:     900 / 1000At timestep:     1050 / 1000Train_EnvstepsSoFar : 1
+TimeSinceStart : 0.004315614700317383
+Eval_AverageReturn : -150.0
+Eval_StdReturn : 0.0
+Eval_MaxReturn : -150.0
+Eval_MinReturn : -150.0
+Eval_AverageEpLen : 150.0
+Buffer size : 1
+Done logging...
+
+
+
+
+********** Iteration 1000 ************
+
+Training agent...
+
+Beginning logging procedure...
+Timestep 1001
+mean reward (100 episodes) -149.833328
+best mean reward -inf
+running time 12.461267
+At timestep:     150 / 1000At timestep:     300 / 1000At timestep:     450 / 1000At timestep:     600 / 1000At timestep:     666 / 1000At timestep:     816 / 1000At timestep:     966 / 1000At timestep:     1116 / 1000Train_EnvstepsSoFar : 1001
+Train_AverageReturn : -149.8333282470703
+TimeSinceStart : 12.46126675605774
+Eval_AverageReturn : -139.375
+Eval_StdReturn : 28.111106872558594
+Eval_MaxReturn : -65.0
+Eval_MinReturn : -150.0
+Eval_AverageEpLen : 139.5
+Buffer size : 1001
+Done logging...
+
+
+
+
+********** Iteration 2000 ************
+
+Training agent...
+
+Beginning logging procedure...
+Timestep 2001
+mean reward (100 episodes) -147.384613
+best mean reward -inf
+running time 24.087632
+At timestep:     54 / 1000At timestep:     204 / 1000At timestep:     354 / 1000At timestep:     504 / 1000At timestep:     654 / 1000At timestep:     804 / 1000At timestep:     954 / 1000At timestep:     1104 / 1000Train_EnvstepsSoFar : 2001
+Train_AverageReturn : -147.38461303710938
+TimeSinceStart : 24.087631940841675
+Eval_AverageReturn : -137.875
+Eval_StdReturn : 32.079734802246094
+Eval_MaxReturn : -53.0
+Eval_MinReturn : -150.0
+Eval_AverageEpLen : 138.0
+Buffer size : 2001
+Done logging...
+
+
+
+
+********** Iteration 3000 ************
+
+Training agent...
+
+Beginning logging procedure...
+Timestep 3001
+mean reward (100 episodes) -148.300003
+best mean reward -inf
+running time 75.859148
+At timestep:     150 / 1000At timestep:     300 / 1000At timestep:     450 / 1000At timestep:     591 / 1000At timestep:     741 / 1000At timestep:     891 / 1000At timestep:     1041 / 1000Train_EnvstepsSoFar : 3001
+Train_AverageReturn : -148.3000030517578
+TimeSinceStart : 75.85914754867554
+Exploration Critic Loss : 1234137.0
+Exploitation Critic Loss : 0.0003074251872021705
+Exploration Model Loss : 81.21014404296875
+Actor Loss : 1.1259126663208008
+Eval_AverageReturn : -148.57142639160156
+Eval_StdReturn : 3.4992711544036865
+Eval_MaxReturn : -140.0
+Eval_MinReturn : -150.0
+Eval_AverageEpLen : 148.71428571428572
+Buffer size : 3001
+Done logging...
+
+
+
+
+********** Iteration 4000 ************
+
+Training agent...
+
+Beginning logging procedure...
+Timestep 4001
+mean reward (100 episodes) -148.692307
+best mean reward -inf
+running time 126.442299
+At timestep:     150 / 1000At timestep:     300 / 1000At timestep:     450 / 1000At timestep:     600 / 1000At timestep:     750 / 1000At timestep:     900 / 1000At timestep:     1050 / 1000Train_EnvstepsSoFar : 4001
+Train_AverageReturn : -148.6923065185547
+TimeSinceStart : 126.44229888916016
+Exploration Critic Loss : 6489996.0
+Exploitation Critic Loss : 0.05241250619292259
+Exploration Model Loss : 37.84335708618164
+Actor Loss : 0.8432060480117798
+Eval_AverageReturn : -150.0
+Eval_StdReturn : 0.0
+Eval_MaxReturn : -150.0
+Eval_MinReturn : -150.0
+Eval_AverageEpLen : 150.0
+Buffer size : 4001
+Done logging...
+
+
+
+
+********** Iteration 5000 ************
+
+Training agent...
+
+Beginning logging procedure...
+Timestep 5001
+mean reward (100 episodes) -148.969696
+best mean reward -inf
+running time 178.093091
+At timestep:     150 / 1000At timestep:     300 / 1000At timestep:     450 / 1000At timestep:     600 / 1000At timestep:     750 / 1000At timestep:     900 / 1000At timestep:     1010 / 1000Train_EnvstepsSoFar : 5001
+Train_AverageReturn : -148.96969604492188
+TimeSinceStart : 178.09309124946594
+Exploration Critic Loss : 6665788.0
+Exploitation Critic Loss : 0.07922202348709106
+Exploration Model Loss : 52.54803466796875
+Actor Loss : 0.7446767091751099
+Eval_AverageReturn : -144.14285278320312
+Eval_StdReturn : 14.34701156616211
+Eval_MaxReturn : -109.0
+Eval_MinReturn : -150.0
+Eval_AverageEpLen : 144.28571428571428
+Buffer size : 5001
+Done logging...
+
+
+
+
+********** Iteration 6000 ************
+
+Training agent...
+
+Beginning logging procedure...
+Timestep 6001
+mean reward (100 episodes) -148.350006
+best mean reward -inf
+running time 228.022225
+At timestep:     150 / 1000At timestep:     300 / 1000At timestep:     450 / 1000At timestep:     600 / 1000At timestep:     750 / 1000At timestep:     900 / 1000At timestep:     1050 / 1000Train_EnvstepsSoFar : 6001
+Train_AverageReturn : -148.35000610351562
+TimeSinceStart : 228.0222246646881
+Exploration Critic Loss : 4982113.5
+Exploitation Critic Loss : 0.06642868369817734
+Exploration Model Loss : 48.45733642578125
+Actor Loss : 0.6157335638999939
+Eval_AverageReturn : -150.0
+Eval_StdReturn : 0.0
+Eval_MaxReturn : -150.0
+Eval_MinReturn : -150.0
+Eval_AverageEpLen : 150.0
+Buffer size : 6001
+Done logging...
+
+
+
+
+********** Iteration 7000 ************
+
+Training agent...
+
+Beginning logging procedure...
+Timestep 7001
+mean reward (100 episodes) -142.346939
+best mean reward -inf
+running time 280.741745
+At timestep:     150 / 1000At timestep:     271 / 1000At timestep:     401 / 1000At timestep:     551 / 1000At timestep:     701 / 1000At timestep:     851 / 1000At timestep:     1001 / 1000Train_EnvstepsSoFar : 7001
+Train_AverageReturn : -142.34693908691406
+TimeSinceStart : 280.7417449951172
+Exploration Critic Loss : 5881555.0
+Exploitation Critic Loss : 0.00041568547021597624
+Exploration Model Loss : 38.15205383300781
+Actor Loss : 0.55901700258255
+Eval_AverageReturn : -142.7142791748047
+Eval_StdReturn : 11.768168449401855
+Eval_MaxReturn : -120.0
+Eval_MinReturn : -150.0
+Eval_AverageEpLen : 143.0
+Buffer size : 7001
+Done logging...
+
+
+
+
+********** Iteration 8000 ************
+
+Training agent...
+
+Beginning logging procedure...
+Timestep 8001
+mean reward (100 episodes) -129.524597
+best mean reward -inf
+running time 332.343879
+At timestep:     150 / 1000At timestep:     300 / 1000At timestep:     450 / 1000At timestep:     600 / 1000At timestep:     750 / 1000At timestep:     900 / 1000At timestep:     1050 / 1000Train_EnvstepsSoFar : 8001
+Train_AverageReturn : -129.52459716796875
+TimeSinceStart : 332.34387850761414
+Exploration Critic Loss : 8449496.0
+Exploitation Critic Loss : 0.09067761152982712
+Exploration Model Loss : 28.836227416992188
+Actor Loss : 0.5159899592399597
+Eval_AverageReturn : -150.0
+Eval_StdReturn : 0.0
+Eval_MaxReturn : -150.0
+Eval_MinReturn : -150.0
+Eval_AverageEpLen : 150.0
+Buffer size : 8001
+Done logging...
+
+
+
+
+********** Iteration 9000 ************
+
+Training agent...
+
+Beginning logging procedure...
+Timestep 9001
+mean reward (100 episodes) -120.337837
+best mean reward -inf
+running time 384.486750
+At timestep:     150 / 1000At timestep:     300 / 1000At timestep:     450 / 1000At timestep:     600 / 1000At timestep:     750 / 1000At timestep:     900 / 1000At timestep:     954 / 1000At timestep:     1104 / 1000Train_EnvstepsSoFar : 9001
+Train_AverageReturn : -120.33783721923828
+TimeSinceStart : 384.4867503643036
+Exploration Critic Loss : 16234012.0
+Exploitation Critic Loss : 0.01200028881430626
+Exploration Model Loss : 26.934524536132812
+Actor Loss : 0.47812461853027344
+Eval_AverageReturn : -137.875
+Eval_StdReturn : 32.079734802246094
+Eval_MaxReturn : -53.0
+Eval_MinReturn : -150.0
+Eval_AverageEpLen : 138.0
+Buffer size : 9001
+Done logging...
+
+
+
+
+********** Iteration 10000 ************
+
+Training agent...
+
+Beginning logging procedure...
+Timestep 10001
+mean reward (100 episodes) -119.891563
+best mean reward -inf
+running time 443.187756
+At timestep:     60 / 1000At timestep:     115 / 1000At timestep:     222 / 1000At timestep:     372 / 1000At timestep:     466 / 1000At timestep:     546 / 1000At timestep:     591 / 1000At timestep:     686 / 1000At timestep:     836 / 1000At timestep:     933 / 1000At timestep:     1009 / 1000
