@@ -1,0 +1,68 @@
+
+
+
+LOGGING TO:  /home/harvey/Documents/cs285/homework_fall2022/hw5/cs285/scripts/../../data/hw5_expl_q5_easy_supervised_lam20_tau0.6_PointmassEasy-v0_22-11-2022_23-45-18 
+
+
+
+########################
+logging outputs to  /home/harvey/Documents/cs285/homework_fall2022/hw5/cs285/scripts/../../data/hw5_expl_q5_easy_supervised_lam20_tau0.6_PointmassEasy-v0_22-11-2022_23-45-18
+########################
+Using GPU id 0
+
+
+********** Iteration 0 ************
+
+Training agent...
+
+Beginning logging procedure...
+Timestep 1
+mean reward (100 episodes) nan
+best mean reward -inf
+running time 0.003395
+At timestep:     50 / 1000At timestep:     100 / 1000At timestep:     150 / 1000At timestep:     200 / 1000At timestep:     250 / 1000At timestep:     300 / 1000At timestep:     350 / 1000At timestep:     400 / 1000At timestep:     450 / 1000At timestep:     500 / 1000At timestep:     550 / 1000At timestep:     600 / 1000At timestep:     650 / 1000At timestep:     700 / 1000At timestep:     750 / 1000At timestep:     800 / 1000At timestep:     850 / 1000At timestep:     900 / 1000At timestep:     950 / 1000At timestep:     1000 / 1000Train_EnvstepsSoFar : 1
+TimeSinceStart : 0.0033948421478271484
+Eval_AverageReturn : -50.0
+Eval_StdReturn : 0.0
+Eval_MaxReturn : -50.0
+Eval_MinReturn : -50.0
+Eval_AverageEpLen : 50.0
+Buffer size : 1
+Done logging...
+
+
+
+
+********** Iteration 1000 ************
+
+Training agent...
+
+Beginning logging procedure...
+Timestep 1001
+mean reward (100 episodes) -50.000000
+best mean reward -inf
+running time 21.678402
+At timestep:     50 / 1000At timestep:     100 / 1000At timestep:     150 / 1000At timestep:     200 / 1000At timestep:     250 / 1000At timestep:     300 / 1000At timestep:     350 / 1000At timestep:     400 / 1000At timestep:     450 / 1000At timestep:     500 / 1000At timestep:     550 / 1000At timestep:     600 / 1000At timestep:     650 / 1000At timestep:     700 / 1000At timestep:     750 / 1000At timestep:     800 / 1000At timestep:     850 / 1000At timestep:     900 / 1000At timestep:     950 / 1000At timestep:     1000 / 1000Train_EnvstepsSoFar : 1001
+Train_AverageReturn : -50.0
+TimeSinceStart : 21.678401708602905
+Eval_AverageReturn : -50.0
+Eval_StdReturn : 0.0
+Eval_MaxReturn : -50.0
+Eval_MinReturn : -50.0
+Eval_AverageEpLen : 50.0
+Buffer size : 1001
+Done logging...
+
+
+
+
+********** Iteration 2000 ************
+
+Training agent...
+
+Beginning logging procedure...
+Timestep 2001
+mean reward (100 episodes) -49.875000
+best mean reward -inf
+running time 46.423224
+At timestep:     50 / 1000At timestep:     100 / 1000At timestep:     150 / 1000At timestep:     200 / 1000At timestep:     250 / 1000At timestep:     300 / 1000At timestep:     350 / 1000At timestep:     400 / 1000At timestep:     450 / 1000At timestep:     500 / 1000At timestep:     550 / 1000At timestep:     600 / 1000At timestep:     650 / 1000At timestep:     700 / 1000At timestep:     750 / 1000At timestep:     800 / 1000At timestep:     850 / 1000At timestep:     900 / 1000At timestep:     950 / 1000At timestep:     1000 / 1000

@@ -1,0 +1,54 @@
+/home/harvey/anaconda3/envs/cs285/lib/python3.7/site-packages/gym/envs/registration.py:441: UserWarning: [33mWARN: The `registry.env_specs` property along with `EnvSpecTree` is deprecated. Please use `registry` directly as a dictionary instead.[0m
+  "The `registry.env_specs` property along with `EnvSpecTree` is deprecated. Please use `registry` directly as a dictionary instead."
+/home/harvey/Documents/cs285/homework_fall2022/hw5/cs285/envs/pointmass/pointmass.py:472: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  dist = np.full((height, width, height, width), np.float('inf'))
+/home/harvey/anaconda3/envs/cs285/lib/python3.7/site-packages/gym/spaces/box.py:128: UserWarning: [33mWARN: Box bound precision lowered by casting to float64[0m
+  logger.warn(f"Box bound precision lowered by casting to {self.dtype}")
+/home/harvey/anaconda3/envs/cs285/lib/python3.7/site-packages/gym/core.py:318: DeprecationWarning: [33mWARN: Initializing wrapper in old step API which returns one bool instead of two. It is recommended to set `new_step_api=True` to use new step API. This will be the default behaviour in future.[0m
+  "Initializing wrapper in old step API which returns one bool instead of two. It is recommended to set `new_step_api=True` to use new step API. This will be the default behaviour in future."
+/home/harvey/anaconda3/envs/cs285/lib/python3.7/site-packages/gym/wrappers/step_api_compatibility.py:40: DeprecationWarning: [33mWARN: Initializing environment in old step API which returns one bool instead of two. It is recommended to set `new_step_api=True` to use new step API. This will be the default behaviour in future.[0m
+  "Initializing environment in old step API which returns one bool instead of two. It is recommended to set `new_step_api=True` to use new step API. This will be the default behaviour in future."
+/home/harvey/anaconda3/envs/cs285/lib/python3.7/site-packages/gym/wrappers/record_video.py:79: UserWarning: [33mWARN: Overwriting existing videos at /home/harvey/Documents/cs285/homework_fall2022/hw5/data/hw5_expl_q5_easy_supervised_lam20_tau0.7_PointmassEasy-v0_22-11-2022_23-46-07/gym folder (try specifying a different `video_folder` for the `RecordVideo` wrapper if this is not desired)[0m
+  f"Overwriting existing videos at {self.video_folder} folder "
+/home/harvey/anaconda3/envs/cs285/lib/python3.7/site-packages/gym/utils/passive_env_checker.py:191: UserWarning: [33mWARN: Future gym versions will require that `Env.reset` can be passed `return_info` to return information from the environment resetting.[0m
+  "Future gym versions will require that `Env.reset` can be passed `return_info` to return information from the environment resetting."
+/home/harvey/anaconda3/envs/cs285/lib/python3.7/site-packages/gym/utils/passive_env_checker.py:196: UserWarning: [33mWARN: Future gym versions will require that `Env.reset` can be passed `options` to allow the environment initialisation to be passed additional information.[0m
+  "Future gym versions will require that `Env.reset` can be passed `options` to allow the environment initialisation to be passed additional information."
+
+
+
+LOGGING TO:  /home/harvey/Documents/cs285/homework_fall2022/hw5/cs285/scripts/../../data/hw5_expl_q5_easy_supervised_lam20_tau0.7_PointmassEasy-v0_22-11-2022_23-46-07 
+
+
+
+########################
+logging outputs to  /home/harvey/Documents/cs285/homework_fall2022/hw5/cs285/scripts/../../data/hw5_expl_q5_easy_supervised_lam20_tau0.7_PointmassEasy-v0_22-11-2022_23-46-07
+########################
+Using GPU id 0
+Traceback (most recent call last):
+  File "cs285/scripts/run_hw5_iql.py", line 141, in <module>
+    main()
+  File "cs285/scripts/run_hw5_iql.py", line 136, in main
+    trainer = Q_Trainer(params)
+  File "cs285/scripts/run_hw5_iql.py", line 31, in __init__
+    self.rl_trainer = RL_Trainer(self.params)
+  File "/home/harvey/Documents/cs285/homework_fall2022/hw5/cs285/infrastructure/rl_trainer_awac.py", line 130, in __init__
+    self.agent = agent_class(self.env, self.params['agent_params'])
+  File "/home/harvey/Documents/cs285/homework_fall2022/hw5/cs285/agents/iql_agent.py", line 20, in __init__
+    super(IQLAgent, self).__init__(env, agent_params)
+  File "/home/harvey/Documents/cs285/homework_fall2022/hw5/cs285/agents/dqn_agent.py", line 27, in __init__
+    self.critic = DQNCritic(agent_params, self.optimizer_spec)
+  File "/home/harvey/Documents/cs285/homework_fall2022/hw5/cs285/critics/dqn_critic.py", line 41, in __init__
+    self.q_net.to(ptu.device)
+  File "/home/harvey/anaconda3/envs/cs285/lib/python3.7/site-packages/torch/nn/modules/module.py", line 927, in to
+    return self._apply(convert)
+  File "/home/harvey/anaconda3/envs/cs285/lib/python3.7/site-packages/torch/nn/modules/module.py", line 579, in _apply
+    module._apply(fn)
+  File "/home/harvey/anaconda3/envs/cs285/lib/python3.7/site-packages/torch/nn/modules/module.py", line 602, in _apply
+    param_applied = fn(param)
+  File "/home/harvey/anaconda3/envs/cs285/lib/python3.7/site-packages/torch/nn/modules/module.py", line 925, in convert
+    return t.to(device, dtype if t.is_floating_point() or t.is_complex() else None, non_blocking)
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call,so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
