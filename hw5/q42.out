@@ -6551,4 +6551,60 @@ Timestep 31001
 mean reward (100 episodes) -16.790001
 best mean reward -16.680000
 running time 2143.990669
-At timestep:     14 / 1000At timestep:     27 / 1000At timestep:     47 / 1000At timestep:     70 / 1000At timestep:     85 / 1000At timestep:     100 / 1000At timestep:     118 / 1000At timestep:     134 / 1000At timestep:     155 / 1000At timestep:     180 / 1000At timestep:     201 / 1000At timestep:     216 / 1000At timestep:     237 / 1000At timestep:     260 / 1000At timestep:     277 / 1000At timestep:     296 / 1000At timestep:     311 / 1000At timestep:     339 / 1000At timestep:     362 / 1000At timestep:     382 / 1000At timestep:     403 / 1000At timestep:     420 / 1000At timestep:     438 / 1000At timestep:     458 / 1000At timestep:     480 / 1000At timestep:     496 / 1000At timestep:     510 / 1000At timestep:     525 / 1000At timestep:     544 / 1000At timestep:     566 / 1000At timestep:     593 / 1000At timestep:     609 / 1000At timestep:     631 / 1000At timestep:     645 / 1000At timestep:     661 / 1000At timestep:     683 / 1000At timestep:     701 / 1000At timestep:     719 / 1000At timestep:     749 / 1000At timestep:     765 / 1000At timestep:     782 / 1000At timestep:     796 / 1000At timestep:     812 / 1000At timestep:     829 / 1000At timestep:     847 / 1000At timestep:     868 / 1000At timestep:     880 / 1000At timestep:     902 / 1000At timestep:     920 / 1000At timestep:     939 / 1000At timestep:     955 / 1000At timestep:     974 / 1000At timestep:     1004 / 1000
+At timestep:     14 / 1000At timestep:     27 / 1000At timestep:     47 / 1000At timestep:     70 / 1000At timestep:     85 / 1000At timestep:     100 / 1000At timestep:     118 / 1000At timestep:     134 / 1000At timestep:     155 / 1000At timestep:     180 / 1000At timestep:     201 / 1000At timestep:     216 / 1000At timestep:     237 / 1000At timestep:     260 / 1000At timestep:     277 / 1000At timestep:     296 / 1000At timestep:     311 / 1000At timestep:     339 / 1000At timestep:     362 / 1000At timestep:     382 / 1000At timestep:     403 / 1000At timestep:     420 / 1000At timestep:     438 / 1000At timestep:     458 / 1000At timestep:     480 / 1000At timestep:     496 / 1000At timestep:     510 / 1000At timestep:     525 / 1000At timestep:     544 / 1000At timestep:     566 / 1000At timestep:     593 / 1000At timestep:     609 / 1000At timestep:     631 / 1000At timestep:     645 / 1000At timestep:     661 / 1000At timestep:     683 / 1000At timestep:     701 / 1000At timestep:     719 / 1000At timestep:     749 / 1000At timestep:     765 / 1000At timestep:     782 / 1000At timestep:     796 / 1000At timestep:     812 / 1000At timestep:     829 / 1000At timestep:     847 / 1000At timestep:     868 / 1000At timestep:     880 / 1000At timestep:     902 / 1000At timestep:     920 / 1000At timestep:     939 / 1000At timestep:     955 / 1000At timestep:     974 / 1000At timestep:     1004 / 1000Train_EnvstepsSoFar : 31001
+Train_AverageReturn : -16.790000915527344
+Train_BestReturn : -16.68000030517578
+TimeSinceStart : 2143.9906690120697
+Exploration Critic Loss : 1861363.75
+Exploitation Critic Loss : 0.08123242855072021
+Exploration Model Loss : 17.534347534179688
+Actor Loss : 0.49091318249702454
+Eval_AverageReturn : -17.943395614624023
+Eval_StdReturn : 4.095165252685547
+Eval_MaxReturn : -11.0
+Eval_MinReturn : -29.0
+Eval_AverageEpLen : 18.943396226415093
+Buffer size : 31001
+Done logging...
+
+
+
+
+********** Iteration 32000 ************
+
+Training agent...
+
+Beginning logging procedure...
+Timestep 32001
+mean reward (100 episodes) -17.100000
+best mean reward -16.680000
+running time 2236.218334
+At timestep:     17 / 1000At timestep:     31 / 1000At timestep:     49 / 1000At timestep:     70 / 1000At timestep:     94 / 1000At timestep:     114 / 1000At timestep:     143 / 1000At timestep:     160 / 1000At timestep:     181 / 1000At timestep:     203 / 1000At timestep:     225 / 1000At timestep:     239 / 1000At timestep:     260 / 1000At timestep:     276 / 1000At timestep:     294 / 1000At timestep:     307 / 1000At timestep:     337 / 1000At timestep:     354 / 1000At timestep:     372 / 1000At timestep:     404 / 1000At timestep:     421 / 1000At timestep:     442 / 1000At timestep:     459 / 1000At timestep:     485 / 1000At timestep:     501 / 1000At timestep:     520 / 1000At timestep:     544 / 1000At timestep:     565 / 1000At timestep:     582 / 1000At timestep:     600 / 1000At timestep:     620 / 1000At timestep:     637 / 1000At timestep:     666 / 1000At timestep:     692 / 1000At timestep:     707 / 1000At timestep:     725 / 1000At timestep:     738 / 1000At timestep:     754 / 1000At timestep:     771 / 1000At timestep:     785 / 1000At timestep:     813 / 1000At timestep:     838 / 1000At timestep:     861 / 1000At timestep:     882 / 1000At timestep:     898 / 1000At timestep:     921 / 1000At timestep:     938 / 1000At timestep:     958 / 1000At timestep:     978 / 1000At timestep:     996 / 1000At timestep:     1013 / 1000Train_EnvstepsSoFar : 32001
+Train_AverageReturn : -17.100000381469727
+Train_BestReturn : -16.68000030517578
+TimeSinceStart : 2236.218333721161
+Exploration Critic Loss : 974389.375
+Exploitation Critic Loss : 0.0733676478266716
+Exploration Model Loss : 17.534988403320312
+Actor Loss : 0.5210506916046143
+Eval_AverageReturn : -18.86274528503418
+Eval_StdReturn : 4.515852451324463
+Eval_MaxReturn : -12.0
+Eval_MinReturn : -31.0
+Eval_AverageEpLen : 19.862745098039216
+Buffer size : 32001
+Done logging...
+
+
+
+
+********** Iteration 33000 ************
+
+Training agent...
+
+Beginning logging procedure...
+Timestep 33001
+mean reward (100 episodes) -17.320000
+best mean reward -16.680000
+running time 2322.859870
+At timestep:     21 / 1000At timestep:     48 / 1000At timestep:     74 / 1000At timestep:     97 / 1000At timestep:     118 / 1000At timestep:     140 / 1000At timestep:     170 / 1000At timestep:     185 / 1000At timestep:     208 / 1000At timestep:     227 / 1000At timestep:     251 / 1000At timestep:     277 / 1000At timestep:     292 / 1000At timestep:     311 / 1000At timestep:     339 / 1000At timestep:     366 / 1000At timestep:     388 / 1000At timestep:     404 / 1000At timestep:     423 / 1000At timestep:     445 / 1000At timestep:     465 / 1000At timestep:     487 / 1000At timestep:     501 / 1000At timestep:     515 / 1000At timestep:     533 / 1000At timestep:     556 / 1000At timestep:     578 / 1000At timestep:     598 / 1000At timestep:     617 / 1000At timestep:     638 / 1000At timestep:     661 / 1000At timestep:     680 / 1000At timestep:     697 / 1000At timestep:     711 / 1000At timestep:     736 / 1000At timestep:     754 / 1000At timestep:     786 / 1000At timestep:     803 / 1000At timestep:     827 / 1000At timestep:     842 / 1000At timestep:     858 / 1000At timestep:     884 / 1000At timestep:     916 / 1000At timestep:     936 / 1000At timestep:     960 / 1000At timestep:     974 / 1000At timestep:     1000 / 1000
